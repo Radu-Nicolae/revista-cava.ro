@@ -172,11 +172,13 @@ class Article
         $addictedToSugar = new Article("Are We Addicted To Sugar?", "	Sweets – those things we just can’t stay away from, despite how hard we try to impose a no-sugar diet. It’s in their nature; they’re just too good. Who can say no to a piece of chocolate? But have you ever wondered why we just can’t seem to refuse them?", "17", "Ian", "addictedToSugar", "Catinca Apostol", "catinca.jpeg");
         $lumileCelorlalti = new Article("Cum te poți pierde în lumile celorlalți", "Să te pierzi în lumile celorlalți… Este acel moment când te priveṣti pe tine însuți din capătul unui metrou, cu sinele tău adevărat în capătul opus. O infinitate de suflete vă desparte. Suflete ṣi personalități pe care le-ai avut sau pe care le vei avea pentru a te redescoperi, pentru a-ți regăsi realitatea.", "19", "Ian", "lumileCelorlalti", "Ana Negoiță", "unknown.jpeg");
         $movieStar = new Article("What makes a movie star?", "Everybody says, ‘You impress me as a guy who never wanted to be a movie star’. I say: ‘Everybody in the world wants to be a movie star’.  -Rip Torn", "22", "Ian", "movieStar", "Ilona Dragomir", "unknown.jpeg");
+        $necrologul = new Article("Necrologul chiulului din Sava", "De data aceasta mi-am propus să scriu despre un prieten bun de-al nostru, al tuturor, care a murit, săracul, acum câteva zile. Cum s-a întâmplat asta? Într-un accident stupid, așa cum se întâmplă de obicei băieților buni.", "25", "Ian", "necrologul", "Mihai Stănescu", "mihaistanescu.jpeg");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
-//            ADD
+//            ADD HERE
+            $necrologul,
             $movieStar,
             $lumileCelorlalti,
             $addictedToSugar,
@@ -376,8 +378,11 @@ class Article
         $destinulUltim = new Article("Destinul Ultim al Universului", "Destinul universului a fost dezbătut doar în filosofie și religie pentru mult timp. De câteva decenii însă, lucrurile s-au schimbat. Dezvoltarea științei, a cosmologiei fizice, mai exact, a făcut ca acest subiect să fie studiat și din punct de vedere științific. Destinul universului este un subiect care unește toți locuitorii acestei lumi, deoarece este vorba despre soarta finală a tot ce a fost, tot ce este și tot ce va fi vreodată.", "19", "Dec", "destinulUltim", "Matei Dăianu", "unknown.jpeg");
         $eticaBrazilor = new Article("Etica brazilor de Crăciun", "E mai bine să cumperi brad real sau artificial? <br> Sărbătorile de iarnă au revenit și în mijlocul petrecerilor, cadourilor și decorațiunilor e bradul, simbolul speranței și al nemuririi. Indiferent ce fel de brad ai, te-ai întrebat probabil la un moment dat: care e varianta mai bună pentru mine și pentru mediu – un brad natural sau unul de plastic?", "26", "Dec", "eticaBrazilor", "Parascheva Toboșaru", "unknown.jpeg");
         $gandireaCritica = new Article("Gândirea critică din școlile din România", "România se clasează pe locul 125 din 141 de state la capitolul ,,predarea gândirii critice” în Raportul Competitivității Globale 2019 făcut de Forumul Economic Mondial.", "10", "Ian", "gandireaCritica", "Diana Georgescu", "unknown.jpeg");
+        $necrologul = new Article("Necrologul chiulului din Sava", "De data aceasta mi-am propus să scriu despre un prieten bun de-al nostru, al tuturor, care a murit, săracul, acum câteva zile. Cum s-a întâmplat asta? Într-un accident stupid, așa cum se întâmplă de obicei băieților buni.", "25", "Ian", "necrologul", "Mihai Stănescu", "mihaistanescu.jpeg");
+
 
         $articles = array(
+            $necrologul,
             $gandireaCritica,
             $eticaBrazilor,
             $destinulUltim,
