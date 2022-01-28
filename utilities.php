@@ -173,11 +173,13 @@ class Article
         $lumileCelorlalti = new Article("Cum te poți pierde în lumile celorlalți", "Să te pierzi în lumile celorlalți… Este acel moment când te priveṣti pe tine însuți din capătul unui metrou, cu sinele tău adevărat în capătul opus. O infinitate de suflete vă desparte. Suflete ṣi personalități pe care le-ai avut sau pe care le vei avea pentru a te redescoperi, pentru a-ți regăsi realitatea.", "19", "Ian", "lumileCelorlalti", "Ana Negoiță", "unknown.jpeg");
         $movieStar = new Article("What makes a movie star?", "Everybody says, ‘You impress me as a guy who never wanted to be a movie star’. I say: ‘Everybody in the world wants to be a movie star’.  -Rip Torn", "22", "Ian", "movieStar", "Ilona Dragomir", "unknown.jpeg");
         $necrologul = new Article("Necrologul chiulului din Sava", "De data aceasta mi-am propus să scriu despre un prieten bun de-al nostru, al tuturor, care a murit, săracul, acum câteva zile. Cum s-a întâmplat asta? Într-un accident stupid, așa cum se întâmplă de obicei băieților buni.", "25", "Ian", "necrologul", "Mihai Stănescu", "mihaistanescu.jpeg");
+        $carti2021 = new Article("Carti 2021", "În cadrul oricărei rețele de socializare există, inevitabil, un colțișor rezervat special pentru cărți. Fie că vorbim de TikTok, Instagram sau YouTube, în 2021 am petrecut mai mult timp ca oricând în acele părți ale internetului, iar câteva cărți îmi apăreau inevitabil în primele două minute.", "28", "Ian", "carti2021", "Ioana Jeleboglu", "unknown.jpeg");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $carti2021,
             $necrologul,
             $movieStar,
             $lumileCelorlalti,
@@ -250,9 +252,11 @@ class Article
         $povesteDeCraciun = new Article("O poveste de Crăciun", "	Era o zi superbă de iarnă, iar Niclaus schia fericit pe pârtia muntelui din apropierea casei în care locuia. Fulgii îi împărtășeau voioșia, dansând neosteniți în jurul lui. Nici vântul nu se lăsa mai prejos, șuierând melodios printre ramurile pline de zăpadă ale copacilor, de-a lungul pârtiei, răscolind zăpada, norii și parcă împingându-l de la spate pe schior … tot înainte, tot înainte … ", "22", "Dec", "povesteDeCraciun", "Ioana Busuioc", "unknown");
         $boobcInPandemie = new Article("Boboc în pandemie", "Știți povestea aceea când un angajat scoate din priză serverul ca să-și încarce telefonul și toată activitatea firmei se oprește și nimeni nu înțelege ce se întâmplă? Exact asta am trăit cu toții, numai că ,,ceva” a scos din priză... LUMEA. Ne uitam speriați și confuzi unii la alții.", "30", "Dec", "bobocInPandemie", "Diana Burja", "unknown.jpeg");
         $lumileCelorlalti = new Article("Cum te poți pierde în lumile celorlalți", "Să te pierzi în lumile celorlalți… Este acel moment când te priveṣti pe tine însuți din capătul unui metrou, cu sinele tău adevărat în capătul opus. O infinitate de suflete vă desparte. Suflete ṣi personalități pe care le-ai avut sau pe care le vei avea pentru a te redescoperi, pentru a-ți regăsi realitatea.", "19", "Ian", "lumileCelorlalti", "Ana Negoiță", "unknown.jpeg");
+        $carti2021 = new Article("Carti 2021", "În cadrul oricărei rețele de socializare există, inevitabil, un colțișor rezervat special pentru cărți. Fie că vorbim de TikTok, Instagram sau YouTube, în 2021 am petrecut mai mult timp ca oricând în acele părți ale internetului, iar câteva cărți îmi apăreau inevitabil în primele două minute.", "28", "Ian", "carti2021", "Ioana Jeleboglu", "unknown.jpeg");
 
 
         $articles = array(
+            $carti2021,
             $lumileCelorlalti,
             $boobcInPandemie,
             $povesteDeCraciun,
@@ -318,8 +322,11 @@ class Article
     public function getDatabaseCritica()
     {
         $red = new Article("Red (Taylor's Version)", "If you've met me, you already know Taylor Swift's discography is the soundtrack of my life. After her masters controversy, I thought my favorite album was lost for good; taxi cabs and busy streets, they'd never bring it back to me... ", "27", "Nov", "red", "Ilinca Sotirescu", "ilincasotirescu.jpeg");
+        $carti2021 = new Article("Carti 2021", "În cadrul oricărei rețele de socializare există, inevitabil, un colțișor rezervat special pentru cărți. Fie că vorbim de TikTok, Instagram sau YouTube, în 2021 am petrecut mai mult timp ca oricând în acele părți ale internetului, iar câteva cărți îmi apăreau inevitabil în primele două minute.", "28", "Ian", "carti2021", "Ioana Jeleboglu", "unknown.jpeg");
+
 
         $articles = array(
+            $carti2021,
             $red
         );
 
