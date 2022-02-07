@@ -417,10 +417,11 @@ class Article
 
     public function getDatabaseEvenimente()
     {
-        $sentimente = new Article("Sentimente", "	Oh! Să fii adolescent înseamnă să treci prin atâtea schimbări și emoții, încât, în majoritatea timpului, te simți chiar și tu confuz și pierdut.", "15", "Nov", "sentimente2", "Alexandra Vladu", "alexandravladu.jpg");
+        $spirituality = new Article("spirituality 101", "Spiritualitatea e un concept atât de simplu, dar în același timp atât de greu de înțeles pentru cineva care nu vrea să dea timp procesului.", "07", "Feb", "spirituality", "Alexandra Vladu", "alexandravladu.jpg");
+
 
         $articles = array(
-            $sentimente
+            $spirituality,
         );
 
         return $articles;
@@ -528,9 +529,6 @@ class Article
         return $code;
     }
 
-    public function getDatabaseEvenimente()
-    {
-    }
 
 
 }
