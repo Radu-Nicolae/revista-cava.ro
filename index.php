@@ -78,7 +78,7 @@
                                                 <a class="hvr">Articole Română</a>
                                                 <ul class="submenu navParentItem">
                                                     <li>
-                                                        <a href="evenimente.html" class="hvr">Evenimente</a>
+                                                        <a href="evenimente.php" class="hvr">Evenimente</a>
                                                     </li>
                                                     <li>
                                                         <a href="interviuri.html" class="hvr">Interviuri</a>
@@ -330,11 +330,11 @@
     <div class="portfolio_wrap" href="evenimente.html">
         <div class="single_gallery">
             <div class="thumb">
-                <a href="evenimente.html"><img src="evenimenteimg.jpg" alt=""/></a>
+                <a href="evenimente.php"><img src="evenimenteimg.jpg" alt=""/></a>
             </div>
             <div class="gallery_hover">
                 <div class="hover_inner">
-                    <a href="evenimente.html">
+                    <a href="evenimente.php">
                         <h3>Evenimente</h3>
                     </a>
                 </div>
