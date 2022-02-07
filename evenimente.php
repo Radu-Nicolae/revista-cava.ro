@@ -230,6 +230,16 @@
             <div class="col-lg-8 mb-5 mb-lg-0">
                 <div class="blog_left_sidebar">
 
+                    <?php
+                    include 'utilities.php';
+                    ?>
+
+                    <?php
+                    $article = new Article("n", 't', 'h', 'h', 'ere', 'author', 'url');
+                    $code = $article->getBlogCode($article->getDatabaseEvenimente());
+                    echo $code;
+                    ?>
+
                     <article class="blog_item">
                         <div class="blog_item_img">
                             <a href="art.html"> <img class="card-img rounded-0" src="art.jpeg" alt=""></a>

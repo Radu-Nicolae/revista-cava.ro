@@ -415,6 +415,17 @@ class Article
         return $articles;
     }
 
+    public function getDatabaseEvenimente()
+    {
+        $sentimente = new Article("Sentimente", "	Oh! Să fii adolescent înseamnă să treci prin atâtea schimbări și emoții, încât, în majoritatea timpului, te simți chiar și tu confuz și pierdut.", "15", "Nov", "sentimente2", "Alexandra Vladu", "alexandravladu.jpg");
+
+        $articles = array(
+            $sentimente
+        );
+
+        return $articles;
+    }
+
 
     public function getBlogCode($articles)
     {
@@ -515,6 +526,10 @@ class Article
         }
 
         return $code;
+    }
+
+    public function getDatabaseEvenimente()
+    {
     }
 
 
