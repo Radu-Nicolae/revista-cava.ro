@@ -162,8 +162,6 @@ class Article
     }
 
 
-
-
     public function getDatabase()
     {
         $negemenele = new Article("negemenele germinează în floare", "", "29", "Oct", "negemenele", "Ioana Barbu", "ioanabarbu.jpeg", "12/02/2022/18");
@@ -476,7 +474,9 @@ class Article
         for ($i = 0; $i < sizeof($articles); $i++) {
             $article = $articles[$i];
 
-            $codePerItem = '
+            date_default_timezone_set("Europe/Bucharest");
+            if (date("d/m/Y/H") > $article->getProgrammedDateAndTime()) {
+                $codePerItem = '
                     
                     <article class="blog_item">
                         <div class="blog_item_img">
@@ -501,7 +501,8 @@ class Article
                     
                     ';
 
-            $code .= $codePerItem;
+                $code .= $codePerItem;
+            }
         }
 
         return $code;
