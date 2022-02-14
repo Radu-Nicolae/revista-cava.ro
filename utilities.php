@@ -9,8 +9,7 @@ class Article
     var $url;
     var $authorName;
     var $authorUrl;
-    var $programmedDate;
-    var $programmedHour = 12;
+    var $programmedDateAndTime;
 
     /**
      * @param $title
@@ -20,9 +19,9 @@ class Article
      * @param $url
      * @param $authorName
      * @param $authorUrl
-     * @param $programmedDate
+     * @param $programmedDateAndTime
      */
-    public function __construct($title, $description, $day, $month, $url, $authorName, $authorUrl, $programmedDate)
+    public function __construct($title, $description, $day, $month, $url, $authorName, $authorUrl, $programmedDateAndTime)
     {
         $this->title = $title;
         $this->description = $description;
@@ -31,7 +30,7 @@ class Article
         $this->url = $url;
         $this->authorName = $authorName;
         $this->authorUrl = $authorUrl;
-        $this->programmedDate = $programmedDate;
+        $this->programmedDateAndTime = $programmedDateAndTime;
     }
 
     /**
@@ -149,34 +148,20 @@ class Article
     /**
      * @return mixed
      */
-    public function getProgrammedDate()
+    public function getProgrammedDateAndTime()
     {
-        return $this->programmedDate;
+        return $this->programmedDateAndTime;
     }
 
     /**
-     * @param mixed $programmedDate
+     * @param mixed $programmedDateAndTime
      */
-    public function setProgrammedDate($programmedDate)
+    public function setProgrammedDateAndTime($programmedDateAndTime)
     {
-        $this->programmedDate = $programmedDate;
+        $this->programmedDateAndTime = $programmedDateAndTime;
     }
 
-    /**
-     * @return string
-     */
-    public function getProgrammedHour()
-    {
-        return $this->programmedHour;
-    }
 
-    /**
-     * @param string $programmedHour
-     */
-    public function setProgrammedHour($programmedHour)
-    {
-        $this->programmedHour = $programmedHour;
-    }
 
 
     public function getDatabase()
@@ -213,7 +198,7 @@ class Article
         $spirituality = new Article("spirituality 101", "Spiritualitatea e un concept atât de simplu, dar în același timp atât de greu de înțeles pentru cineva care nu vrea să dea timp procesului.", "07", "Feb", "spirituality", "Alexandra Vladu", "alexandravladu.jpg", "12/02/2022/18");
         $theWay = new Article("The way", "", "09", "Feb", "theWay", "Anastasia Hangiu", "anastasiahagiu.jpg", "12/02/2022/18");
         $europa2000 = new Article("Europa 2000", "În apropiere de Honningsvåg se afla un sat peste care trona permafrostul și aerul glaciar, ce înțepa nasurile care nu erau brăzdate de cute sau tinere. Toți sătenii aveau nasul plecat, înfruntau aerul în plin, îl despicau, le intra în ochi. De aceea, copiii vorbeau de bunici că nu aveau ochi, deoarece erau aproape înveliți în piele.", "11", "Feb", "europa2000", "Călin Mihai Tănase", "unknown.jpeg", "12/02/2022/18");
-        $tePrindeBineIarna = new Article("te prinde bine iarna", "", "14", "Feb", "tePrindeBineIarna", "Mihaela Filipescu", "unknown.jpeg", "14/02/2022/14");
+        $tePrindeBineIarna = new Article("te prinde bine iarna", "", "14", "Feb", "tePrindeBineIarna", "Mihaela Filipescu", "unknown.jpeg", "14/02/2022/19");
 
         $articles = array(
 //            ADD HERE
@@ -542,7 +527,7 @@ class Article
 //            || (strtotime($article->getProgrammedDate()) == date("d/m/Y") && ((int)date("H") >= 12)))
 
             date_default_timezone_set("Europe/Bucharest");
-            if (date("d/m/Y/H") > $article->getProgrammedDate()) {
+            if (date("d/m/Y/H") > $article->getProgrammedDateAndTime()) {
                 $codePerItem = '
                     
                     <div class="owl-item" style="width: 330px; margin-right: 30px;">
