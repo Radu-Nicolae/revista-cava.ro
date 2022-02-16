@@ -197,11 +197,13 @@ class Article
         $theWay = new Article("The way", "", "09", "Feb", "theWay", "Anastasia Hangiu", "anastasiahagiu.jpg", "12/02/2022/18");
         $europa2000 = new Article("Europa 2000", "În apropiere de Honningsvåg se afla un sat peste care trona permafrostul și aerul glaciar, ce înțepa nasurile care nu erau brăzdate de cute sau tinere. Toți sătenii aveau nasul plecat, înfruntau aerul în plin, îl despicau, le intra în ochi. De aceea, copiii vorbeau de bunici că nu aveau ochi, deoarece erau aproape înveliți în piele.", "11", "Feb", "europa2000", "Călin Mihai Tănase", "unknown.jpeg", "12/02/2022/18");
         $tePrindeBineIarna = new Article("te prinde bine iarna", "", "14", "Feb", "tePrindeBineIarna", "Mihaela Filipescu", "unknown.jpeg", "14/02/2022/19");
+        $saintValentin = new Article("Cela ne vaut plus la peine de fêter la Saint Valentin, sauf si…?", "Bonjour à tous les internautes! Me voilà de nouveau devant l’écran de mon ordinateur, à rédiger un nouveau thème de débat: la Saint Valentin. Ouais, vous avez bien entendu, alors, tenez bon!", "16", "Feb", "saintValentin", "Diana Ionescu", "dianaionescu.jpeg", "16/02/2022/18");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $saintValentin,
             $tePrindeBineIarna,
             $europa2000,
             $theWay,
