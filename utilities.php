@@ -273,6 +273,17 @@ class Article
         return $articles;
     }
 
+    public function getDatabaseBlogFr(){
+        $saintValentin = new Article("Cela ne vaut plus la peine de fêter la Saint Valentin, sauf si…?", "Bonjour à tous les internautes! Me voilà de nouveau devant l’écran de mon ordinateur, à rédiger un nouveau thème de débat: la Saint Valentin. Ouais, vous avez bien entendu, alors, tenez bon!", "16", "Feb", "saintValentin", "Diana Ionescu", "dianaionescu.jpeg", "16/02/2022/18");
+
+
+        $articles = array(
+            $saintValentin
+        );
+
+        return $articles;
+    }
+
 
     public function getDatabaseLiteratura()
     {

@@ -243,9 +243,32 @@
 
                     <?php
                     $article = new Article("n", 't', 'h', 'h', 'ere', 'author', 'url', "");
-                    $code = $article->getBlogCode($article->getDatabase());
+                    $code = $article->getBlogCode($article->getDatabaseBlogFr());
                     echo $code;
                     ?>
+
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <a href="arrivez.html"> <img class="card-img rounded-0" src="arrivez.jpeg" alt=""></a>
+                            <div href="arrivez.html" class="blog_item_date">
+                                <h3>26</h3>
+                                <p>Iun</p>
+                            </div>
+                        </div>
+
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="arrivez.html">
+                                <h2>
+                                    N’arrivez pas les mains dans les poches à un entretien !
+                                </h2>
+                            </a>
+                            <p>
+                                Vous venez de recevoir la lettre ou l’email que vous attendiez depuis si longtemps:
+                                votre candidature a retenu l’attention d’un recruteur qui souhaiterait vous rencontrer…
+                                même demain.
+                            </p>
+                        </div>
+                    </article>
 
                     <article class="blog_item">
                         <div class="blog_item_img">
