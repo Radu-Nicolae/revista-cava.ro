@@ -159,7 +159,7 @@
                                                         </ul>
                                                     </li>
                                                     <li>
-                                                        <a href="blogfr.html" class="hvr">Franceză</a>
+                                                        <a href="blogfr.php" class="hvr">Franceză</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -236,6 +236,16 @@
         <div class="row">
             <div class="col-lg-8 mb-5 mb-lg-0">
                 <div class="blog_left_sidebar">
+
+                    <?php
+                    include 'utilities.php';
+                    ?>
+
+                    <?php
+                    $article = new Article("n", 't', 'h', 'h', 'ere', 'author', 'url', "");
+                    $code = $article->getBlogCode($article->getDatabase());
+                    echo $code;
+                    ?>
 
                     <article class="blog_item">
                         <div class="blog_item_img">

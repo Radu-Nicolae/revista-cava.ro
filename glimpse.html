@@ -157,7 +157,7 @@
                                                         </ul>
                                                     </li>
                                                     <li>
-                                                        <a href="blogfr.html" class="hvr">Franceză</a>
+                                                        <a href="blogfr.php" class="hvr">Franceză</a>
                                                     </li>
                                                 </ul>
                                             </li>
