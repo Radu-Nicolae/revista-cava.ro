@@ -198,11 +198,13 @@ class Article
         $europa2000 = new Article("Europa 2000", "În apropiere de Honningsvåg se afla un sat peste care trona permafrostul și aerul glaciar, ce înțepa nasurile care nu erau brăzdate de cute sau tinere. Toți sătenii aveau nasul plecat, înfruntau aerul în plin, îl despicau, le intra în ochi. De aceea, copiii vorbeau de bunici că nu aveau ochi, deoarece erau aproape înveliți în piele.", "11", "Feb", "europa2000", "Călin Mihai Tănase", "unknown.jpeg", "12/02/2022/18");
         $tePrindeBineIarna = new Article("te prinde bine iarna", "", "14", "Feb", "tePrindeBineIarna", "Mihaela Filipescu", "unknown.jpeg", "14/02/2022/19");
         $saintValentin = new Article("Saint Valentin- nouvelle allégorie du capitalisme?", "Bonjour à tous les internautes! Me voilà de nouveau devant l’écran de mon ordinateur, à rédiger un nouveau thème de débat: la Saint Valentin. Ouais, vous avez bien entendu, alors, tenez bon!", "16", "Feb", "saintValentin", "Diana Ionescu", "dianaionescu.jpeg", "16/02/2022/18");
+        $destinulUniversului = new Article("Destinul ultim al Universului - Partea a II-a", "În prima parte s-a vorbit despre scenariile Big Crunch și Big Rip. Ambele sunt considerate mai puțin plauzibile, deoarece necesită un tip de energie întunecată care nu este o constantă cosmologică. Majoritatea cosmologilor consideră că energia întunecată este o energie a vidului (constantă cosmologică), deoarece este cea mai simplă și la îndemână explicație. Nu în ultimul rând este în acord cu observațiile.", "17", "Feb", "destinulUniversului", "Matei Dăianu", "unknown.jpeg", "17/02/2022/18");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $destinulUniversului,
             $saintValentin,
             $tePrindeBineIarna,
             $europa2000,
@@ -440,9 +442,11 @@ class Article
         $eticaBrazilor = new Article("Etica brazilor de Crăciun", "E mai bine să cumperi brad real sau artificial? <br> Sărbătorile de iarnă au revenit și în mijlocul petrecerilor, cadourilor și decorațiunilor e bradul, simbolul speranței și al nemuririi. Indiferent ce fel de brad ai, te-ai întrebat probabil la un moment dat: care e varianta mai bună pentru mine și pentru mediu – un brad natural sau unul de plastic?", "26", "Dec", "eticaBrazilor", "Parascheva Toboșaru", "unknown.jpeg", "12/02/2022/18");
         $gandireaCritica = new Article("Gândirea critică din școlile din România", "România se clasează pe locul 125 din 141 de state la capitolul ,,predarea gândirii critice” în Raportul Competitivității Globale 2019 făcut de Forumul Economic Mondial.", "10", "Ian", "gandireaCritica", "Diana Georgescu", "unknown.jpeg", "12/02/2022/18");
         $necrologul = new Article("Necrologul chiulului din Sava", "De data aceasta mi-am propus să scriu despre un prieten bun de-al nostru, al tuturor, care a murit, săracul, acum câteva zile. Cum s-a întâmplat asta? Într-un accident stupid, așa cum se întâmplă de obicei băieților buni.", "25", "Ian", "necrologul", "Mihai Stănescu", "mihaistanescu.jpeg", "12/02/2022/18");
+        $destinulUniversului = new Article("Destinul ultim al Universului - Partea a II-a", "În prima parte s-a vorbit despre scenariile Big Crunch și Big Rip. Ambele sunt considerate mai puțin plauzibile, deoarece necesită un tip de energie întunecată care nu este o constantă cosmologică. Majoritatea cosmologilor consideră că energia întunecată este o energie a vidului (constantă cosmologică), deoarece este cea mai simplă și la îndemână explicație. Nu în ultimul rând este în acord cu observațiile.", "17", "Feb", "destinulUniversului", "Matei Dăianu", "unknown.jpeg", "17/02/2022/18");
 
 
         $articles = array(
+            $destinulUniversului,
             $necrologul,
             $gandireaCritica,
             $eticaBrazilor,
