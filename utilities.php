@@ -362,9 +362,11 @@ class Article
         $boobcInPandemie = new Article("Boboc în pandemie", "Știți povestea aceea când un angajat scoate din priză serverul ca să-și încarce telefonul și toată activitatea firmei se oprește și nimeni nu înțelege ce se întâmplă? Exact asta am trăit cu toții, numai că ,,ceva” a scos din priză... LUMEA. Ne uitam speriați și confuzi unii la alții.", "30", "Dec", "bobocInPandemie", "Diana Burja", "unknown.jpeg", "12/02/2022/18");
         $lumileCelorlalti = new Article("Cum te poți pierde în lumile celorlalți", "Să te pierzi în lumile celorlalți… Este acel moment când te priveṣti pe tine însuți din capătul unui metrou, cu sinele tău adevărat în capătul opus. O infinitate de suflete vă desparte. Suflete ṣi personalități pe care le-ai avut sau pe care le vei avea pentru a te redescoperi, pentru a-ți regăsi realitatea.", "19", "Ian", "lumileCelorlalti", "Ana Negoiță", "unknown.jpeg", "12/02/2022/18");
         $europa2000 = new Article("Europa 2000", "În apropiere de Honningsvåg se afla un sat peste care trona permafrostul și aerul glaciar, ce înțepa nasurile care nu erau brăzdate de cute sau tinere. Toți sătenii aveau nasul plecat, înfruntau aerul în plin, îl despicau, le intra în ochi. De aceea, copiii vorbeau de bunici că nu aveau ochi, deoarece erau aproape înveliți în piele.", "11", "Feb", "europa2000", "Călin Mihai Tănase", "unknown.jpeg", "12/02/2022/18");
+        $theGirl = new Article("The girl outside the train", "The first time I saw her was the day after New Year’s Day. I think it was really early in the morning ‘cause there weren’t many people on the street.", "21", "Feb", "theGirl", "Clara Pistol", "unknown.jpeg", "20/02/2022/18");
 
 
         $articles = array(
+            $theGirl,
             $europa2000,
             $lumileCelorlalti,
             $boobcInPandemie,
