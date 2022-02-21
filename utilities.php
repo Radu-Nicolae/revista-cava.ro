@@ -260,9 +260,11 @@ class Article
         $nothingScarier = new Article("Nothing scarier than change", "", "9", "Dec", "nothingScarier", "Mihaela Filipescu", "unknown.jpeg", "12/02/2022/18");
         $midtermStress = new Article("Midterm stress", "Midterms. The result of months’ worth of work and lessons you most probably didn’t learn beforehand. Those horrifying two to three weeks when most students try to get up to date with all the schoolwork, staying up, only functioning on caffeine, and waking up at 6 am only to roam the school halls like exhausted zombies.", "14", "Dec", "midtermStress", "Anastasia Mihai", "unknown.jpeg", "12/02/2022/18");
         $artPerformance = new Article("Art performance: Marina Abramović", "Marina Abramović is a Serbian conceptual and performance artist, as well as a writer and filmmaker. She is rightfully considered a founder of what we know today as “art performance” having a life-long dedicated career and spreading her work and passion worldwide.", "07", "Ian", "artPerformance", "Taisia Plesi", "taisiaplesi.jpeg", "12/02/2022/18");
+        $theGirl = new Article("The girl outside the train", "The first time I saw her was the day after New Year’s Day. I think it was really early in the morning ‘cause there weren’t many people on the street.", "21", "Feb", "theGirl", "Clara Pistol", "unknown.jpeg", "20/02/2022/18");
 
 
         $articles = array(
+            $theGirl,
             $artPerformance,
             $midtermStress,
             $nothingScarier,
@@ -415,9 +417,12 @@ class Article
         $addictedToSugar = new Article("Are We Addicted To Sugar?", "	Sweets – those things we just can’t stay away from, despite how hard we try to impose a no-sugar diet. It’s in their nature; they’re just too good. Who can say no to a piece of chocolate? But have you ever wondered why we just can’t seem to refuse them?", "17", "Ian", "addictedToSugar", "Catinca Apostol", "catinca.jpeg", "12/02/2022/18");
         $movieStar = new Article("What makes a movie star?", "Everybody says, ‘You impress me as a guy who never wanted to be a movie star’. I say: ‘Everybody in the world wants to be a movie star’.  -Rip Torn", "22", "Ian", "movieStar", "Ilona Dragomir", "unknown.jpeg", "12/02/2022/18");
         $theWay = new Article("The way", "", "09", "Feb", "theWay", "Anastasia Hangiu", "anastasiahagiu.jpg", "12/02/2022/18");
+        $theGirl = new Article("The girl outside the train", "The first time I saw her was the day after New Year’s Day. I think it was really early in the morning ‘cause there weren’t many people on the street.", "21", "Feb", "theGirl", "Clara Pistol", "unknown.jpeg", "20/02/2022/18");
+
 
 
         $articles = array(
+            $theGirl,
             $theWay,
             $movieStar,
             $addictedToSugar,
