@@ -200,11 +200,14 @@ class Article
         $saintValentin = new Article("Saint Valentin- nouvelle allégorie du capitalisme?", "Bonjour à tous les internautes! Me voilà de nouveau devant l’écran de mon ordinateur, à rédiger un nouveau thème de débat: la Saint Valentin. Ouais, vous avez bien entendu, alors, tenez bon!", "16", "Feb", "saintValentin", "Diana Ionescu", "dianaionescu.jpeg", "16/02/2022/18");
         $destinulUniversului = new Article("Destinul ultim al Universului - Partea a II-a", "În prima parte s-a vorbit despre scenariile Big Crunch și Big Rip. Ambele sunt considerate mai puțin plauzibile, deoarece necesită un tip de energie întunecată care nu este o constantă cosmologică. Majoritatea cosmologilor consideră că energia întunecată este o energie a vidului (constantă cosmologică), deoarece este cea mai simplă și la îndemână explicație. Nu în ultimul rând este în acord cu observațiile.", "17", "Feb", "destinulUniversului", "Matei Dăianu", "unknown.jpeg", "17/02/2022/18");
         $theGirl = new Article("The girl outside the train", "The first time I saw her was the day after New Year’s Day. I think it was really early in the morning ‘cause there weren’t many people on the street.", "21", "Feb", "theGirl", "Clara Pistol", "unknown.jpeg", "20/02/2022/18");
+        $unFelinar = new Article("Un felinar de țânțari", "​Timpul și lumina. Anii și sunetul. Un gong care-ți zguduie timpanul și niște reflectoare care-ți rănesc retina. Toate astea însoțite de un bâzâit ca o mie de musculițe certându-se pe o picătură de înghețată.", "22", "02", "unFelinar", "Diana Burja", "unknown.jpeg", "22/02/2022/18");
+
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $unFelinar,
             $theGirl,
             $destinulUniversului,
             $saintValentin,
@@ -301,9 +304,11 @@ class Article
         $carti2021 = new Article("Am citit cele mai populare cărți din 2021 în locul tău", "În cadrul oricărei rețele de socializare există, inevitabil, un colțișor rezervat special pentru cărți. Fie că vorbim de TikTok, Instagram sau YouTube, în 2021 am petrecut mai mult timp ca oricând în acele părți ale internetului, iar câteva cărți îmi apăreau inevitabil în primele două minute.", "28", "Ian", "carti2021", "Ioana Jeleboglu", "unknown.jpeg", "12/02/2022/18");
         $europa2000 = new Article("Europa 2000", "În apropiere de Honningsvåg se afla un sat peste care trona permafrostul și aerul glaciar, ce înțepa nasurile care nu erau brăzdate de cute sau tinere. Toți sătenii aveau nasul plecat, înfruntau aerul în plin, îl despicau, le intra în ochi. De aceea, copiii vorbeau de bunici că nu aveau ochi, deoarece erau aproape înveliți în piele.", "11", "Feb", "europa2000", "Călin Mihai Tănase", "unknown.jpeg", "12/02/2022/18");
         $tePrindeBineIarna = new Article("te prinde bine iarna", "", "14", "Feb", "tePrindeBineIarna", "Mihaela Filipescu", "unknown.jpeg", "12/02/2022/18");
+        $unFelinar = new Article("Un felinar de țânțari", "​Timpul și lumina. Anii și sunetul. Un gong care-ți zguduie timpanul și niște reflectoare care-ți rănesc retina. Toate astea însoțite de un bâzâit ca o mie de musculițe certându-se pe o picătură de înghețată.", "22", "02", "unFelinar", "Diana Burja", "unknown.jpeg", "22/02/2022/18");
 
 
         $articles = array(
+            $unFelinar,
             $tePrindeBineIarna,
             $europa2000,
             $carti2021,
@@ -363,9 +368,11 @@ class Article
         $lumileCelorlalti = new Article("Cum te poți pierde în lumile celorlalți", "Să te pierzi în lumile celorlalți… Este acel moment când te priveṣti pe tine însuți din capătul unui metrou, cu sinele tău adevărat în capătul opus. O infinitate de suflete vă desparte. Suflete ṣi personalități pe care le-ai avut sau pe care le vei avea pentru a te redescoperi, pentru a-ți regăsi realitatea.", "19", "Ian", "lumileCelorlalti", "Ana Negoiță", "unknown.jpeg", "12/02/2022/18");
         $europa2000 = new Article("Europa 2000", "În apropiere de Honningsvåg se afla un sat peste care trona permafrostul și aerul glaciar, ce înțepa nasurile care nu erau brăzdate de cute sau tinere. Toți sătenii aveau nasul plecat, înfruntau aerul în plin, îl despicau, le intra în ochi. De aceea, copiii vorbeau de bunici că nu aveau ochi, deoarece erau aproape înveliți în piele.", "11", "Feb", "europa2000", "Călin Mihai Tănase", "unknown.jpeg", "12/02/2022/18");
         $theGirl = new Article("The girl outside the train", "The first time I saw her was the day after New Year’s Day. I think it was really early in the morning ‘cause there weren’t many people on the street.", "21", "Feb", "theGirl", "Clara Pistol", "unknown.jpeg", "20/02/2022/18");
+        $unFelinar = new Article("Un felinar de țânțari", "​Timpul și lumina. Anii și sunetul. Un gong care-ți zguduie timpanul și niște reflectoare care-ți rănesc retina. Toate astea însoțite de un bâzâit ca o mie de musculițe certându-se pe o picătură de înghețată.", "22", "02", "unFelinar", "Diana Burja", "unknown.jpeg", "22/02/2022/18");
 
 
         $articles = array(
+            $unFelinar,
             $theGirl,
             $europa2000,
             $lumileCelorlalti,
