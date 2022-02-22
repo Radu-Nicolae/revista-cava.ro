@@ -235,7 +235,7 @@
                     ?>
 
                     <?php
-                    $article = new Article("n", 't', 'h', 'h', 'ere', 'author', 'url', "w");
+                    $article = new Article("n", 't', 'h', 'h', 'ere', 'author', 'url', "");
                     $code = $article->getBlogCode($article->getDatabaseProza());
                     echo $code;
                     ?>
