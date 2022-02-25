@@ -496,9 +496,11 @@ class Article
     public function getDatabaseEvenimente()
     {
         $spirituality = new Article("spirituality 101", "Spiritualitatea e un concept atât de simplu, dar în același timp atât de greu de înțeles pentru cineva care nu vrea să dea timp procesului.", "07", "Feb", "spirituality", "Alexandra Vladu", "alexandravladu.jpg", "12/02/2022/18");
+        $festivalulDeTeatru = new Article("Festivalul de teatru francofon de la Sorrento", "Festivalul de teatru francofon de la Sorrento înseamnă mai mult decât teatru în franceză și un ansamblu de peisaje frumoase de pe coasta Italiei.", "25", "Feb", "festivalulDeTeatru", "Ana Negoiță", "unknown.jpeg", "25/02/2022/18");
 
 
         $articles = array(
+            $festivalulDeTeatru,
             $spirituality,
         );
 
