@@ -203,12 +203,13 @@ class Article
         $unFelinar = new Article("Un felinar de țânțari", "Timpul și lumina. Anii și sunetul. Un gong care-ți zguduie timpanul și niște reflectoare care-ți rănesc retina. Toate astea însoțite de un bâzâit ca o mie de musculițe certându-se pe o picătură de înghețată.", "22", "Feb", "unFelinar", "Diana Burja", "unknown.jpeg", "22/02/2022/18");
         $savistiDeAzi = new Article("Saviști de azi, saviști de ieri", "Când eram mică, ascultam mereu poveștile fratelui meu care a învățat în Colegiul Național Sfântul Sava despre cât de speciale sunt spectacolele pregătite de doamna profesoară de muzică și câțiva elevi talentați.", "24", "Feb", "savistiDeAzi", "Diana Găman", "unknown.jpeg", "24/02/2022/18");
         $festivalulDeTeatru = new Article("Festivalul de teatru francofon de la Sorrento", "Festivalul de teatru francofon de la Sorrento înseamnă mai mult decât teatru în franceză și un ansamblu de peisaje frumoase de pe coasta Italiei.", "25", "Feb", "festivalulDeTeatru", "Ana Negoiță", "unknown.jpeg", "25/02/2022/18");
-
+        $omulCareAVrutSaScape = new Article("Omul care a vrut să scape din cameră", "Un om care s-a născut într-o cameră își dorea cu orice preț să fie liber în lumina de afară, din exteriorul încăperii. Camera avea o fereastră minusculă, prin care trecea lumină, însă nu destulă pentru a lumina camera întunecoasă, și o ușă închisă.", "28", "Feb", "omulCareAVrutSaScape", "Matei Dăianu", "unknown.jpeg", "28/02/2022/18");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $omulCareAVrutSaScape,
             $festivalulDeTeatru,
             $savistiDeAzi,
             $unFelinar,
