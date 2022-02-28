@@ -465,8 +465,6 @@ class Article
         $destinulUniversului = new Article("Destinul ultim al Universului - Partea a II-a", "În prima parte s-a vorbit despre scenariile Big Crunch și Big Rip. Ambele sunt considerate mai puțin plauzibile, deoarece necesită un tip de energie întunecată care nu este o constantă cosmologică. Majoritatea cosmologilor consideră că energia întunecată este o energie a vidului (constantă cosmologică), deoarece este cea mai simplă și la îndemână explicație. Nu în ultimul rând este în acord cu observațiile.", "17", "Feb", "destinulUniversului", "Matei Dăianu", "unknown.jpeg", "17/02/2022/18");
         $savistiDeAzi = new Article("Saviști de azi, saviști de ieri", "Când eram mică, ascultam mereu poveștile fratelui meu care a învățat în Colegiul Național Sfântul Sava despre cât de speciale sunt spectacolele pregătite de doamna profesoară de muzică și câțiva elevi talentați.", "24", "Feb", "savistiDeAzi", "Diana Găman", "unknown.jpeg", "24/02/2022/18");
 
-
-
         $articles = array(
             $savistiDeAzi,
             $destinulUniversului,
