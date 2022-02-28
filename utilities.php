@@ -204,11 +204,14 @@ class Article
         $savistiDeAzi = new Article("Saviști de azi, saviști de ieri", "Când eram mică, ascultam mereu poveștile fratelui meu care a învățat în Colegiul Național Sfântul Sava despre cât de speciale sunt spectacolele pregătite de doamna profesoară de muzică și câțiva elevi talentați.", "24", "Feb", "savistiDeAzi", "Diana Găman", "unknown.jpeg", "24/02/2022/18");
         $festivalulDeTeatru = new Article("Festivalul de teatru francofon de la Sorrento", "Festivalul de teatru francofon de la Sorrento înseamnă mai mult decât teatru în franceză și un ansamblu de peisaje frumoase de pe coasta Italiei.", "25", "Feb", "festivalulDeTeatru", "Ana Negoiță", "unknown.jpeg", "25/02/2022/18");
         $omulCareAVrutSaScape = new Article("Omul care a vrut să scape din cameră", "Un om care s-a născut într-o cameră își dorea cu orice preț să fie liber în lumina de afară, din exteriorul încăperii. Camera avea o fereastră minusculă, prin care trecea lumină, însă nu destulă pentru a lumina camera întunecoasă, și o ușă închisă.", "28", "Feb", "omulCareAVrutSaScape", "Matei Dăianu", "unknown.jpeg", "28/02/2022/18");
+        $earlySpring = new Article("Early Spring Blues", "", "29", "Feb", "earlySpring", "Nereia Crisan", "nereiacrisan.jpeg", "29/02/2022/18");
+
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $earlySpring,
             $omulCareAVrutSaScape,
             $festivalulDeTeatru,
             $savistiDeAzi,
