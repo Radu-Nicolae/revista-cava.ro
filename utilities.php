@@ -355,9 +355,11 @@ class Article
         $choseHim = new Article("I'm sorry I chose him", "", "22", "Dec", "choseHim", "Nereia Crisan", "nereiacrisan.jpeg", "12/02/2022/18");
         $theWay = new Article("The way", "", "09", "Feb", "theWay", "Anastasia Hangiu", "anastasiahagiu.jpg", "12/02/2022/18");
         $tePrindeBineIarna = new Article("te prinde bine iarna", "", "14", "Feb", "tePrindeBineIarna", "Mihaela Filipescu", "unknown.jpeg", "12/02/2022/18");
+        $earlySpring = new Article("Early Spring Blues", "", "01", "Mar", "earlySpring", "Nereia Crisan", "nereiacrisan.jpeg", "01/03/2022/18");
 
 
         $articles = array(
+            $earlySpring,
             $tePrindeBineIarna,
             $theWay,
             $choseHim,
