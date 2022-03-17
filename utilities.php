@@ -205,15 +205,16 @@ class Article
         $festivalulDeTeatru = new Article("Festivalul de teatru francofon de la Sorrento", "Festivalul de teatru francofon de la Sorrento înseamnă mai mult decât teatru în franceză și un ansamblu de peisaje frumoase de pe coasta Italiei.", "25", "Feb", "festivalulDeTeatru", "Ana Negoiță", "unknown.jpeg", "25/02/2022/18");
         $omulCareAVrutSaScape = new Article("Omul care a vrut să scape din cameră", "Un om care s-a născut într-o cameră își dorea cu orice preț să fie liber în lumina de afară, din exteriorul încăperii. Camera avea o fereastră minusculă, prin care trecea lumină, însă nu destulă pentru a lumina camera întunecoasă, și o ușă închisă.", "28", "Feb", "omulCareAVrutSaScape", "Matei Dăianu", "unknown.jpeg", "28/02/2022/18");
         $earlySpring = new Article("Early Spring Blues", "", "28", "feb", "earlySpring", "Nereia Crisan", "nereiacrisan.jpeg", "28/02/2022/18");
-//        $aspireRomania = new Article("Aspire România", "Programul Aspire România este unul dintre cele mai renumite și prestigioase la care poți lua parte pentru a-ți îmbogăți experiența de liceu. O documentare temeinică îți dezvăluie tot ce ai nevoie despre Aspire, însă cel mai bine este descris chiar de vorbitorii renumiți invitați să predea.", "13", "Mar", "aspireRomania", "Ilinca Sotirescu", "ilincasotirescu.jpeg", "13/03/2022/12");
-
+        $aspireRomania = new Article("Aspire România", "Programul Aspire România este unul dintre cele mai renumite și prestigioase la care poți lua parte pentru a-ți îmbogăți experiența de liceu. O documentare temeinică îți dezvăluie tot ce ai nevoie despre Aspire, însă cel mai bine este descris chiar de vorbitorii renumiți invitați să predea.", "13", "Mar", "aspireRomania", "Ilinca Sotirescu", "ilincasotirescu.jpeg", "13/03/2022/12");
+        $adrenocrom = new Article("Adrenocrom", "Era o seară obișnuită în Berlin, cu prietenul meu Magnus, care era fericit în acea zi, fiindcă primise salariul său bănos. Îl împărțise minuțios în mai multe rubrici: „Pentru mine”, „Pentru ea”, „Pentru mâncare”, „Pentru haine”, „Pentru datorii” și „Rezervă”.", "17", "Mar","adrenocrom", "Călin Mihai Tănase", "unknown.jpeg", "17/03/2022/18");
 
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
-
+            $adrenocrom,
+            $aspireRomania,
             $earlySpring,
             $omulCareAVrutSaScape,
             $festivalulDeTeatru,
@@ -317,9 +318,11 @@ class Article
         $tePrindeBineIarna = new Article("te prinde bine iarna", "", "14", "Feb", "tePrindeBineIarna", "Mihaela Filipescu", "unknown.jpeg", "12/02/2022/18");
         $unFelinar = new Article("Un felinar de țânțari", "​Timpul și lumina. Anii și sunetul. Un gong care-ți zguduie timpanul și niște reflectoare care-ți rănesc retina. Toate astea însoțite de un bâzâit ca o mie de musculițe certându-se pe o picătură de înghețată.", "22", "02", "unFelinar", "Diana Burja", "unknown.jpeg", "22/02/2022/18");
         $omulCareAVrutSaScape = new Article("Omul care a vrut să scape din cameră", "Un om care s-a născut într-o cameră își dorea cu orice preț să fie liber în lumina de afară, din exteriorul încăperii. Camera avea o fereastră minusculă, prin care trecea lumină, însă nu destulă pentru a lumina camera întunecoasă, și o ușă închisă.", "28", "Feb", "omulCareAVrutSaScape", "Matei Dăianu", "unknown.jpeg", "28/02/2022/18");
+        $adrenocrom = new Article("Adrenocrom", "Era o seară obișnuită în Berlin, cu prietenul meu Magnus, care era fericit în acea zi, fiindcă primise salariul său bănos. Îl împărțise minuțios în mai multe rubrici: „Pentru mine”, „Pentru ea”, „Pentru mâncare”, „Pentru haine”, „Pentru datorii” și „Rezervă”.", "17", "Mar","adrenocrom", "Călin Mihai Tănase", "unknown.jpeg", "17/03/2022/18");
 
 
         $articles = array(
+            $adrenocrom,
             $omulCareAVrutSaScape,
             $unFelinar,
             $tePrindeBineIarna,
