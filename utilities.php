@@ -207,12 +207,13 @@ class Article
         $earlySpring = new Article("Early Spring Blues", "", "28", "feb", "earlySpring", "Nereia Crisan", "nereiacrisan.jpeg", "28/02/2022/18");
         $aspireRomania = new Article("Aspire România", "Programul Aspire România este unul dintre cele mai renumite și prestigioase la care poți lua parte pentru a-ți îmbogăți experiența de liceu. O documentare temeinică îți dezvăluie tot ce ai nevoie despre Aspire, însă cel mai bine este descris chiar de vorbitorii renumiți invitați să predea.", "13", "Mar", "aspireRomania", "Ilinca Sotirescu", "ilincasotirescu.jpeg", "13/03/2022/12");
         $adrenocrom = new Article("Adrenocrom", "Era o seară obișnuită în Berlin, cu prietenul meu Magnus, care era fericit în acea zi, fiindcă primise salariul său bănos. Îl împărțise minuțios în mai multe rubrici: „Pentru mine”, „Pentru ea”, „Pentru mâncare”, „Pentru haine”, „Pentru datorii” și „Rezervă”.", "17", "Mar","adrenocrom", "Călin Mihai Tănase", "unknown.jpeg", "17/03/2022/18");
-
+        $euphoric = new Article("Euphoric", "Bright lights. High school. Young love. Addiction. Guns. The release of the second season of “Euphoria” back in February seems to have won over the internet once again. Whether it has been your feed or fyp, all social media platforms have been swarmed by edits and posts about it. But “Euphoria” is nothing if not controversial.", "19", "Mar","euphoric", "Anastasia Mihai", "unknown", "19/03/2022/12");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $euphoric,
             $adrenocrom,
             $aspireRomania,
             $earlySpring,
