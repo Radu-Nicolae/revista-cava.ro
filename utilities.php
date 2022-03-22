@@ -208,11 +208,14 @@ class Article
         $aspireRomania = new Article("Aspire România", "Programul Aspire România este unul dintre cele mai renumite și prestigioase la care poți lua parte pentru a-ți îmbogăți experiența de liceu. O documentare temeinică îți dezvăluie tot ce ai nevoie despre Aspire, însă cel mai bine este descris chiar de vorbitorii renumiți invitați să predea.", "13", "Mar", "aspireRomania", "Ilinca Sotirescu", "ilincasotirescu.jpeg", "13/03/2022/12");
         $adrenocrom = new Article("Adrenocrom", "Era o seară obișnuită în Berlin, cu prietenul meu Magnus, care era fericit în acea zi, fiindcă primise salariul său bănos. Îl împărțise minuțios în mai multe rubrici: „Pentru mine”, „Pentru ea”, „Pentru mâncare”, „Pentru haine”, „Pentru datorii” și „Rezervă”.", "17", "Mar","adrenocrom", "Călin Mihai Tănase", "unknown.jpeg", "17/03/2022/18");
         $euphoric = new Article("Euphoric", "Bright lights. High school. Young love. Addiction. Guns. The release of the second season of “Euphoria” back in February seems to have won over the internet once again. Whether it has been your feed or fyp, all social media platforms have been swarmed by edits and posts about it. But “Euphoria” is nothing if not controversial.", "19", "Mar","euphoric", "Anastasia Mihai", "unknown", "20/03/2022/12");
+        $fiveYears = new Article("Five Years", "", "22", "Mar", "fiveYears", "Nereia Crisan", "nereiacrisan", "22/03/2022/18");
+
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $fiveYears,
             $euphoric,
             $adrenocrom,
             $aspireRomania,
@@ -442,7 +445,7 @@ class Article
         $anarchy = new Article("anarchy", "", "17", "Nov", "anarchy", "Nereia Crișan", "nereiacrisan.jpeg", "12/02/2022/18");
         $movies35 = new Article("35 Movies that break the 4th wall", "Let’s take a square room- got 4 standing walls. There’s an actor drinking water inside of it. How can we film the action? If we don’t move the camera, then we can only film the action from one perspective, while covering the wall behind us. So the actor uses three walls, because the camera occupies the fourth. The actor never looks into the camera, so he never uses the fourth wall.", "21", "Nov", "35movies", "Ilona Dragomir", "unknown.jpeg", "12/02/2022/18");
         $red = new Article("Red (Taylor's Version)", "If you've met me, you already know Taylor Swift's discography is the soundtrack of my life. After her masters controversy, I thought my favorite album was lost for good; taxi cabs and busy streets, they'd never bring it back to me... ", "27", "Nov", "red", "Ilinca Sotirescu", "ilincasotirescu.jpeg", "12/02/2022/18");
-        $merryCovid = new Article("Merry Covid Christmas ", "It’s been almost two years since humanity has had to deal with the massive health crisis brought over by Covid-19. It was first discovered in Wuhan, China at the end of 2019, hence the name, but the exact cause still remains unclear. After that, it was slowly transmitted to the rest of the country.", "29", "Nov", "merryCovid", "Taisia Plesi", "taisiaplesi.jpeg", "12/02/2022/18");
+        $merryCovid = new Article("Merry Covid Christmas ", "It’s been almost two years since humanity has had to deal with the massive health crisis brought over by Covid-19. It was first discovered in Wuhan, C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hina at the end of 2019, hence the name, but the exact cause still remains unclear. After that, it was slowly transmitted to the rest of the country.", "29", "Nov", "merryCovid", "Taisia Plesi", "taisiaplesi.jpeg", "12/02/2022/18");
         $nothingScarier = new Article("Nothing scarier than change", "", "9", "Dec", "nothingScarier", "Mihaela Filipescu", "unknown.jpeg", "12/02/2022/18");
         $midtermStress = new Article("Midterm stress", "Midterms. The result of months’ worth of work and lessons you most probably didn’t learn beforehand. Those horrifying two to three weeks when most students try to get up to date with all the schoolwork, staying up, only functioning on caffeine, and waking up at 6 am only to roam the school halls like exhausted zombies.", "14", "Dec", "midtermStress", "Anastasia Mihai", "unknown.jpeg", "12/02/2022/18");
         $whenIGrowUp = new Article("When I Grow Up- A Story About Beds", "It got really cold after 3 am in his room. Regardless of the heating system - for which his parents paid a great deal of money, regardless of the blue and white blanket he found hidden in a stocking 2 years before. It always gets cold after 3. That's about the time when you start noticing things.", "28", "Dec", "whenIGrowUp", "Clara Pistol", "unknwon.jpeg", "12/02/2022/18");
