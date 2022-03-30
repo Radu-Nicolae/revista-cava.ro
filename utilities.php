@@ -210,6 +210,7 @@ class Article
         $euphoric = new Article("Euphoric", "Bright lights. High school. Young love. Addiction. Guns. The release of the second season of “Euphoria” back in February seems to have won over the internet once again. Whether it has been your feed or fyp, all social media platforms have been swarmed by edits and posts about it. But “Euphoria” is nothing if not controversial.", "19", "Mar","euphoric", "Anastasia Mihai", "unknown", "20/03/2022/12");
         $fiveYears = new Article("Five Years", "", "22", "Mar", "fiveYears", "Nereia Crisan", "nereiacrisan", "22/03/2022/18");
         $despreCel = new Article("Despre cel cu care refuz a privi stelele și a mai tinde spre acestea", "Am avut odată un prieten. „Odată” face ca totul să pară petrecut într-un timp mitic - aiurea. E doar un reper, căci întâmplarea în sine pierdută-i deja oricum în illo tempore, în încercarea-mi de a ilustra perioada îndepărtată de când sufletul meu a tot încercat să-și pună bariere.", "25", "Mar", "despreCel", "Anthonia Ciurescu", "unknown.jpeg", "25/03/2022/18");
+        $theOscars = new Article("February is no longer GLAM", "Every year, in February social media, would be full of fancy dresses, pretty actresses with weird hairstyles, and the most impressive suits.", "30", "Mar", "theOscars", "Anonim", "unknown.jpeg", "30/03/2022/18");
 
         $articles = array(
 //            ADD HERE
