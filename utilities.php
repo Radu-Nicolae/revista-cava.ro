@@ -601,7 +601,7 @@ class Article
 //            || (strtotime($article->getProgrammedDate()) == date("d/m/Y") && ((int)date("H") >= 12)))
 
             date_default_timezone_set("Europe/Bucharest");
-            
+
             if (date("d/m/Y/H") > $article->getProgrammedDateAndTime()) {
                 $codePerItem = '
                     
