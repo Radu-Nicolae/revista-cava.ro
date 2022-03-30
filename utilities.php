@@ -216,6 +216,7 @@ class Article
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $theOscars,
             $despreCel,
             $fiveYears,
             $euphoric,
@@ -458,9 +459,11 @@ class Article
         $earlySpring = new Article("Early Spring Blues", "", "01", "Mar", "earlySpring", "Nereia Crisan", "nereiacrisan.jpeg", "28/02/2022/18");
         $euphoric = new Article("Euphoric", "Bright lights. High school. Young love. Addiction. Guns. The release of the second season of “Euphoria” back in February seems to have won over the internet once again. Whether it has been your feed or fyp, all social media platforms have been swarmed by edits and posts about it. But “Euphoria” is nothing if not controversial.", "19", "Mar","euphoric", "Anastasia Mihai", "unknown", "20/03/2022/12");
         $fiveYears = new Article("Five Years", "", "22", "Mar", "fiveYears", "Nereia Crisan", "nereiacrisan", "22/03/2022/18");
+        $theOscars = new Article("February is no longer GLAM", "Every year, in February social media, would be full of fancy dresses, pretty actresses with weird hairstyles, and the most impressive suits.", "30", "Mar", "theOscars", "Anonim", "unknown.jpeg", "30/03/2022/18");
 
 
         $articles = array(
+            $theOscars,
             $fiveYears,
             $euphoric,
             $earlySpring,
