@@ -211,12 +211,14 @@ class Article
         $fiveYears = new Article("Five Years", "", "22", "Mar", "fiveYears", "Nereia Crisan", "nereiacrisan", "22/03/2022/18");
         $despreCel = new Article("Despre cel cu care refuz a privi stelele și a mai tinde spre acestea", "Am avut odată un prieten. „Odată” face ca totul să pară petrecut într-un timp mitic - aiurea. E doar un reper, căci întâmplarea în sine pierdută-i deja oricum în illo tempore, în încercarea-mi de a ilustra perioada îndepărtată de când sufletul meu a tot încercat să-și pună bariere.", "25", "Mar", "despreCel", "Anthonia Ciurescu", "unknown.jpeg", "25/03/2022/18");
         $theOscars = new Article("February is no longer GLAM", "Every year, in February social media, would be full of fancy dresses, pretty actresses with weird hairstyles, and the most impressive suits.", "30", "Mar", "theOscars", "Anonim", "unknown.jpeg", "30/03/2022/18");
-        $cuadro = new Article("Trupa Cuadro și ,,Punk Rock''", "Pentru că redacția noastră s-a pus pe culturalizare, în weekendul 26-27 martie ne-am strâns să îi vedem pe prietenii noștri de la trupa de teatru Cuadro în piesa ,,Punk Rock” de Simon Stephens.", "05", "Apr", "cuadro", "Ilinca Sotirescu", "ilincasotirescu.jpeg", "05/04/2022/18");
+        $cuadro = new Article("Trupa Cuadro și ,,Punk Rock''", "Pentru că redacția noastră s-a pus pe culturalizare, în weekendul 26-27 martie ne-am strâns să îi vedem pe prietenii noștri de la trupa de teatru Cuadro în piesa ,,Punk Rock” de Simon Stephens.", "05", "Apr", "cuadro", "Ilinca Sotirescu", "ilincasotirescu.jpeg", "04/04/2022/18");
+        $motionSickness = new Article("motion sickness", "", "6", "Apr", "motionSickness", "Anastasia Hangiu", "anastasiahagiu.jpg", "06/04/2022/18");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $motionSickness,
             $cuadro,
             $theOscars,
             $despreCel,
