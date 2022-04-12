@@ -214,11 +214,13 @@ class Article
         $cuadro = new Article("Trupa Cuadro și ,,Punk Rock''", "Pentru că redacția noastră s-a pus pe culturalizare, în weekendul 26-27 martie ne-am strâns să îi vedem pe prietenii noștri de la trupa de teatru Cuadro în piesa ,,Punk Rock” de Simon Stephens.", "05", "Apr", "cuadro", "Ilinca Sotirescu", "ilincasotirescu.jpeg", "04/04/2022/18");
         $motionSickness = new Article("motion sickness", "", "06", "Apr", "motionSickness", "Anastasia Hangiu", "anastasiahagiu.jpg", "06/04/2022/18");
         $orchestra = new Article("Trupa 4teen și ,,Orchestra Titanic''", "„Orchestra Titanic” este o piesă semnată de Hristo Boicev, jucată la Teatrul Național pentru prima dată în 2017 în regia lui Felix Alexa.", "11", "Apr", "orchestra", "Ioana Jeleboglu", "unknown.jpeg", "11/04/2022/18");
+        $she = new Article("SHE", "Has it ever happened to you to meet someone about whom you knew information beforehand? What if the information was negative? Will you be biased?", "12", "Apr", "she", "Taisia Plesi", "taisiaplesi.jpeg", "12/02/2022/18");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $she,
             $orchestra,
             $motionSickness,
             $cuadro,
@@ -471,9 +473,11 @@ class Article
         $fiveYears = new Article("Five Years", "", "22", "Mar", "fiveYears", "Nereia Crisan", "nereiacrisan", "22/03/2022/18");
         $theOscars = new Article("February is no longer GLAM", "Every year, in February social media, would be full of fancy dresses, pretty actresses with weird hairstyles, and the most impressive suits.", "30", "Mar", "theOscars", "Anonim", "unknown.jpeg", "30/03/2022/18");
         $motionSickness = new Article("motion sickness", "", "6", "Apr", "motionSickness", "Anastasia Hangiu", "anastasiahagiu.jpg", "06/04/2022/18");
+        $she = new Article("SHE", "Has it ever happened to you to meet someone about whom you knew information beforehand? What if the information was negative? Will you be biased?", "12", "Apr", "she", "Taisia Plesi", "taisiaplesi.jpeg", "12/02/2022/18");
 
 
         $articles = array(
+            $she,
             $motionSickness,
             $theOscars,
             $fiveYears,
