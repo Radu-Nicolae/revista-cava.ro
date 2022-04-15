@@ -215,11 +215,15 @@ class Article
         $motionSickness = new Article("motion sickness", "", "06", "Apr", "motionSickness", "Anastasia Hangiu", "anastasiahagiu.jpg", "06/04/2022/18");
         $orchestra = new Article("Trupa 4teen și ,,Orchestra Titanic''", "„Orchestra Titanic” este o piesă semnată de Hristo Boicev, jucată la Teatrul Național pentru prima dată în 2017 în regia lui Felix Alexa.", "11", "Apr", "orchestra", "Ioana Jeleboglu", "unknown.jpeg", "11/04/2022/18");
         $she = new Article("SHE", "Has it ever happened to you to meet someone about whom you knew information beforehand? What if the information was negative? Will you be biased?", "12", "Apr", "she", "Taisia Plesi", "taisiaplesi.jpeg", "12/02/2022/18");
+        $acestUnivers = new Article("DE CE ACEST UNIVERS ȘI NU ALTUL?", "Se știe că universul funcționează în funcție de legile fizicii, legile naturii. Dar de ce există aceste legi și nu altele? De ce constantele au valoarea pe care o au? De ce universul este reglat fin așa încât să permită existența observatorilor conștienți? Cu alte cuvinte, de ce există acest univers, și nu altul? Încă nu se știe răspunsul la această întrebare, dar există variante care ar schimba radical gândirea noastră asupra construcției realității.", "15", "Apr", "acestUnivers", "Matei Dăianu", "unknown.jpeg", "15/04/2022/15");
+        $superheroes = new Article("Superheroes: from the beginnings", "'<b>There was an idea</b>: that we could bring together a group of remarkable people…to see if we could become something more. So when they needed us, we could fight the battles that they never could.'", "15", "Apr", "superheroes", "Ilona Dragomir", "unknown.jpeg", "15/04/2022/15");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $superheroes,
+            $acestUnivers,
             $she,
             $orchestra,
             $motionSickness,
@@ -291,9 +295,11 @@ class Article
         $midtermStress = new Article("Midterm stress", "Midterms. The result of months’ worth of work and lessons you most probably didn’t learn beforehand. Those horrifying two to three weeks when most students try to get up to date with all the schoolwork, staying up, only functioning on caffeine, and waking up at 6 am only to roam the school halls like exhausted zombies.", "14", "Dec", "midtermStress", "Anastasia Mihai", "unknown.jpeg", "12/02/2022/18");
         $artPerformance = new Article("Art performance: Marina Abramović", "Marina Abramović is a Serbian conceptual and performance artist, as well as a writer and filmmaker. She is rightfully considered a founder of what we know today as “art performance” having a life-long dedicated career and spreading her work and passion worldwide.", "07", "Ian", "artPerformance", "Taisia Plesi", "taisiaplesi.jpeg", "12/02/2022/18");
         $theGirl = new Article("The girl outside the train", "The first time I saw her was the day after New Year’s Day. I think it was really early in the morning ‘cause there weren’t many people on the street.", "21", "Feb", "theGirl", "Clara Pistol", "unknown.jpeg", "20/02/2022/18");
+        $superheroes = new Article("Superheroes: from the beginnings", "'<b>There was an idea</b>: that we could bring together a group of remarkable people…to see if we could become something more. So when they needed us, we could fight the battles that they never could.'", "15", "Apr", "superheroes", "Ilona Dragomir", "unknown.jpeg", "15/04/2022/15");
 
 
         $articles = array(
+            $superheroes,
             $theGirl,
             $artPerformance,
             $midtermStress,
@@ -474,9 +480,11 @@ class Article
         $theOscars = new Article("February is no longer GLAM", "Every year, in February social media, would be full of fancy dresses, pretty actresses with weird hairstyles, and the most impressive suits.", "30", "Mar", "theOscars", "Anonim", "unknown.jpeg", "30/03/2022/18");
         $motionSickness = new Article("motion sickness", "", "6", "Apr", "motionSickness", "Anastasia Hangiu", "anastasiahagiu.jpg", "06/04/2022/18");
         $she = new Article("SHE", "Has it ever happened to you to meet someone about whom you knew information beforehand? What if the information was negative? Will you be biased?", "12", "Apr", "she", "Taisia Plesi", "taisiaplesi.jpeg", "12/02/2022/18");
+        $superheroes = new Article("Superheroes: from the beginnings", "'<b>There was an idea</b>: that we could bring together a group of remarkable people…to see if we could become something more. So when they needed us, we could fight the battles that they never could.'", "15", "Apr", "superheroes", "Ilona Dragomir", "unknown.jpeg", "15/04/2022/15");
 
 
         $articles = array(
+            $superheroes,
             $she,
             $motionSickness,
             $theOscars,
