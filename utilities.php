@@ -217,11 +217,13 @@ class Article
         $she = new Article("SHE", "Has it ever happened to you to meet someone about whom you knew information beforehand? What if the information was negative? Will you be biased?", "12", "Apr", "she", "Taisia Plesi", "taisiaplesi.jpeg", "12/02/2022/18");
         $acestUnivers = new Article("DE CE ACEST UNIVERS ȘI NU ALTUL?", "Se știe că universul funcționează în funcție de legile fizicii, legile naturii. Dar de ce există aceste legi și nu altele? De ce constantele au valoarea pe care o au? De ce universul este reglat fin așa încât să permită existența observatorilor conștienți? Cu alte cuvinte, de ce există acest univers, și nu altul? Încă nu se știe răspunsul la această întrebare, dar există variante care ar schimba radical gândirea noastră asupra construcției realității.", "15", "Apr", "acestUnivers", "Matei Dăianu", "unknown.jpeg", "15/04/2022/15");
         $superheroes = new Article("Superheroes: from the beginnings", "'<b>There was an idea</b>: that we could bring together a group of remarkable people…to see if we could become something more. So when they needed us, we could fight the battles that they never could.'", "15", "Apr", "superheroes", "Ilona Dragomir", "unknown.jpeg", "15/04/2022/15");
+        $stitiCumva = new Article("Știți cumva ceva de Vrăjitoarea de Sticlă", "„Știți cumva ceva de Vrăjitoarea de Sticlă?” , „Ceva noutăți despre Melody Crownford?”, „Despre ce vom vorbi astăzi... normal că despre cazul Crownford...”  Doar asta auzeai când deschideai televizorul sau scoteai capul pe geam.", "20", "Apr", "stitiCumva", "Diana Burja", "unknown", "20/04/2022/18");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $stitiCumva,
             $superheroes,
             $acestUnivers,
             $she,
@@ -340,9 +342,11 @@ class Article
         $unFelinar = new Article("Un felinar de țânțari", "​Timpul și lumina. Anii și sunetul. Un gong care-ți zguduie timpanul și niște reflectoare care-ți rănesc retina. Toate astea însoțite de un bâzâit ca o mie de musculițe certându-se pe o picătură de înghețată.", "22", "02", "unFelinar", "Diana Burja", "unknown.jpeg", "22/02/2022/18");
         $omulCareAVrutSaScape = new Article("Omul care a vrut să scape din cameră", "Un om care s-a născut într-o cameră își dorea cu orice preț să fie liber în lumina de afară, din exteriorul încăperii. Camera avea o fereastră minusculă, prin care trecea lumină, însă nu destulă pentru a lumina camera întunecoasă, și o ușă închisă.", "28", "Feb", "omulCareAVrutSaScape", "Matei Dăianu", "unknown.jpeg", "28/02/2022/18");
         $adrenocrom = new Article("Adrenocrom", "Era o seară obișnuită în Berlin, cu prietenul meu Magnus, care era fericit în acea zi, fiindcă primise salariul său bănos. Îl împărțise minuțios în mai multe rubrici: „Pentru mine”, „Pentru ea”, „Pentru mâncare”, „Pentru haine”, „Pentru datorii” și „Rezervă”.", "17", "Mar","adrenocrom", "Călin Mihai Tănase", "unknown.jpeg", "17/03/2022/18");
+        $stitiCumva = new Article("Știți cumva ceva de Vrăjitoarea de Sticlă", "„Știți cumva ceva de Vrăjitoarea de Sticlă?” , „Ceva noutăți despre Melody Crownford?”, „Despre ce vom vorbi astăzi... normal că despre cazul Crownford...”  Doar asta auzeai când deschideai televizorul sau scoteai capul pe geam.", "20", "Apr", "stitiCumva", "Diana Burja", "unknown", "20/04/2022/18");
 
 
         $articles = array(
+            $stitiCumva,
             $adrenocrom,
             $omulCareAVrutSaScape,
             $unFelinar,
@@ -410,9 +414,11 @@ class Article
         $unFelinar = new Article("Un felinar de țânțari", "​Timpul și lumina. Anii și sunetul. Un gong care-ți zguduie timpanul și niște reflectoare care-ți rănesc retina. Toate astea însoțite de un bâzâit ca o mie de musculițe certându-se pe o picătură de înghețată.", "22", "02", "unFelinar", "Diana Burja", "unknown.jpeg", "22/02/2022/18");
         $omulCareAVrutSaScape = new Article("Omul care a vrut să scape din cameră", "Un om care s-a născut într-o cameră își dorea cu orice preț să fie liber în lumina de afară, din exteriorul încăperii. Camera avea o fereastră minusculă, prin care trecea lumină, însă nu destulă pentru a lumina camera întunecoasă, și o ușă închisă.", "28", "Feb", "omulCareAVrutSaScape", "Matei Dăianu", "unknown.jpeg", "28/02/2022/18");
         $adrenocrom = new Article("Adrenocrom", "Era o seară obișnuită în Berlin, cu prietenul meu Magnus, care era fericit în acea zi, fiindcă primise salariul său bănos. Îl împărțise minuțios în mai multe rubrici: „Pentru mine”, „Pentru ea”, „Pentru mâncare”, „Pentru haine”, „Pentru datorii” și „Rezervă”.", "17", "Mar","adrenocrom", "Călin Mihai Tănase", "unknown.jpeg", "17/03/2022/18");
+        $stitiCumva = new Article("Știți cumva ceva de Vrăjitoarea de Sticlă", "„Știți cumva ceva de Vrăjitoarea de Sticlă?” , „Ceva noutăți despre Melody Crownford?”, „Despre ce vom vorbi astăzi... normal că despre cazul Crownford...”  Doar asta auzeai când deschideai televizorul sau scoteai capul pe geam.", "20", "Apr", "stitiCumva", "Diana Burja", "unknown", "20/04/2022/18");
 
 
         $articles = array(
+            $stitiCumva,
             $adrenocrom,
             $omulCareAVrutSaScape,
             $unFelinar,
