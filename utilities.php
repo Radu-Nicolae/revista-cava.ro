@@ -218,11 +218,13 @@ class Article
         $acestUnivers = new Article("DE CE ACEST UNIVERS ȘI NU ALTUL?", "Se știe că universul funcționează în funcție de legile fizicii, legile naturii. Dar de ce există aceste legi și nu altele? De ce constantele au valoarea pe care o au? De ce universul este reglat fin așa încât să permită existența observatorilor conștienți? Cu alte cuvinte, de ce există acest univers, și nu altul? Încă nu se știe răspunsul la această întrebare, dar există variante care ar schimba radical gândirea noastră asupra construcției realității.", "15", "Apr", "acestUnivers", "Matei Dăianu", "unknown.jpeg", "15/04/2022/15");
         $superheroes = new Article("Superheroes: from the beginnings", "'<b>There was an idea</b>: that we could bring together a group of remarkable people…to see if we could become something more. So when they needed us, we could fight the battles that they never could.'", "15", "Apr", "superheroes", "Ilona Dragomir", "unknown.jpeg", "15/04/2022/15");
         $stitiCumva = new Article("Știți cumva ceva de Vrăjitoarea de Sticlă", "„Știți cumva ceva de Vrăjitoarea de Sticlă?” , „Ceva noutăți despre Melody Crownford?”, „Despre ce vom vorbi astăzi... normal că despre cazul Crownford...”  Doar asta auzeai când deschideai televizorul sau scoteai capul pe geam.", "20", "Apr", "stitiCumva", "Diana Burja", "unknown.jpeg", "20/04/2022/18");
+        $foiAlbe = new Article("În fața unei foi albe", "Un șir de bubuituri înfundate răsunară deasupra capului Norei. Înainte de a se obișnui cu ticurile neobișnuite ale noii sale vecine, firava bătrânică mai că făcuse un atac de panică prima oară când aceste sunete răzbătuseră prin tavanul ce îi separa apartamentul de cel al Xeniei, fata zăpăcită care se mutase nu demult deasupra ei.", "22", "Apr","foiAlbe", "Ioana Busuioc", "unknown.jpeg", "22/04/2022/18");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $foiAlbe,
             $stitiCumva,
             $superheroes,
             $acestUnivers,
