@@ -393,9 +393,11 @@ class Article
         $theWay = new Article("The way", "", "09", "Feb", "theWay", "Anastasia Hangiu", "anastasiahagiu.jpg", "12/02/2022/18");
         $tePrindeBineIarna = new Article("te prinde bine iarna", "", "14", "Feb", "tePrindeBineIarna", "Mihaela Filipescu", "unknown.jpeg", "12/02/2022/18");
         $earlySpring = new Article("Early Spring Blues", "", "28", "Feb", "earlySpring", "Nereia Crisan", "nereiacrisan.jpeg", "28/02/2022/18");
+        $eulogy = new Article("eulogy for a lover", "", "24", "Apr", "eulogy", "Clara Pistol", "unknown.jpeg", "25/04/2022/17");
 
 
         $articles = array(
+            $eulogy,
             $earlySpring,
             $tePrindeBineIarna,
             $theWay,
@@ -495,9 +497,11 @@ class Article
         $motionSickness = new Article("motion sickness", "", "6", "Apr", "motionSickness", "Anastasia Hangiu", "anastasiahagiu.jpg", "06/04/2022/18");
         $she = new Article("SHE", "Has it ever happened to you to meet someone about whom you knew information beforehand? What if the information was negative? Will you be biased?", "12", "Apr", "she", "Taisia Plesi", "taisiaplesi.jpeg", "12/02/2022/18");
         $superheroes = new Article("Superheroes: from the beginnings", "'<b>There was an idea</b>: that we could bring together a group of remarkable people…to see if we could become something more. So when they needed us, we could fight the battles that they never could.'", "15", "Apr", "superheroes", "Ilona Dragomir", "unknown.jpeg", "15/04/2022/15");
+        $eulogy = new Article("eulogy for a lover", "", "24", "Apr", "eulogy", "Clara Pistol", "unknown.jpeg", "25/04/2022/17");
 
 
         $articles = array(
+            $eulogy,
             $superheroes,
             $she,
             $motionSickness,
