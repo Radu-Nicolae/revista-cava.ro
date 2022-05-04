@@ -220,11 +220,13 @@ class Article
         $stitiCumva = new Article("Știți cumva ceva de Vrăjitoarea de Sticlă", "„Știți cumva ceva de Vrăjitoarea de Sticlă?” , „Ceva noutăți despre Melody Crownford?”, „Despre ce vom vorbi astăzi... normal că despre cazul Crownford...”  Doar asta auzeai când deschideai televizorul sau scoteai capul pe geam.", "20", "Apr", "stitiCumva", "Diana Burja", "unknown.jpeg", "20/04/2022/18");
         $foiAlbe = new Article("În fața unei foi albe", "Un șir de bubuituri înfundate răsunară deasupra capului Norei. Înainte de a se obișnui cu ticurile neobișnuite ale noii sale vecine, firava bătrânică mai că făcuse un atac de panică prima oară când aceste sunete răzbătuseră prin tavanul ce îi separa apartamentul de cel al Xeniei, fata zăpăcită care se mutase nu demult deasupra ei.", "22", "Apr","foiAlbe", "Ioana Busuioc", "unknown.jpeg", "22/04/2022/18");
         $eulogy = new Article("eulogy for a lover", "", "24", "Apr", "eulogy", "Clara Pistol", "unknown.jpeg", "25/04/2022/17");
+        $kingRichard = new Article("King Richard", "De la Gala Oscar încoace am observat că s-au scris multe despre reacția deplasată a lui Will Smith de la ceremonie, iar despre filmul care i-a oferit lui Smith rolul datorită căruia a câștigat Oscarul mult prea puțin, ceea ce m-a făcut îndeajuns de curioasă încât să-l văd.", "05", "Mai", "kingRichard", "Maria Cujbă", "unknown.jpeg", "05/05/2022/18");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $kingRichard,
             $eulogy,
             $foiAlbe,
             $stitiCumva,
