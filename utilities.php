@@ -453,9 +453,10 @@ class Article
         $carti2021 = new Article("Am citit cele mai populare cărți din 2021 în locul tău", "În cadrul oricărei rețele de socializare există, inevitabil, un colțișor rezervat special pentru cărți. Fie că vorbim de TikTok, Instagram sau YouTube, în 2021 am petrecut mai mult timp ca oricând în acele părți ale internetului, iar câteva cărți îmi apăreau inevitabil în primele două minute.", "28", "Ian", "carti2021", "Ioana Jeleboglu", "unknown.jpeg", "12/02/2022/18");
         $cuadro = new Article("Trupa Cuadro și ,,Punk Rock''", "Pentru că redacția noastră s-a pus pe culturalizare, în weekendul 26-27 martie ne-am strâns să îi vedem pe prietenii noștri de la trupa de teatru Cuadro în piesa ,,Punk Rock” de Simon Stephens.", "05", "Apr", "cuadro", "Ilinca Sotirescu", "ilincasotirescu.jpeg", "05/04/2022/18");
         $orchestra = new Article("Trupa 4teen și ,,Orchestra Titanic''", "„Orchestra Titanic” este o piesă semnată de Hristo Boicev, jucată la Teatrul Național pentru prima dată în 2017 în regia lui Felix Alexa.", "11", "Apr", "orchestra", "Ioana Jeleboglu", "unknown.jpeg", "11/04/2022/18");
-
+        $kingRichard = new Article("King Richard", "De la Gala Oscar încoace am observat că s-au scris multe despre reacția deplasată a lui Will Smith de la ceremonie, iar despre filmul care i-a oferit lui Smith rolul datorită căruia a câștigat Oscarul mult prea puțin, ceea ce m-a făcut îndeajuns de curioasă încât să-l văd.", "05", "Mai", "kingRichard", "Maria Cujbă", "unknown.jpeg", "05/05/2022/18");
 
         $articles = array(
+            $kingRichard,
             $orchestra,
             $cuadro,
             $carti2021,
