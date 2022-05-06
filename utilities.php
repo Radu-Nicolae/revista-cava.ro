@@ -221,11 +221,13 @@ class Article
         $foiAlbe = new Article("În fața unei foi albe", "Un șir de bubuituri înfundate răsunară deasupra capului Norei. Înainte de a se obișnui cu ticurile neobișnuite ale noii sale vecine, firava bătrânică mai că făcuse un atac de panică prima oară când aceste sunete răzbătuseră prin tavanul ce îi separa apartamentul de cel al Xeniei, fata zăpăcită care se mutase nu demult deasupra ei.", "22", "Apr","foiAlbe", "Ioana Busuioc", "unknown.jpeg", "22/04/2022/18");
         $eulogy = new Article("eulogy for a lover", "", "24", "Apr", "eulogy", "Clara Pistol", "unknown.jpeg", "25/04/2022/17");
         $kingRichard = new Article("King Richard", "De la Gala Oscar încoace am observat că s-au scris multe despre reacția deplasată a lui Will Smith de la ceremonie, iar despre filmul care i-a oferit lui Smith rolul datorită căruia a câștigat Oscarul mult prea puțin, ceea ce m-a făcut îndeajuns de curioasă încât să-l văd.", "05", "Mai", "kingRichard", "Maria Cujbă", "unknown.jpeg", "05/05/2022/18");
+        $eulogies = new Article("all eulogies are confessions", "", "06", "Mai", "eulogies", "Nereia Crisan", "nereiacrisan.jpeg", "06/05/2022/18");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $eulogies,
             $kingRichard,
             $eulogy,
             $foiAlbe,
@@ -304,9 +306,11 @@ class Article
         $artPerformance = new Article("Art performance: Marina Abramović", "Marina Abramović is a Serbian conceptual and performance artist, as well as a writer and filmmaker. She is rightfully considered a founder of what we know today as “art performance” having a life-long dedicated career and spreading her work and passion worldwide.", "07", "Ian", "artPerformance", "Taisia Plesi", "taisiaplesi.jpeg", "12/02/2022/18");
         $theGirl = new Article("The girl outside the train", "The first time I saw her was the day after New Year’s Day. I think it was really early in the morning ‘cause there weren’t many people on the street.", "21", "Feb", "theGirl", "Clara Pistol", "unknown.jpeg", "20/02/2022/18");
         $superheroes = new Article("Superheroes: from the beginnings", "'<b>There was an idea</b>: that we could bring together a group of remarkable people…to see if we could become something more. So when they needed us, we could fight the battles that they never could.'", "15", "Apr", "superheroes", "Ilona Dragomir", "unknown.jpeg", "15/04/2022/15");
+        $eulogies = new Article("all eulogies are confessions", "", "06", "Mai", "eulogies", "Nereia Crisan", "nereiacrisan.jpeg", "06/05/2022/18");
 
 
         $articles = array(
+            $eulogies,
             $superheroes,
             $theGirl,
             $artPerformance,
@@ -396,9 +400,11 @@ class Article
         $tePrindeBineIarna = new Article("te prinde bine iarna", "", "14", "Feb", "tePrindeBineIarna", "Mihaela Filipescu", "unknown.jpeg", "12/02/2022/18");
         $earlySpring = new Article("Early Spring Blues", "", "28", "Feb", "earlySpring", "Nereia Crisan", "nereiacrisan.jpeg", "28/02/2022/18");
         $eulogy = new Article("eulogy for a lover", "", "24", "Apr", "eulogy", "Clara Pistol", "unknown.jpeg", "25/04/2022/17");
+        $eulogies = new Article("all eulogies are confessions", "", "06", "Mai", "eulogies", "Nereia Crisan", "nereiacrisan.jpeg", "06/05/2022/18");
 
 
         $articles = array(
+            $eulogies,
             $eulogy,
             $earlySpring,
             $tePrindeBineIarna,
