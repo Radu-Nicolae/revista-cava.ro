@@ -222,11 +222,13 @@ class Article
         $eulogy = new Article("eulogy for a lover", "", "24", "Apr", "eulogy", "Clara Pistol", "unknown.jpeg", "25/04/2022/17");
         $kingRichard = new Article("King Richard", "De la Gala Oscar încoace am observat că s-au scris multe despre reacția deplasată a lui Will Smith de la ceremonie, iar despre filmul care i-a oferit lui Smith rolul datorită căruia a câștigat Oscarul mult prea puțin, ceea ce m-a făcut îndeajuns de curioasă încât să-l văd.", "05", "Mai", "kingRichard", "Maria Cujbă", "unknown.jpeg", "05/05/2022/18");
         $eulogies = new Article("all eulogies are confessions", "", "06", "Mai", "eulogies", "Nereia Crisan", "nereiacrisan.jpeg", "06/05/2022/18");
+        $trixie = new Article("Trixie (1/2)", "Mereu m-am întrebat de ce copiii trebuie să învețe istoria unor civilizații care au dispărut acum mult timp. Se spune că școala evidențiază și arată vocația elevilor. Dar când vine vorba de istorie, ce legătură are aceasta cu aptitudinile?", "10", "Mai", "trixie", "Călin Mihai Tănase", "unknown.jpeg", "10/05/2022/18");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $trixie,
             $eulogies,
             $kingRichard,
             $eulogy,
