@@ -311,9 +311,11 @@ class Article
         $theGirl = new Article("The girl outside the train", "The first time I saw her was the day after New Year’s Day. I think it was really early in the morning ‘cause there weren’t many people on the street.", "21", "Feb", "theGirl", "Clara Pistol", "unknown.jpeg", "20/02/2022/18");
         $superheroes = new Article("Superheroes: from the beginnings", "'<b>There was an idea</b>: that we could bring together a group of remarkable people…to see if we could become something more. So when they needed us, we could fight the battles that they never could.'", "15", "Apr", "superheroes", "Ilona Dragomir", "unknown.jpeg", "15/04/2022/15");
         $eulogies = new Article("all eulogies are confessions", "", "06", "Mai", "eulogies", "Nereia Crisan", "nereiacrisan.jpeg", "06/05/2022/18");
+        $criticismOfMovies = new Article("Criticism of movies", "There’s a rush coming out of a movie theatre, thinking: ‘man, that was a good one!’ But…was it actually good? In film law, as to say, what does a great film actually mean?", "15", "Mai", "criticismOfMovies", "Ilona Dragomir", "unknown.jpeg", "15/05/2022/18");
 
 
         $articles = array(
+            $criticismOfMovies,
             $eulogies,
             $superheroes,
             $theGirl,
