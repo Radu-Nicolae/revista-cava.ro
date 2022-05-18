@@ -318,6 +318,7 @@ class Article
 
 
         $articles = array(
+            $cocaineCola,
             $criticismOfMovies,
             $eulogies,
             $superheroes,
