@@ -224,11 +224,13 @@ class Article
         $eulogies = new Article("all eulogies are confessions", "", "06", "Mai", "eulogies", "Nereia Crisan", "nereiacrisan.jpeg", "06/05/2022/18");
         $trixie = new Article("Trixie (1/2)", "Mereu m-am întrebat de ce copiii trebuie să învețe istoria unor civilizații care au dispărut acum mult timp. Se spune că școala evidențiază și arată vocația elevilor. Dar când vine vorba de istorie, ce legătură are aceasta cu aptitudinile?", "10", "Mai", "trixie", "Călin Mihai Tănase", "unknown.jpeg", "10/05/2022/18");
         $criticismOfMovies = new Article("Criticism of movies", "There’s a rush coming out of a movie theatre, thinking: ‘man, that was a good one!’ But…was it actually good? In film law, as to say, what does a great film actually mean?", "15", "Mai", "criticismOfMovies", "Ilona Dragomir", "unknown.jpeg", "15/05/2022/18");
+        $cocaineCola = new Article("Cocaine-cola", "As of a recent tweet posted by the one and only Elon Musk, joking about buying Coca-Cola and bringing back cocaine in its formula, I’ve started wondering. What is the actual original recipe for this worldwide famous soda?", "19", "Mai", "cocaineCola", "Anastasia Mihai", "unknown.jpeg", "19/05/2022/14");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $cocaineCola,
             $criticismOfMovies,
             $trixie,
             $eulogies,
@@ -312,6 +314,7 @@ class Article
         $superheroes = new Article("Superheroes: from the beginnings", "'<b>There was an idea</b>: that we could bring together a group of remarkable people…to see if we could become something more. So when they needed us, we could fight the battles that they never could.'", "15", "Apr", "superheroes", "Ilona Dragomir", "unknown.jpeg", "15/04/2022/15");
         $eulogies = new Article("all eulogies are confessions", "", "06", "Mai", "eulogies", "Nereia Crisan", "nereiacrisan.jpeg", "06/05/2022/18");
         $criticismOfMovies = new Article("Criticism of movies", "There’s a rush coming out of a movie theatre, thinking: ‘man, that was a good one!’ But…was it actually good? In film law, as to say, what does a great film actually mean?", "15", "Mai", "criticismOfMovies", "Ilona Dragomir", "unknown.jpeg", "15/05/2022/18");
+        $cocaineCola = new Article("Cocaine-cola", "As of a recent tweet posted by the one and only Elon Musk, joking about buying Coca-Cola and bringing back cocaine in its formula, I’ve started wondering. What is the actual original recipe for this worldwide famous soda?", "19", "Mai", "cocaineCola", "Anastasia Mihai", "unknown.jpeg", "19/05/2022/14");
 
 
         $articles = array(
@@ -518,9 +521,11 @@ class Article
         $superheroes = new Article("Superheroes: from the beginnings", "'<b>There was an idea</b>: that we could bring together a group of remarkable people…to see if we could become something more. So when they needed us, we could fight the battles that they never could.'", "15", "Apr", "superheroes", "Ilona Dragomir", "unknown.jpeg", "15/04/2022/15");
         $eulogy = new Article("eulogy for a lover", "", "24", "Apr", "eulogy", "Clara Pistol", "unknown.jpeg", "25/04/2022/17");
         $criticismOfMovies = new Article("Criticism of movies", "There’s a rush coming out of a movie theatre, thinking: ‘man, that was a good one!’ But…was it actually good? In film law, as to say, what does a great film actually mean?", "15", "Mai", "criticismOfMovies", "Ilona Dragomir", "unknown.jpeg", "15/05/2022/18");
+        $cocaineCola = new Article("Cocaine-cola", "As of a recent tweet posted by the one and only Elon Musk, joking about buying Coca-Cola and bringing back cocaine in its formula, I’ve started wondering. What is the actual original recipe for this worldwide famous soda?", "19", "Mai", "cocaineCola", "Anastasia Mihai", "unknown.jpeg", "19/05/2022/14");
 
 
         $articles = array(
+            $cocaineCola,
             $criticismOfMovies,
             $eulogy,
             $superheroes,
