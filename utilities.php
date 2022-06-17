@@ -370,9 +370,11 @@ class Article
         $foiAlbe = new Article("În fața unei foi albe", "Un șir de bubuituri înfundate răsunară deasupra capului Norei. Înainte de a se obișnui cu ticurile neobișnuite ale noii sale vecine, firava bătrânică mai că făcuse un atac de panică prima oară când aceste sunete răzbătuseră prin tavanul ce îi separa apartamentul de cel al Xeniei, fata zăpăcită care se mutase nu demult deasupra ei.", "22", "Apr","foiAlbe", "Ioana Busuioc", "unknown.jpeg", "22/04/2022/18");
         $trixie = new Article("Trixie (1/2)", "Mereu m-am întrebat de ce copiii trebuie să învețe istoria unor civilizații care au dispărut acum mult timp. Se spune că școala evidențiază și arată vocația elevilor. Dar când vine vorba de istorie, ce legătură are aceasta cu aptitudinile?", "10", "Mai", "trixie", "Călin Mihai Tănase", "unknown.jpeg", "10/05/2022/18");
         $primavara = new Article("Primăvara: nostalgie sau renaștere?", "Imaginați-vă o inimă. O inimă rănită, pansată cu trandafiri. Trandafirii au țepi care adâncesc rănile din centrul trupului, dar și petale, care le ocrotesc. Cum poate ceva atât de delicat și de frumos să cauzeze atâtea răni și suferință ? Cum poate ceva ce te-a rănit să te și vindece ?", "31", "Mai", "primavara", "Ana Negoiță", "unknown.jpeg", "31/05/2022/17");
+        $suflet = new Article("Suflet din hârtie", "", "17", "Iun","suflet", "Diana Georgescu", "unknown.jpeg", "17/06/2022/15");
 
 
         $articles = array(
+            $suflet,
             $primavara,
             $trixie,
             $foiAlbe,
@@ -419,9 +421,11 @@ class Article
         $earlySpring = new Article("Early Spring Blues", "", "28", "Feb", "earlySpring", "Nereia Crisan", "nereiacrisan.jpeg", "28/02/2022/18");
         $eulogy = new Article("eulogy for a lover", "", "24", "Apr", "eulogy", "Clara Pistol", "unknown.jpeg", "25/04/2022/17");
         $eulogies = new Article("all eulogies are confessions", "", "06", "Mai", "eulogies", "Nereia Crisan", "nereiacrisan.jpeg", "06/05/2022/18");
+        $suflet = new Article("Suflet din hârtie", "", "17", "Iun","suflet", "Diana Georgescu", "unknown.jpeg", "17/06/2022/15");
 
 
         $articles = array(
+            $suflet,
             $eulogies,
             $eulogy,
             $earlySpring,
