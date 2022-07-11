@@ -233,6 +233,7 @@ class Article
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $gauriNegre,
             $suflet,
             $primavara,
             $cocaineCola,
@@ -580,9 +581,11 @@ class Article
         $savistiDeAzi = new Article("Saviști de azi, saviști de ieri", "Când eram mică, ascultam mereu poveștile fratelui meu care a învățat în Colegiul Național Sfântul Sava despre cât de speciale sunt spectacolele pregătite de doamna profesoară de muzică și câțiva elevi talentați.", "24", "Feb", "savistiDeAzi", "Diana Găman", "unknown.jpeg", "24/02/2022/18");
         $aspireRomania = new Article("Aspire România", "Programul Aspire România este unul dintre cele mai renumite și prestigioase la care poți lua parte pentru a-ți îmbogăți experiența de liceu. O documentare temeinică îți dezvăluie tot ce ai nevoie despre Aspire, însă cel mai bine este descris chiar de vorbitorii renumiți invitați să predea.", "13", "Mar", "aspireRomania", "Ilinca Sotirescu", "ilincasotirescu.jpeg", "13/03/2022/18");
         $despreCel = new Article("Despre cel cu care refuz a privi stelele și a mai tinde spre acestea", "Am avut odată un prieten. „Odată” face ca totul să pară petrecut într-un timp mitic - aiurea. E doar un reper, căci întâmplarea în sine pierdută-i deja oricum în illo tempore, în încercarea-mi de a ilustra perioada îndepărtată de când sufletul meu a tot încercat să-și pună bariere.", "25", "Mar", "despreCel", "Anthonia Ciurescu", "unknown.jpeg", "25/03/2022/18");
+        $gauriNegre = new Article("Despre găuri negre", "Aproape toată lumea a auzit despre găuri negre. Ele îi fac pe majoritatea oamenilor să se gândească la portale spre alte lumi, universuri paralele sau alte dimensiuni.", "11", "Jul", "gauriNegre", "Matei Dăianu", "unknown.jpeg", "11/07/2022/11");
 
 
         $articles = array(
+            $gauriNegre,
             $despreCel,
             $aspireRomania,
             $savistiDeAzi,
