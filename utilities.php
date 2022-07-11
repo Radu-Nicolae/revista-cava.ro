@@ -227,6 +227,7 @@ class Article
         $cocaineCola = new Article("Cocaine-cola", "As of a recent tweet posted by the one and only Elon Musk, joking about buying Coca-Cola and bringing back cocaine in its formula, I’ve started wondering. What is the actual original recipe for this worldwide famous soda?", "19", "Mai", "cocaineCola", "Anastasia Mihai", "unknown.jpeg", "19/05/2022/14");
         $primavara = new Article("Primăvara: nostalgie sau renaștere?", "Imaginați-vă o inimă. O inimă rănită, pansată cu trandafiri. Trandafirii au țepi care adâncesc rănile din centrul trupului, dar și petale, care le ocrotesc. Cum poate ceva atât de delicat și de frumos să cauzeze atâtea răni și suferință ? Cum poate ceva ce te-a rănit să te și vindece ?", "31", "Mai", "primavara", "Ana Negoiță", "unknown.jpeg", "31/05/2022/17");
         $suflet = new Article("Suflet din hârtie", "", "17", "Iun","suflet", "Diana Georgescu", "unknown.jpeg", "17/06/2022/15");
+        $gauriNegre = new Article("Despre găuri negre", "Aproape toată lumea a auzit despre găuri negre. Ele îi fac pe majoritatea oamenilor să se gândească la portale spre alte lumi, universuri paralele sau alte dimensiuni.", "11", "Jul", "gauriNegre", "Matei Dăianu", "unknown.jpeg", "11/07/2022/11");
 
         $articles = array(
 //            ADD HERE
