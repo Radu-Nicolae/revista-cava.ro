@@ -427,9 +427,11 @@ class Article
         $eulogy = new Article("eulogy for a lover", "", "24", "Apr", "eulogy", "Clara Pistol", "unknown.jpeg", "25/04/2022/17");
         $eulogies = new Article("all eulogies are confessions", "", "06", "Mai", "eulogies", "Nereia Crisan", "nereiacrisan.jpeg", "06/05/2022/18");
         $suflet = new Article("Suflet din hârtie", "", "17", "Iun","suflet", "Diana Georgescu", "unknown.jpeg", "17/06/2022/15");
+        $inRest = new Article("în rest, doar aparență", "28", "", "Aug", "inRest", "Anastasia Hangiu", "anastasiahagiu.jpg", "28/08/2022/10");
 
 
         $articles = array(
+            $inRest,
             $suflet,
             $eulogies,
             $eulogy,
