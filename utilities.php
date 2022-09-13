@@ -229,7 +229,7 @@ class Article
         $suflet = new Article("Suflet din hârtie", "", "17", "Iun", "suflet", "Diana Georgescu", "unknown.jpeg", "17/06/2022/15");
         $gauriNegre = new Article("Despre găuri negre", "Aproape toată lumea a auzit despre găuri negre. Ele îi fac pe majoritatea oamenilor să se gândească la portale spre alte lumi, universuri paralele sau alte dimensiuni.", "11", "Jul", "gauriNegre", "Matei Dăianu", "unknown.jpeg", "11/07/2022/11");
         $inRest = new Article("în rest, doar aparență", "", "28", "Aug", "inRest", "Anastasia Hangiu", "anastasiahagiu.jpg", "28/08/2022/10");
-
+        $
 
         $articles = array(
 //            ADD HERE
