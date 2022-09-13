@@ -230,12 +230,13 @@ class Article
         $gauriNegre = new Article("Despre găuri negre", "Aproape toată lumea a auzit despre găuri negre. Ele îi fac pe majoritatea oamenilor să se gândească la portale spre alte lumi, universuri paralele sau alte dimensiuni.", "11", "Jul", "gauriNegre", "Matei Dăianu", "unknown.jpeg", "11/07/2022/11");
         $inRest = new Article("în rest, doar aparență", "", "28", "Aug", "inRest", "Anastasia Hangiu", "anastasiahagiu.jpg", "28/08/2022/10");
         $capatDeLinie = new Article("capăt de linie", "", "13", "Sep", "capatDeLinie", "Clara Pistol", "claraPistol.jpeg", "13/09/2022/14");
-
+        $inNefiinta = new Article("În neființă", "", "13", "Sep", "inNefiinta", "Diana Georgescu", "dianaGeorgescu.jpeg", "13/09/2022/14");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $inNefiinta,
             $capatDeLinie,
             $inRest,
             $gauriNegre,
@@ -380,9 +381,11 @@ class Article
         $primavara = new Article("Primăvara: nostalgie sau renaștere?", "Imaginați-vă o inimă. O inimă rănită, pansată cu trandafiri. Trandafirii au țepi care adâncesc rănile din centrul trupului, dar și petale, care le ocrotesc. Cum poate ceva atât de delicat și de frumos să cauzeze atâtea răni și suferință ? Cum poate ceva ce te-a rănit să te și vindece ?", "31", "Mai", "primavara", "Ana Negoiță", "unknown.jpeg", "31/05/2022/17");
         $suflet = new Article("Suflet din hârtie", "", "17", "Iun", "suflet", "Diana Georgescu", "unknown.jpeg", "17/06/2022/15");
         $capatDeLinie = new Article("capăt de linie", "", "13", "Sep", "capatDeLinie", "Clara Pistol", "claraPistol.jpeg", "13/09/2022/14");
+        $inNefiinta = new Article("În neființă", "", "13", "Sep", "inNefiinta", "Diana Georgescu", "dianaGeorgescu.jpeg", "13/09/2022/14");
 
 
         $articles = array(
+            $inNefiinta,
             $capatDeLinie,
             $suflet,
             $primavara,
@@ -434,9 +437,11 @@ class Article
         $suflet = new Article("Suflet din hârtie", "", "17", "Iun", "suflet", "Diana Georgescu", "unknown.jpeg", "17/06/2022/15");
         $inRest = new Article("în rest, doar aparență", "", "28", "Aug", "inRest", "Anastasia Hangiu", "anastasiahagiu.jpg", "28/08/2022/10");
         $capatDeLinie = new Article("capăt de linie", "", "13", "Sep", "capatDeLinie", "Clara Pistol", "claraPistol.jpeg", "13/09/2022/14");
+        $inNefiinta = new Article("În neființă", "", "13", "Sep", "inNefiinta", "Diana Georgescu", "dianaGeorgescu.jpeg", "13/09/2022/14");
 
 
         $articles = array(
+            $inNefiinta,
             $capatDeLinie,
             $inRest,
             $suflet,
