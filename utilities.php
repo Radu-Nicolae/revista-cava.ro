@@ -206,8 +206,8 @@ class Article
         $omulCareAVrutSaScape = new Article("Omul care a vrut să scape din cameră", "Un om care s-a născut într-o cameră își dorea cu orice preț să fie liber în lumina de afară, din exteriorul încăperii. Camera avea o fereastră minusculă, prin care trecea lumină, însă nu destulă pentru a lumina camera întunecoasă, și o ușă închisă.", "28", "Feb", "omulCareAVrutSaScape", "Matei Dăianu", "unknown.jpeg", "28/02/2022/18");
         $earlySpring = new Article("Early Spring Blues", "", "28", "feb", "earlySpring", "Nereia Crisan", "nereiacrisan.jpeg", "28/02/2022/18");
         $aspireRomania = new Article("Aspire România", "Programul Aspire România este unul dintre cele mai renumite și prestigioase la care poți lua parte pentru a-ți îmbogăți experiența de liceu. O documentare temeinică îți dezvăluie tot ce ai nevoie despre Aspire, însă cel mai bine este descris chiar de vorbitorii renumiți invitați să predea.", "13", "Mar", "aspireRomania", "Ilinca Sotirescu", "ilincasotirescu.jpeg", "13/03/2022/12");
-        $adrenocrom = new Article("Adrenocrom", "Era o seară obișnuită în Berlin, cu prietenul meu Magnus, care era fericit în acea zi, fiindcă primise salariul său bănos. Îl împărțise minuțios în mai multe rubrici: „Pentru mine”, „Pentru ea”, „Pentru mâncare”, „Pentru haine”, „Pentru datorii” și „Rezervă”.", "17", "Mar","adrenocrom", "Călin Mihai Tănase", "unknown.jpeg", "17/03/2022/18");
-        $euphoric = new Article("Euphoric", "Bright lights. High school. Young love. Addiction. Guns. The release of the second season of “Euphoria” back in February seems to have won over the internet once again. Whether it has been your feed or fyp, all social media platforms have been swarmed by edits and posts about it. But “Euphoria” is nothing if not controversial.", "19", "Mar","euphoric", "Anastasia Mihai", "unknown", "20/03/2022/12");
+        $adrenocrom = new Article("Adrenocrom", "Era o seară obișnuită în Berlin, cu prietenul meu Magnus, care era fericit în acea zi, fiindcă primise salariul său bănos. Îl împărțise minuțios în mai multe rubrici: „Pentru mine”, „Pentru ea”, „Pentru mâncare”, „Pentru haine”, „Pentru datorii” și „Rezervă”.", "17", "Mar", "adrenocrom", "Călin Mihai Tănase", "unknown.jpeg", "17/03/2022/18");
+        $euphoric = new Article("Euphoric", "Bright lights. High school. Young love. Addiction. Guns. The release of the second season of “Euphoria” back in February seems to have won over the internet once again. Whether it has been your feed or fyp, all social media platforms have been swarmed by edits and posts about it. But “Euphoria” is nothing if not controversial.", "19", "Mar", "euphoric", "Anastasia Mihai", "unknown", "20/03/2022/12");
         $fiveYears = new Article("Five Years", "", "22", "Mar", "fiveYears", "Nereia Crisan", "nereiacrisan", "22/03/2022/18");
         $despreCel = new Article("Despre cel cu care refuz a privi stelele și a mai tinde spre acestea", "Am avut odată un prieten. „Odată” face ca totul să pară petrecut într-un timp mitic - aiurea. E doar un reper, căci întâmplarea în sine pierdută-i deja oricum în illo tempore, în încercarea-mi de a ilustra perioada îndepărtată de când sufletul meu a tot încercat să-și pună bariere.", "25", "Mar", "despreCel", "Anthonia Ciurescu", "unknown.jpeg", "25/03/2022/18");
         $theOscars = new Article("February is no longer GLAM", "Every year, in February social media, would be full of fancy dresses, pretty actresses with weird hairstyles, and the most impressive suits.", "30", "Mar", "theOscars", "Anonim", "unknown.jpeg", "30/03/2022/18");
@@ -218,7 +218,7 @@ class Article
         $acestUnivers = new Article("DE CE ACEST UNIVERS ȘI NU ALTUL?", "Se știe că universul funcționează în funcție de legile fizicii, legile naturii. Dar de ce există aceste legi și nu altele? De ce constantele au valoarea pe care o au? De ce universul este reglat fin așa încât să permită existența observatorilor conștienți? Cu alte cuvinte, de ce există acest univers, și nu altul? Încă nu se știe răspunsul la această întrebare, dar există variante care ar schimba radical gândirea noastră asupra construcției realității.", "15", "Apr", "acestUnivers", "Matei Dăianu", "unknown.jpeg", "15/04/2022/15");
         $superheroes = new Article("Superheroes: from the beginnings", "'<b>There was an idea</b>: that we could bring together a group of remarkable people…to see if we could become something more. So when they needed us, we could fight the battles that they never could.'", "15", "Apr", "superheroes", "Ilona Dragomir", "unknown.jpeg", "15/04/2022/15");
         $stitiCumva = new Article("Știți cumva ceva de Vrăjitoarea de Sticlă", "„Știți cumva ceva de Vrăjitoarea de Sticlă?” , „Ceva noutăți despre Melody Crownford?”, „Despre ce vom vorbi astăzi... normal că despre cazul Crownford...”  Doar asta auzeai când deschideai televizorul sau scoteai capul pe geam.", "20", "Apr", "stitiCumva", "Diana Burja", "unknown.jpeg", "20/04/2022/18");
-        $foiAlbe = new Article("În fața unei foi albe", "Un șir de bubuituri înfundate răsunară deasupra capului Norei. Înainte de a se obișnui cu ticurile neobișnuite ale noii sale vecine, firava bătrânică mai că făcuse un atac de panică prima oară când aceste sunete răzbătuseră prin tavanul ce îi separa apartamentul de cel al Xeniei, fata zăpăcită care se mutase nu demult deasupra ei.", "22", "Apr","foiAlbe", "Ioana Busuioc", "unknown.jpeg", "22/04/2022/18");
+        $foiAlbe = new Article("În fața unei foi albe", "Un șir de bubuituri înfundate răsunară deasupra capului Norei. Înainte de a se obișnui cu ticurile neobișnuite ale noii sale vecine, firava bătrânică mai că făcuse un atac de panică prima oară când aceste sunete răzbătuseră prin tavanul ce îi separa apartamentul de cel al Xeniei, fata zăpăcită care se mutase nu demult deasupra ei.", "22", "Apr", "foiAlbe", "Ioana Busuioc", "unknown.jpeg", "22/04/2022/18");
         $eulogy = new Article("eulogy for a lover", "", "24", "Apr", "eulogy", "Clara Pistol", "unknown.jpeg", "25/04/2022/17");
         $kingRichard = new Article("King Richard", "De la Gala Oscar încoace am observat că s-au scris multe despre reacția deplasată a lui Will Smith de la ceremonie, iar despre filmul care i-a oferit lui Smith rolul datorită căruia a câștigat Oscarul mult prea puțin, ceea ce m-a făcut îndeajuns de curioasă încât să-l văd.", "05", "Mai", "kingRichard", "Maria Cujbă", "unknown.jpeg", "05/05/2022/18");
         $eulogies = new Article("all eulogies are confessions", "", "06", "Mai", "eulogies", "Nereia Crisan", "nereiacrisan.jpeg", "06/05/2022/18");
@@ -226,7 +226,7 @@ class Article
         $criticismOfMovies = new Article("Criticism of movies", "There’s a rush coming out of a movie theatre, thinking: ‘man, that was a good one!’ But…was it actually good? In film law, as to say, what does a great film actually mean?", "15", "Mai", "criticismOfMovies", "Ilona Dragomir", "unknown.jpeg", "15/05/2022/18");
         $cocaineCola = new Article("Cocaine-cola", "As of a recent tweet posted by the one and only Elon Musk, joking about buying Coca-Cola and bringing back cocaine in its formula, I’ve started wondering. What is the actual original recipe for this worldwide famous soda?", "19", "Mai", "cocaineCola", "Anastasia Mihai", "unknown.jpeg", "19/05/2022/14");
         $primavara = new Article("Primăvara: nostalgie sau renaștere?", "Imaginați-vă o inimă. O inimă rănită, pansată cu trandafiri. Trandafirii au țepi care adâncesc rănile din centrul trupului, dar și petale, care le ocrotesc. Cum poate ceva atât de delicat și de frumos să cauzeze atâtea răni și suferință ? Cum poate ceva ce te-a rănit să te și vindece ?", "31", "Mai", "primavara", "Ana Negoiță", "unknown.jpeg", "31/05/2022/17");
-        $suflet = new Article("Suflet din hârtie", "", "17", "Iun","suflet", "Diana Georgescu", "unknown.jpeg", "17/06/2022/15");
+        $suflet = new Article("Suflet din hârtie", "", "17", "Iun", "suflet", "Diana Georgescu", "unknown.jpeg", "17/06/2022/15");
         $gauriNegre = new Article("Despre găuri negre", "Aproape toată lumea a auzit despre găuri negre. Ele îi fac pe majoritatea oamenilor să se gândească la portale spre alte lumi, universuri paralele sau alte dimensiuni.", "11", "Jul", "gauriNegre", "Matei Dăianu", "unknown.jpeg", "11/07/2022/11");
         $inRest = new Article("în rest, doar aparență", "", "28", "Aug", "inRest", "Anastasia Hangiu", "anastasiahagiu.jpg", "28/08/2022/10");
 
@@ -346,7 +346,8 @@ class Article
         return $articles;
     }
 
-    public function getDatabaseBlogFr(){
+    public function getDatabaseBlogFr()
+    {
         $saintValentin = new Article("Saint Valentin- nouvelle allégorie du capitalisme?", "Bonjour à tous les internautes! Me voilà de nouveau devant l’écran de mon ordinateur, à rédiger un nouveau thème de débat: la Saint Valentin. Ouais, vous avez bien entendu, alors, tenez bon!", "16", "Feb", "saintValentin", "Diana Ionescu", "dianaionescu.jpeg", "16/02/2022/18");
 
 
@@ -370,12 +371,12 @@ class Article
         $tePrindeBineIarna = new Article("te prinde bine iarna", "", "14", "Feb", "tePrindeBineIarna", "Mihaela Filipescu", "unknown.jpeg", "12/02/2022/18");
         $unFelinar = new Article("Un felinar de țânțari", "​Timpul și lumina. Anii și sunetul. Un gong care-ți zguduie timpanul și niște reflectoare care-ți rănesc retina. Toate astea însoțite de un bâzâit ca o mie de musculițe certându-se pe o picătură de înghețată.", "22", "02", "unFelinar", "Diana Burja", "unknown.jpeg", "22/02/2022/18");
         $omulCareAVrutSaScape = new Article("Omul care a vrut să scape din cameră", "Un om care s-a născut într-o cameră își dorea cu orice preț să fie liber în lumina de afară, din exteriorul încăperii. Camera avea o fereastră minusculă, prin care trecea lumină, însă nu destulă pentru a lumina camera întunecoasă, și o ușă închisă.", "28", "Feb", "omulCareAVrutSaScape", "Matei Dăianu", "unknown.jpeg", "28/02/2022/18");
-        $adrenocrom = new Article("Adrenocrom", "Era o seară obișnuită în Berlin, cu prietenul meu Magnus, care era fericit în acea zi, fiindcă primise salariul său bănos. Îl împărțise minuțios în mai multe rubrici: „Pentru mine”, „Pentru ea”, „Pentru mâncare”, „Pentru haine”, „Pentru datorii” și „Rezervă”.", "17", "Mar","adrenocrom", "Călin Mihai Tănase", "unknown.jpeg", "17/03/2022/18");
+        $adrenocrom = new Article("Adrenocrom", "Era o seară obișnuită în Berlin, cu prietenul meu Magnus, care era fericit în acea zi, fiindcă primise salariul său bănos. Îl împărțise minuțios în mai multe rubrici: „Pentru mine”, „Pentru ea”, „Pentru mâncare”, „Pentru haine”, „Pentru datorii” și „Rezervă”.", "17", "Mar", "adrenocrom", "Călin Mihai Tănase", "unknown.jpeg", "17/03/2022/18");
         $stitiCumva = new Article("Știți cumva ceva de Vrăjitoarea de Sticlă", "„Știți cumva ceva de Vrăjitoarea de Sticlă?” , „Ceva noutăți despre Melody Crownford?”, „Despre ce vom vorbi astăzi... normal că despre cazul Crownford...”  Doar asta auzeai când deschideai televizorul sau scoteai capul pe geam.", "20", "Apr", "stitiCumva", "Diana Burja", "unknown", "20/04/2022/18");
-        $foiAlbe = new Article("În fața unei foi albe", "Un șir de bubuituri înfundate răsunară deasupra capului Norei. Înainte de a se obișnui cu ticurile neobișnuite ale noii sale vecine, firava bătrânică mai că făcuse un atac de panică prima oară când aceste sunete răzbătuseră prin tavanul ce îi separa apartamentul de cel al Xeniei, fata zăpăcită care se mutase nu demult deasupra ei.", "22", "Apr","foiAlbe", "Ioana Busuioc", "unknown.jpeg", "22/04/2022/18");
+        $foiAlbe = new Article("În fața unei foi albe", "Un șir de bubuituri înfundate răsunară deasupra capului Norei. Înainte de a se obișnui cu ticurile neobișnuite ale noii sale vecine, firava bătrânică mai că făcuse un atac de panică prima oară când aceste sunete răzbătuseră prin tavanul ce îi separa apartamentul de cel al Xeniei, fata zăpăcită care se mutase nu demult deasupra ei.", "22", "Apr", "foiAlbe", "Ioana Busuioc", "unknown.jpeg", "22/04/2022/18");
         $trixie = new Article("Trixie (1/2)", "Mereu m-am întrebat de ce copiii trebuie să învețe istoria unor civilizații care au dispărut acum mult timp. Se spune că școala evidențiază și arată vocația elevilor. Dar când vine vorba de istorie, ce legătură are aceasta cu aptitudinile?", "10", "Mai", "trixie", "Călin Mihai Tănase", "unknown.jpeg", "10/05/2022/18");
         $primavara = new Article("Primăvara: nostalgie sau renaștere?", "Imaginați-vă o inimă. O inimă rănită, pansată cu trandafiri. Trandafirii au țepi care adâncesc rănile din centrul trupului, dar și petale, care le ocrotesc. Cum poate ceva atât de delicat și de frumos să cauzeze atâtea răni și suferință ? Cum poate ceva ce te-a rănit să te și vindece ?", "31", "Mai", "primavara", "Ana Negoiță", "unknown.jpeg", "31/05/2022/17");
-        $suflet = new Article("Suflet din hârtie", "", "17", "Iun","suflet", "Diana Georgescu", "unknown.jpeg", "17/06/2022/15");
+        $suflet = new Article("Suflet din hârtie", "", "17", "Iun", "suflet", "Diana Georgescu", "unknown.jpeg", "17/06/2022/15");
 
 
         $articles = array(
@@ -426,7 +427,7 @@ class Article
         $earlySpring = new Article("Early Spring Blues", "", "28", "Feb", "earlySpring", "Nereia Crisan", "nereiacrisan.jpeg", "28/02/2022/18");
         $eulogy = new Article("eulogy for a lover", "", "24", "Apr", "eulogy", "Clara Pistol", "unknown.jpeg", "25/04/2022/17");
         $eulogies = new Article("all eulogies are confessions", "", "06", "Mai", "eulogies", "Nereia Crisan", "nereiacrisan.jpeg", "06/05/2022/18");
-        $suflet = new Article("Suflet din hârtie", "", "17", "Iun","suflet", "Diana Georgescu", "unknown.jpeg", "17/06/2022/15");
+        $suflet = new Article("Suflet din hârtie", "", "17", "Iun", "suflet", "Diana Georgescu", "unknown.jpeg", "17/06/2022/15");
         $inRest = new Article("în rest, doar aparență", "", "28", "Aug", "inRest", "Anastasia Hangiu", "anastasiahagiu.jpg", "28/08/2022/10");
 
 
@@ -458,9 +459,9 @@ class Article
         $theGirl = new Article("The girl outside the train", "The first time I saw her was the day after New Year’s Day. I think it was really early in the morning ‘cause there weren’t many people on the street.", "21", "Feb", "theGirl", "Clara Pistol", "unknown.jpeg", "20/02/2022/18");
         $unFelinar = new Article("Un felinar de țânțari", "​Timpul și lumina. Anii și sunetul. Un gong care-ți zguduie timpanul și niște reflectoare care-ți rănesc retina. Toate astea însoțite de un bâzâit ca o mie de musculițe certându-se pe o picătură de înghețată.", "22", "02", "unFelinar", "Diana Burja", "unknown.jpeg", "22/02/2022/18");
         $omulCareAVrutSaScape = new Article("Omul care a vrut să scape din cameră", "Un om care s-a născut într-o cameră își dorea cu orice preț să fie liber în lumina de afară, din exteriorul încăperii. Camera avea o fereastră minusculă, prin care trecea lumină, însă nu destulă pentru a lumina camera întunecoasă, și o ușă închisă.", "28", "Feb", "omulCareAVrutSaScape", "Matei Dăianu", "unknown.jpeg", "28/02/2022/18");
-        $adrenocrom = new Article("Adrenocrom", "Era o seară obișnuită în Berlin, cu prietenul meu Magnus, care era fericit în acea zi, fiindcă primise salariul său bănos. Îl împărțise minuțios în mai multe rubrici: „Pentru mine”, „Pentru ea”, „Pentru mâncare”, „Pentru haine”, „Pentru datorii” și „Rezervă”.", "17", "Mar","adrenocrom", "Călin Mihai Tănase", "unknown.jpeg", "17/03/2022/18");
+        $adrenocrom = new Article("Adrenocrom", "Era o seară obișnuită în Berlin, cu prietenul meu Magnus, care era fericit în acea zi, fiindcă primise salariul său bănos. Îl împărțise minuțios în mai multe rubrici: „Pentru mine”, „Pentru ea”, „Pentru mâncare”, „Pentru haine”, „Pentru datorii” și „Rezervă”.", "17", "Mar", "adrenocrom", "Călin Mihai Tănase", "unknown.jpeg", "17/03/2022/18");
         $stitiCumva = new Article("Știți cumva ceva de Vrăjitoarea de Sticlă", "„Știți cumva ceva de Vrăjitoarea de Sticlă?” , „Ceva noutăți despre Melody Crownford?”, „Despre ce vom vorbi astăzi... normal că despre cazul Crownford...”  Doar asta auzeai când deschideai televizorul sau scoteai capul pe geam.", "20", "Apr", "stitiCumva", "Diana Burja", "unknown", "20/04/2022/18");
-        $foiAlbe = new Article("În fața unei foi albe", "Un șir de bubuituri înfundate răsunară deasupra capului Norei. Înainte de a se obișnui cu ticurile neobișnuite ale noii sale vecine, firava bătrânică mai că făcuse un atac de panică prima oară când aceste sunete răzbătuseră prin tavanul ce îi separa apartamentul de cel al Xeniei, fata zăpăcită care se mutase nu demult deasupra ei.", "22", "Apr","foiAlbe", "Ioana Busuioc", "unknown.jpeg", "22/04/2022/18");
+        $foiAlbe = new Article("În fața unei foi albe", "Un șir de bubuituri înfundate răsunară deasupra capului Norei. Înainte de a se obișnui cu ticurile neobișnuite ale noii sale vecine, firava bătrânică mai că făcuse un atac de panică prima oară când aceste sunete răzbătuseră prin tavanul ce îi separa apartamentul de cel al Xeniei, fata zăpăcită care se mutase nu demult deasupra ei.", "22", "Apr", "foiAlbe", "Ioana Busuioc", "unknown.jpeg", "22/04/2022/18");
         $trixie = new Article("Trixie (1/2)", "Mereu m-am întrebat de ce copiii trebuie să învețe istoria unor civilizații care au dispărut acum mult timp. Se spune că școala evidențiază și arată vocația elevilor. Dar când vine vorba de istorie, ce legătură are aceasta cu aptitudinile?", "10", "Mai", "trixie", "Călin Mihai Tănase", "unknown.jpeg", "10/05/2022/18");
         $primavara = new Article("Primăvara: nostalgie sau renaștere?", "Imaginați-vă o inimă. O inimă rănită, pansată cu trandafiri. Trandafirii au țepi care adâncesc rănile din centrul trupului, dar și petale, care le ocrotesc. Cum poate ceva atât de delicat și de frumos să cauzeze atâtea răni și suferință ? Cum poate ceva ce te-a rănit să te și vindece ?", "31", "Mai", "primavara", "Ana Negoiță", "unknown.jpeg", "31/05/2022/17");
 
@@ -533,7 +534,7 @@ class Article
         $theWay = new Article("The way", "", "09", "Feb", "theWay", "Anastasia Hangiu", "anastasiahagiu.jpg", "12/02/2022/18");
         $theGirl = new Article("The girl outside the train", "The first time I saw her was the day after New Year’s Day. I think it was really early in the morning ‘cause there weren’t many people on the street.", "21", "Feb", "theGirl", "Clara Pistol", "unknown.jpeg", "20/02/2022/18");
         $earlySpring = new Article("Early Spring Blues", "", "01", "Mar", "earlySpring", "Nereia Crisan", "nereiacrisan.jpeg", "28/02/2022/18");
-        $euphoric = new Article("Euphoric", "Bright lights. High school. Young love. Addiction. Guns. The release of the second season of “Euphoria” back in February seems to have won over the internet once again. Whether it has been your feed or fyp, all social media platforms have been swarmed by edits and posts about it. But “Euphoria” is nothing if not controversial.", "19", "Mar","euphoric", "Anastasia Mihai", "unknown", "20/03/2022/12");
+        $euphoric = new Article("Euphoric", "Bright lights. High school. Young love. Addiction. Guns. The release of the second season of “Euphoria” back in February seems to have won over the internet once again. Whether it has been your feed or fyp, all social media platforms have been swarmed by edits and posts about it. But “Euphoria” is nothing if not controversial.", "19", "Mar", "euphoric", "Anastasia Mihai", "unknown", "20/03/2022/12");
         $fiveYears = new Article("Five Years", "", "22", "Mar", "fiveYears", "Nereia Crisan", "nereiacrisan", "22/03/2022/18");
         $theOscars = new Article("February is no longer GLAM", "Every year, in February social media, would be full of fancy dresses, pretty actresses with weird hairstyles, and the most impressive suits.", "30", "Mar", "theOscars", "Anonim", "unknown.jpeg", "30/03/2022/18");
         $motionSickness = new Article("motion sickness", "", "6", "Apr", "motionSickness", "Anastasia Hangiu", "anastasiahagiu.jpg", "06/04/2022/18");
@@ -641,9 +642,7 @@ class Article
         for ($i = 0; $i < sizeof($articles); $i++) {
             $article = $articles[$i];
 
-            date_default_timezone_set("Europe/Bucharest");
-            if (date("d/m/Y/H") > $article->getProgrammedDateAndTime()) {
-                $codePerItem = '
+            $codePerItem = '
                     
                     <article class="blog_item">
                         <div class="blog_item_img">
@@ -668,8 +667,8 @@ class Article
                     
                     ';
 
-                $code .= $codePerItem;
-            }
+            $code .= $codePerItem;
+
         }
 
         return $code;
@@ -696,8 +695,7 @@ class Article
 
             date_default_timezone_set("Europe/Bucharest");
 
-            if (date("d/m/Y/H") > $article->getProgrammedDateAndTime()) {
-                $codePerItem = '
+            $codePerItem = '
                     
                     <div class="owl-item" style="width: 330px; margin-right: 30px;">
                         <div class="owl-item active" style="width: 330px; margin-right: 30px;">
@@ -736,8 +734,8 @@ class Article
                     
                     ';
 
-                $code .= $codePerItem;
-            }
+            $code .= $codePerItem;
+
 
         }
 
