@@ -232,11 +232,13 @@ class Article
         $capatDeLinie = new Article("capăt de linie", "", "13", "Sep", "capatDeLinie", "Clara Pistol", "claraPistol.jpeg", "13/09/2022/14");
         $inNefiinta = new Article("În neființă", "", "13", "Sep", "inNefiinta", "Diana Georgescu", "dianaGeorgescu.jpeg", "13/09/2022/14");
         $trecereaInAdolescenta = new Article("Trecere în adolescență", "", "22", "Nov", "trecereaInAdolescenta", "Ioana Busuioc", "ioanaBusuioc.jpeg", "22/11/2022/14");
+        $peretele = new Article("Peretele", "", "23", "Nov", "peretele", "Clara Pistol", "claraPistol.jpeg", "23/09/2022/14");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $peretele,
             $trecereaInAdolescenta,
             $inNefiinta,
             $capatDeLinie,
@@ -385,9 +387,11 @@ class Article
         $capatDeLinie = new Article("capăt de linie", "", "13", "Sep", "capatDeLinie", "Clara Pistol", "claraPistol.jpeg", "13/09/2022/14");
         $inNefiinta = new Article("În neființă", "", "13", "Sep", "inNefiinta", "Diana Georgescu", "dianaGeorgescu.jpeg", "13/09/2022/14");
         $trecereaInAdolescenta = new Article("Trecere în adolescență", "", "22", "Nov", "trecereaInAdolescenta", "Ioana Busuioc", "ioanaBusuioc.jpeg", "22/11/2022/14");
+        $peretele = new Article("Peretele", "", "23", "Nov", "peretele", "Clara Pistol", "claraPistol.jpeg", "23/09/2022/14");
 
 
         $articles = array(
+            $peretele,
             $trecereaInAdolescenta,
             $inNefiinta,
             $capatDeLinie,
@@ -442,9 +446,11 @@ class Article
         $inRest = new Article("în rest, doar aparență", "", "28", "Aug", "inRest", "Anastasia Hangiu", "anastasiahagiu.jpg", "28/08/2022/10");
         $capatDeLinie = new Article("capăt de linie", "", "13", "Sep", "capatDeLinie", "Clara Pistol", "claraPistol.jpeg", "13/09/2022/14");
         $inNefiinta = new Article("În neființă", "", "13", "Sep", "inNefiinta", "Diana Georgescu", "dianaGeorgescu.jpeg", "13/09/2022/14");
+        $peretele = new Article("Peretele", "", "23", "Nov", "peretele", "Clara Pistol", "claraPistol.jpeg", "23/09/2022/14");
 
 
         $articles = array(
+            $peretele,
             $inNefiinta,
             $capatDeLinie,
             $inRest,
