@@ -233,11 +233,14 @@ class Article
         $inNefiinta = new Article("În neființă", "", "13", "Sep", "inNefiinta", "Diana Georgescu", "dianaGeorgescu.jpeg", "13/09/2022/14");
         $trecereaInAdolescenta = new Article("Trecere în adolescență", "", "22", "Nov", "trecereaInAdolescenta", "Ioana Busuioc", "ioanaBusuioc.jpeg", "22/11/2022/14");
         $peretele = new Article("Peretele", "", "23", "Nov", "peretele", "Clara Pistol", "claraPistol.jpeg", "23/09/2022/14");
+        $maiStii = new Article("Mai știi?", "", "11", "Dec", "maiStii", "Filipescu Mihaela", "unknown.jpeg", "11/12/2022/14");
+
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $maiStii,
             $peretele,
             $trecereaInAdolescenta,
             $inNefiinta,
@@ -388,9 +391,10 @@ class Article
         $inNefiinta = new Article("În neființă", "", "13", "Sep", "inNefiinta", "Diana Georgescu", "dianaGeorgescu.jpeg", "13/09/2022/14");
         $trecereaInAdolescenta = new Article("Trecere în adolescență", "", "22", "Nov", "trecereaInAdolescenta", "Ioana Busuioc", "ioanaBusuioc.jpeg", "22/11/2022/14");
         $peretele = new Article("Peretele", "", "23", "Nov", "peretele", "Clara Pistol", "claraPistol.jpeg", "23/09/2022/14");
-
+        $maiStii = new Article("Mai știi?", "", "11", "Dec", "maiStii", "Filipescu Mihaela", "unknown.jpeg", "11/12/2022/14");
 
         $articles = array(
+            $maiStii,
             $peretele,
             $trecereaInAdolescenta,
             $inNefiinta,
@@ -447,9 +451,10 @@ class Article
         $capatDeLinie = new Article("capăt de linie", "", "13", "Sep", "capatDeLinie", "Clara Pistol", "claraPistol.jpeg", "13/09/2022/14");
         $inNefiinta = new Article("În neființă", "", "13", "Sep", "inNefiinta", "Diana Georgescu", "dianaGeorgescu.jpeg", "13/09/2022/14");
         $peretele = new Article("Peretele", "", "23", "Nov", "peretele", "Clara Pistol", "claraPistol.jpeg", "23/09/2022/14");
-
+        $maiStii = new Article("Mai știi?", "", "11", "Dec", "maiStii", "Filipescu Mihaela", "unknown.jpeg", "11/12/2022/14");
 
         $articles = array(
+            $maiStii,
             $peretele,
             $inNefiinta,
             $capatDeLinie,
