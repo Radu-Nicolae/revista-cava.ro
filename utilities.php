@@ -395,7 +395,7 @@ class Article
         $trecereaInAdolescenta = new Article("Trecere în adolescență", "", "22", "Nov", "trecereaInAdolescenta", "Ioana Busuioc", "ioanaBusuioc.jpeg", "22/11/2022/14");
         $peretele = new Article("Peretele", "", "23", "Nov", "peretele", "Clara Pistol", "claraPistol.jpeg", "23/09/2022/14");
         $maiStii = new Article("Mai știi?", "", "11", "Dec", "maiStii", "Filipescu Mihaela", "unknown.jpeg", "11/12/2022/14");
-        $faraUmbrela = new Article("fără umbrela neagră", "", "17", "Dec", "faraUmbrela", "Hagiu Anastasia", "anastasiahagiu.jpeg", "11/12/2022/14")
+        $faraUmbrela = new Article("fără umbrela neagră", "", "17", "Dec", "faraUmbrela", "Hagiu Anastasia", "anastasiahagiu.jpeg", "11/12/2022/14");
 
 
         $articles = array(
@@ -458,7 +458,7 @@ class Article
         $inNefiinta = new Article("În neființă", "", "13", "Sep", "inNefiinta", "Diana Georgescu", "dianaGeorgescu.jpeg", "13/09/2022/14");
         $peretele = new Article("Peretele", "", "23", "Nov", "peretele", "Clara Pistol", "claraPistol.jpeg", "23/09/2022/14");
         $maiStii = new Article("Mai știi?", "", "11", "Dec", "maiStii", "Filipescu Mihaela", "unknown.jpeg", "11/12/2022/14");
-        $faraUmbrela = new Article("fără umbrela neagră", "", "17", "Dec", "faraUmbrela", "Hagiu Anastasia", "anastasiahagiu.jpeg", "11/12/2022/14")
+        $faraUmbrela = new Article("fără umbrela neagră", "", "17", "Dec", "faraUmbrela", "Hagiu Anastasia", "anastasiahagiu.jpeg", "11/12/2022/14");
 
         $articles = array(
             $faraUmbrela,
