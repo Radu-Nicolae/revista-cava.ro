@@ -235,6 +235,7 @@ class Article
         $peretele = new Article("Peretele", "", "23", "Nov", "peretele", "Clara Pistol", "claraPistol.jpeg", "23/09/2022/14");
         $maiStii = new Article("Mai știi?", "", "11", "Dec", "maiStii", "Filipescu Mihaela", "unknown.jpeg", "11/12/2022/14");
         $faraUmbrela = new Article("fără umbrela neagră", "", "17", "Dec", "faraUmbrela", "Hagiu Anastasia", "anastasiahagiu.jpg", "11/12/2022/14");
+        $gearSolve = new Article("Primetime pentru „GearSolve”", "", "24", "Dec", "gearSolve", "Călin Tănase Mihai", "călinmihaiTănase.jpeg", "24/12/2022/14");
 
 
 
@@ -242,6 +243,7 @@ class Article
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $gearSolve,
             $faraUmbrela,
             $maiStii,
             $peretele,
@@ -396,9 +398,10 @@ class Article
         $peretele = new Article("Peretele", "", "23", "Nov", "peretele", "Clara Pistol", "claraPistol.jpeg", "23/09/2022/14");
         $maiStii = new Article("Mai știi?", "", "11", "Dec", "maiStii", "Filipescu Mihaela", "unknown.jpeg", "11/12/2022/14");
         $faraUmbrela = new Article("fără umbrela neagră", "", "17", "Dec", "faraUmbrela", "Hagiu Anastasia", "anastasiahagiu.jpg", "11/12/2022/14");
-
+        $gearSolve = new Article("Primetime pentru „GearSolve”", "", "24", "Dec", "gearSolve", "Călin Tănase Mihai", "călinmihaiTănase.jpeg", "24/12/2022/14");
 
         $articles = array(
+            $gearSolve,
             $faraUmbrela,
             $maiStii,
             $peretele,
@@ -499,9 +502,10 @@ class Article
         $trixie = new Article("Trixie (1/2)", "Mereu m-am întrebat de ce copiii trebuie să învețe istoria unor civilizații care au dispărut acum mult timp. Se spune că școala evidențiază și arată vocația elevilor. Dar când vine vorba de istorie, ce legătură are aceasta cu aptitudinile?", "10", "Mai", "trixie", "Călin Mihai Tănase", "unknown.jpeg", "10/05/2022/18");
         $primavara = new Article("Primăvara: nostalgie sau renaștere?", "Imaginați-vă o inimă. O inimă rănită, pansată cu trandafiri. Trandafirii au țepi care adâncesc rănile din centrul trupului, dar și petale, care le ocrotesc. Cum poate ceva atât de delicat și de frumos să cauzeze atâtea răni și suferință ? Cum poate ceva ce te-a rănit să te și vindece ?", "31", "Mai", "primavara", "Ana Negoiță", "unknown.jpeg", "31/05/2022/17");
         $trecereaInAdolescenta = new Article("Trecere în adolescență", "", "22", "Nov", "trecereaInAdolescenta", "Ioana Busuioc", "ioanaBusuioc.jpeg", "22/11/2022/14");
-
+        $gearSolve = new Article("Primetime pentru „GearSolve”", "", "24", "Dec", "gearSolve", "Călin Tănase Mihai", "călinmihaiTănase.jpeg", "24/12/2022/14");
 
         $articles = array(
+            $gearSolve,
             $trecereaInAdolescenta,
             $primavara,
             $trixie,
