@@ -234,15 +234,16 @@ class Article
         $trecereaInAdolescenta = new Article("Trecere în adolescență", "", "22", "Nov", "trecereaInAdolescenta", "Ioana Busuioc", "ioanaBusuioc.jpeg", "22/11/2022/14");
         $peretele = new Article("Peretele", "", "23", "Nov", "peretele", "Clara Pistol", "claraPistol.jpeg", "23/09/2022/14");
         $maiStii = new Article("Mai știi?", "", "11", "Dec", "maiStii", "Filipescu Mihaela", "unknown.jpeg", "11/12/2022/14");
-        $faraUmbrela = new Article("fără umbrela neagră", "", "17", "Dec", "faraUmbrela", "Hagiu Anastasia", "anastasiahagiu.jpg", "11/12/2022/14");
+        $faraUmbrela = new Article("fără umbrela neagră", "", "17", "Dec", "faraUmbrela", "Hagiu Anastasia", "anastasiahagiu.jp g", "11/12/2022/14");        
         $gearSolve = new Article("Primetime pentru „GearSolve”", "", "24", "Dec", "gearSolve", "Călin Tănase Mihai", "călinmihaiTănase.jpeg", "24/12/2022/14");
-
+        $thePandemic = new Article("The pandemic of being utterly miserable", "Sadness. Emptiness. The unbearable depressive mood that consumes us on our worst days. The out-of-the-blue rock bottom, our lowest.", "16", "Ian", "thePandemic", "Mihai Anastasia", "anastasiaMihai.jpeg", "11/07/2022/11");
 
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $thePandemic,
             $gearSolve,
             $faraUmbrela,
             $maiStii,
@@ -339,9 +340,11 @@ class Article
         $eulogies = new Article("all eulogies are confessions", "", "06", "Mai", "eulogies", "Nereia Crisan", "nereiacrisan.jpeg", "06/05/2022/18");
         $criticismOfMovies = new Article("Criticism of movies", "There’s a rush coming out of a movie theatre, thinking: ‘man, that was a good one!’ But…was it actually good? In film law, as to say, what does a great film actually mean?", "15", "Mai", "criticismOfMovies", "Ilona Dragomir", "unknown.jpeg", "15/05/2022/18");
         $cocaineCola = new Article("Cocaine-cola", "As of a recent tweet posted by the one and only Elon Musk, joking about buying Coca-Cola and bringing back cocaine in its formula, I’ve started wondering. What is the actual original recipe for this worldwide famous soda?", "19", "Mai", "cocaineCola", "Anastasia Mihai", "unknown.jpeg", "19/05/2022/14");
+        $thePandemic = new Article("The pandemic of being utterly miserable", "Sadness. Emptiness. The unbearable depressive mood that consumes us on our worst days. The out-of-the-blue rock bottom, our lowest.", "16", "Ian", "thePandemic", "Mihai Anastasia", "anastasiaMihai.jpeg", "11/07/2022/11");
 
 
         $articles = array(
+            $thePandemic,
             $cocaineCola,
             $criticismOfMovies,
             $eulogies,
@@ -583,9 +586,11 @@ class Article
         $eulogy = new Article("eulogy for a lover", "", "24", "Apr", "eulogy", "Clara Pistol", "unknown.jpeg", "25/04/2022/17");
         $criticismOfMovies = new Article("Criticism of movies", "There’s a rush coming out of a movie theatre, thinking: ‘man, that was a good one!’ But…was it actually good? In film law, as to say, what does a great film actually mean?", "15", "Mai", "criticismOfMovies", "Ilona Dragomir", "unknown.jpeg", "15/05/2022/18");
         $cocaineCola = new Article("Cocaine-cola", "As of a recent tweet posted by the one and only Elon Musk, joking about buying Coca-Cola and bringing back cocaine in its formula, I’ve started wondering. What is the actual original recipe for this worldwide famous soda?", "19", "Mai", "cocaineCola", "Anastasia Mihai", "unknown.jpeg", "19/05/2022/14");
+        $thePandemic = new Article("The pandemic of being utterly miserable", "Sadness. Emptiness. The unbearable depressive mood that consumes us on our worst days. The out-of-the-blue rock bottom, our lowest.", "16", "Ian", "thePandemic", "Mihai Anastasia", "anastasiaMihai.jpeg", "11/07/2022/11");
 
 
         $articles = array(
+            $thePandemic,
             $cocaineCola,
             $criticismOfMovies,
             $eulogy,
