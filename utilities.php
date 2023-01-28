@@ -36,118 +36,6 @@ class Article
     /**
      * @return mixed
      */
-    public function getTitle()
-    {
-        return $this->title;
-    }
-
-    /**
-     * @param mixed $title
-     */
-    public function setTitle($title)
-    {
-        $this->title = $title;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getDescription()
-    {
-        return $this->description;
-    }
-
-    /**
-     * @param mixed $description
-     */
-    public function setDescription($description)
-    {
-        $this->description = $description;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getDay()
-    {
-        return $this->day;
-    }
-
-    /**
-     * @param mixed $day
-     */
-    public function setDay($day)
-    {
-        $this->day = $day;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getMonth()
-    {
-        return $this->month;
-    }
-
-    /**
-     * @param mixed $month
-     */
-    public function setMonth($month)
-    {
-        $this->month = $month;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getUrl()
-    {
-        return $this->url;
-    }
-
-    /**
-     * @param mixed $url
-     */
-    public function setUrl($url)
-    {
-        $this->url = $url;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getAuthorName()
-    {
-        return $this->authorName;
-    }
-
-    /**
-     * @param mixed $authorName
-     */
-    public function setAuthorName($authorName)
-    {
-        $this->authorName = $authorName;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getAuthorUrl()
-    {
-        return $this->authorUrl;
-    }
-
-    /**
-     * @param mixed $authorUrl
-     */
-    public function setAuthorUrl($authorUrl)
-    {
-        $this->authorUrl = $authorUrl;
-    }
-
-    /**
-     * @return mixed
-     */
     public function getProgrammedDateAndTime()
     {
         return $this->programmedDateAndTime;
@@ -160,7 +48,6 @@ class Article
     {
         $this->programmedDateAndTime = $programmedDateAndTime;
     }
-
 
     public function getDatabase()
     {
@@ -234,15 +121,17 @@ class Article
         $trecereaInAdolescenta = new Article("Trecere în adolescență", "", "22", "Nov", "trecereaInAdolescenta", "Ioana Busuioc", "ioanaBusuioc.jpeg", "22/11/2022/14");
         $peretele = new Article("Peretele", "", "23", "Nov", "peretele", "Clara Pistol", "claraPistol.jpeg", "23/09/2022/14");
         $maiStii = new Article("Mai știi?", "", "11", "Dec", "maiStii", "Filipescu Mihaela", "unknown.jpeg", "11/12/2022/14");
-        $faraUmbrela = new Article("fără umbrela neagră", "", "17", "Dec", "faraUmbrela", "Hagiu Anastasia", "anastasiahagiu.jp g", "11/12/2022/14");        
+        $faraUmbrela = new Article("fără umbrela neagră", "", "17", "Dec", "faraUmbrela", "Hagiu Anastasia", "anastasiahagiu.jp g", "11/12/2022/14");
         $gearSolve = new Article("Primetime pentru „GearSolve”", "", "24", "Dec", "gearSolve", "Călin Tănase Mihai", "călinmihaiTănase.jpeg", "24/12/2022/14");
         $thePandemic = new Article("The pandemic of being utterly miserable", "Sadness. Emptiness. The unbearable depressive mood that consumes us on our worst days. The out-of-the-blue rock bottom, our lowest.", "16", "Ian", "thePandemic", "Mihai Anastasia", "anastasiaMihai.jpeg", "11/07/2022/11");
+        $whatDoYouDo = new Article("What do you want to do when you are older?", "As we grow up, this lingering question seems to roll off our parents’ tongues even more often. From the earliest ages, authoritative figures bombard us with all sorts of questions about our future, but this one seems to be the most haunting of them all.", "28", "Jan", "whatDoYouDo", "Anastasia Mihai", "anastasiaMihai.jpeg", "11/07/2022/11");
 
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $whatDoYouDo,
             $thePandemic,
             $gearSolve,
             $faraUmbrela,
@@ -341,9 +230,11 @@ class Article
         $criticismOfMovies = new Article("Criticism of movies", "There’s a rush coming out of a movie theatre, thinking: ‘man, that was a good one!’ But…was it actually good? In film law, as to say, what does a great film actually mean?", "15", "Mai", "criticismOfMovies", "Ilona Dragomir", "unknown.jpeg", "15/05/2022/18");
         $cocaineCola = new Article("Cocaine-cola", "As of a recent tweet posted by the one and only Elon Musk, joking about buying Coca-Cola and bringing back cocaine in its formula, I’ve started wondering. What is the actual original recipe for this worldwide famous soda?", "19", "Mai", "cocaineCola", "Anastasia Mihai", "unknown.jpeg", "19/05/2022/14");
         $thePandemic = new Article("The pandemic of being utterly miserable", "Sadness. Emptiness. The unbearable depressive mood that consumes us on our worst days. The out-of-the-blue rock bottom, our lowest.", "16", "Ian", "thePandemic", "Mihai Anastasia", "anastasiaMihai.jpeg", "11/07/2022/11");
+        $whatDoYouDo = new Article("What do you want to do when you are older?", "As we grow up, this lingering question seems to roll off our parents’ tongues even more often. From the earliest ages, authoritative figures bombard us with all sorts of questions about our future, but this one seems to be the most haunting of them all.", "28", "Jan", "whatDoYouDo", "Anastasia Mihai", "anastasiaMihai.jpeg", "11/07/2022/11");
 
 
         $articles = array(
+            $whatDoYouDo,
             $thePandemic,
             $cocaineCola,
             $criticismOfMovies,
@@ -375,7 +266,6 @@ class Article
 
         return $articles;
     }
-
 
     public function getDatabaseLiteratura()
     {
@@ -445,7 +335,6 @@ class Article
 
         return $articles;
     }
-
 
     public function getDatabasePoezie()
     {
@@ -529,7 +418,6 @@ class Article
         return $articles;
     }
 
-
     public function getDatabaseCritica()
     {
         $red = new Article("Red (Taylor's Version)", "If you've met me, you already know Taylor Swift's discography is the soundtrack of my life. After her masters controversy, I thought my favorite album was lost for good; taxi cabs and busy streets, they'd never bring it back to me... ", "27", "Nov", "red", "Ilinca Sotirescu", "ilincasotirescu.jpeg", "12/02/2022/18");
@@ -587,9 +475,11 @@ class Article
         $criticismOfMovies = new Article("Criticism of movies", "There’s a rush coming out of a movie theatre, thinking: ‘man, that was a good one!’ But…was it actually good? In film law, as to say, what does a great film actually mean?", "15", "Mai", "criticismOfMovies", "Ilona Dragomir", "unknown.jpeg", "15/05/2022/18");
         $cocaineCola = new Article("Cocaine-cola", "As of a recent tweet posted by the one and only Elon Musk, joking about buying Coca-Cola and bringing back cocaine in its formula, I’ve started wondering. What is the actual original recipe for this worldwide famous soda?", "19", "Mai", "cocaineCola", "Anastasia Mihai", "unknown.jpeg", "19/05/2022/14");
         $thePandemic = new Article("The pandemic of being utterly miserable", "Sadness. Emptiness. The unbearable depressive mood that consumes us on our worst days. The out-of-the-blue rock bottom, our lowest.", "16", "Ian", "thePandemic", "Mihai Anastasia", "anastasiaMihai.jpeg", "11/07/2022/11");
+        $whatDoYouDo = new Article("What do you want to do when you are older?", "As we grow up, this lingering question seems to roll off our parents’ tongues even more often. From the earliest ages, authoritative figures bombard us with all sorts of questions about our future, but this one seems to be the most haunting of them all.", "28", "Jan", "whatDoYouDo", "Anastasia Mihai", "anastasiaMihai.jpeg", "11/07/2022/11");
 
 
         $articles = array(
+            $whatDoYouDo,
             $thePandemic,
             $cocaineCola,
             $criticismOfMovies,
@@ -652,12 +542,14 @@ class Article
         return $articles;
     }
 
-
     public function getDatabaseDezvoltare()
     {
         $sentimente = new Article("Sentimente", "	Oh! Să fii adolescent înseamnă să treci prin atâtea schimbări și emoții, încât, în majoritatea timpului, te simți chiar și tu confuz și pierdut.", "15", "Nov", "sentimente2", "Alexandra Vladu", "alexandravladu.jpg", "12/02/2022/18");
+        $whatDoYouDo = new Article("What do you want to do when you are older?", "As we grow up, this lingering question seems to roll off our parents’ tongues even more often. From the earliest ages, authoritative figures bombard us with all sorts of questions about our future, but this one seems to be the most haunting of them all.", "28", "Jan", "whatDoYouDo", "Anastasia Mihai", "anastasiaMihai.jpeg", "11/07/2022/11");
+
 
         $articles = array(
+            $whatDoYouDo,
             $sentimente
         );
 
@@ -677,7 +569,6 @@ class Article
 
         return $articles;
     }
-
 
     public function getBlogCode($articles)
     {
@@ -719,6 +610,85 @@ class Article
         return $code;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getUrl()
+    {
+        return $this->url;
+    }
+
+    /**
+     * @param mixed $url
+     */
+    public function setUrl($url)
+    {
+        $this->url = $url;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDay()
+    {
+        return $this->day;
+    }
+
+    /**
+     * @param mixed $day
+     */
+    public function setDay($day)
+    {
+        $this->day = $day;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getMonth()
+    {
+        return $this->month;
+    }
+
+    /**
+     * @param mixed $month
+     */
+    public function setMonth($month)
+    {
+        $this->month = $month;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getTitle()
+    {
+        return $this->title;
+    }
+
+    /**
+     * @param mixed $title
+     */
+    public function setTitle($title)
+    {
+        $this->title = $title;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDescription()
+    {
+        return $this->description;
+    }
+
+    /**
+     * @param mixed $description
+     */
+    public function setDescription($description)
+    {
+        $this->description = $description;
+    }
 
     public function getIndexCode($articles)
     {
@@ -785,6 +755,38 @@ class Article
         }
 
         return $code;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAuthorUrl()
+    {
+        return $this->authorUrl;
+    }
+
+    /**
+     * @param mixed $authorUrl
+     */
+    public function setAuthorUrl($authorUrl)
+    {
+        $this->authorUrl = $authorUrl;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAuthorName()
+    {
+        return $this->authorName;
+    }
+
+    /**
+     * @param mixed $authorName
+     */
+    public function setAuthorName($authorName)
+    {
+        $this->authorName = $authorName;
     }
 
 
