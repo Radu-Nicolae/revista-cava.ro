@@ -125,6 +125,7 @@ class Article
         $gearSolve = new Article("Primetime pentru „GearSolve”", "", "24", "Dec", "gearSolve", "Călin Tănase Mihai", "călinmihaiTănase.jpeg", "24/12/2022/14");
         $thePandemic = new Article("The pandemic of being utterly miserable", "Sadness. Emptiness. The unbearable depressive mood that consumes us on our worst days. The out-of-the-blue rock bottom, our lowest.", "16", "Ian", "thePandemic", "Mihai Anastasia", "anastasiaMihai.jpeg", "11/07/2022/11");
         $whatDoYouDo = new Article("What do you want to do when you are older?", "As we grow up, this lingering question seems to roll off our parents’ tongues even more often. From the earliest ages, authoritative figures bombard us with all sorts of questions about our future, but this one seems to be the most haunting of them all.", "28", "Jan", "whatDoYouDo", "Anastasia Mihai", "anastasiaMihai.jpeg", "11/07/2022/11");
+        $theBattle = new Article("The battle I lost with myself", "", "11", "Feb", "theBattle.jpeg", "Dinu Alexandra", "unknown.jpeg", "11/12/2022/11")
 
 
         $articles = array(
