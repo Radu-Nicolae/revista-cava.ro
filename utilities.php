@@ -124,8 +124,11 @@ class Article
         $faraUmbrela = new Article("fără umbrela neagră", "", "17", "Dec", "faraUmbrela", "Hagiu Anastasia", "anastasiahagiu.jp g", "11/12/2022/14");
         $gearSolve = new Article("Primetime pentru „GearSolve”", "", "24", "Dec", "gearSolve", "Călin Tănase Mihai", "călinmihaiTănase.jpeg", "24/12/2022/14");
         $thePandemic = new Article("The pandemic of being utterly miserable", "Sadness. Emptiness. The unbearable depressive mood that consumes us on our worst days. The out-of-the-blue rock bottom, our lowest.", "16", "Ian", "thePandemic", "Mihai Anastasia", "anastasiaMihai.jpeg", "11/07/2022/11");
+        $clintEastwood = new Article("How Clint Eastwood directs masterpieces", "", "18", "Ian", "clintEastwood", "Ilona Dragomir", "unknown.jpeg", "18/01/2023/11");
         $whatDoYouDo = new Article("What do you want to do when you are older?", "As we grow up, this lingering question seems to roll off our parents’ tongues even more often. From the earliest ages, authoritative figures bombard us with all sorts of questions about our future, but this one seems to be the most haunting of them all.", "28", "Jan", "whatDoYouDo", "Anastasia Mihai", "anastasiaMihai.jpeg", "11/07/2022/11");
+        $semnaturiDinStrada = new Article("Semnături din strada Popa Soare", "", "8", "Feb", "semnaturiDinStrada", "Maitreyi Kumar", "unknown.jpeg", "11/07/2022/11");
         $theBattle = new Article("The battle I lost with myself", "", "11", "Feb", "theBattle", "Dinu Alexandra", "unknown.jpeg", "11/12/2022/11");
+        $bodyPopping = new Article("Bodypopping", "", "15", "Feb", "theBattle", "Călin Mihai Tănase", "unknown.jpg", "11/12/2022/11");
 
 
 
@@ -133,8 +136,11 @@ class Article
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $bodyPopping,
             $theBattle,
+            $semnaturiDinStrada,
             $whatDoYouDo,
+            $clintEastwood,
             $thePandemic,
             $gearSolve,
             $faraUmbrela,
@@ -234,11 +240,13 @@ class Article
         $cocaineCola = new Article("Cocaine-cola", "As of a recent tweet posted by the one and only Elon Musk, joking about buying Coca-Cola and bringing back cocaine in its formula, I’ve started wondering. What is the actual original recipe for this worldwide famous soda?", "19", "Mai", "cocaineCola", "Anastasia Mihai", "unknown.jpeg", "19/05/2022/14");
         $thePandemic = new Article("The pandemic of being utterly miserable", "Sadness. Emptiness. The unbearable depressive mood that consumes us on our worst days. The out-of-the-blue rock bottom, our lowest.", "16", "Ian", "thePandemic", "Mihai Anastasia", "anastasiaMihai.jpeg", "11/07/2022/11");
         $whatDoYouDo = new Article("What do you want to do when you are older?", "As we grow up, this lingering question seems to roll off our parents’ tongues even more often. From the earliest ages, authoritative figures bombard us with all sorts of questions about our future, but this one seems to be the most haunting of them all.", "28", "Jan", "whatDoYouDo", "Anastasia Mihai", "anastasiaMihai.jpeg", "11/07/2022/11");
+        $clintEastwood = new Article("How Clint Eastwood directs masterpieces", "", "18", "Ian", "clintEastwood", "Ilona Dragomir", "unknown.jpeg", "18/01/2023/11");
         $theBattle = new Article("The battle I lost with myself", "", "11", "Feb", "theBattle", "Dinu Alexandra", "unknown.jpeg", "11/12/2022/11");
 
 
         $articles = array(
             $theBattle,
+            $clintEastwood,
             $whatDoYouDo,
             $thePandemic,
             $cocaineCola,
@@ -297,8 +305,15 @@ class Article
         $maiStii = new Article("Mai știi?", "", "11", "Dec", "maiStii", "Filipescu Mihaela", "unknown.jpeg", "11/12/2022/14");
         $faraUmbrela = new Article("fără umbrela neagră", "", "17", "Dec", "faraUmbrela", "Hagiu Anastasia", "anastasiahagiu.jpg", "11/12/2022/14");
         $gearSolve = new Article("Primetime pentru „GearSolve”", "", "24", "Dec", "gearSolve", "Călin Tănase Mihai", "călinmihaiTănase.jpeg", "24/12/2022/14");
+        $clintEastwood = new Article("How Clint Eastwood directs masterpieces", "", "18", "Ian", "clintEastwood", "Ilona Dragomir", "unknown.jpeg", "18/01/2023/11");
+        $semnaturiDinStrada = new Article("Semnături din strada Popa Soare", "", "8", "Feb", "semnaturiDinStrada", "Maitreyi Kumar", "unknown.jpeg", "11/07/2022/11");
+        $bodyPopping = new Article("Bodypopping", "", "15", "Feb", "theBattle", "Călin Mihai Tănase", "unknown.jpg", "11/12/2022/11");
+
 
         $articles = array(
+            $bodyPopping,
+            $semnaturiDinStrada,
+            $clintEastwood,
             $gearSolve,
             $faraUmbrela,
             $maiStii,
@@ -359,8 +374,11 @@ class Article
         $peretele = new Article("Peretele", "", "23", "Nov", "peretele", "Clara Pistol", "claraPistol.jpeg", "23/09/2022/14");
         $maiStii = new Article("Mai știi?", "", "11", "Dec", "maiStii", "Filipescu Mihaela", "unknown.jpeg", "11/12/2022/14");
         $faraUmbrela = new Article("fără umbrela neagră", "", "17", "Dec", "faraUmbrela", "Hagiu Anastasia", "anastasiahagiu.jpg", "11/12/2022/14");
+        $semnaturiDinStrada = new Article("Semnături din strada Popa Soare", "", "8", "Feb", "semnaturiDinStrada", "Maitreyi Kumar", "unknown.jpeg", "11/07/2022/11");
+
 
         $articles = array(
+            $semnaturiDinStrada,
             $faraUmbrela,
             $maiStii,
             $peretele,
@@ -400,8 +418,10 @@ class Article
         $primavara = new Article("Primăvara: nostalgie sau renaștere?", "Imaginați-vă o inimă. O inimă rănită, pansată cu trandafiri. Trandafirii au țepi care adâncesc rănile din centrul trupului, dar și petale, care le ocrotesc. Cum poate ceva atât de delicat și de frumos să cauzeze atâtea răni și suferință ? Cum poate ceva ce te-a rănit să te și vindece ?", "31", "Mai", "primavara", "Ana Negoiță", "unknown.jpeg", "31/05/2022/17");
         $trecereaInAdolescenta = new Article("Trecere în adolescență", "", "22", "Nov", "trecereaInAdolescenta", "Ioana Busuioc", "ioanaBusuioc.jpeg", "22/11/2022/14");
         $gearSolve = new Article("Primetime pentru „GearSolve”", "", "24", "Dec", "gearSolve", "Călin Tănase Mihai", "călinmihaiTănase.jpeg", "24/12/2022/14");
+        $bodyPopping = new Article("Bodypopping", "", "15", "Feb", "theBattle", "Călin Mihai Tănase", "unknown.jpg", "11/12/2022/11");
 
         $articles = array(
+            $bodyPopping,
             $gearSolve,
             $trecereaInAdolescenta,
             $primavara,
@@ -481,11 +501,13 @@ class Article
         $cocaineCola = new Article("Cocaine-cola", "As of a recent tweet posted by the one and only Elon Musk, joking about buying Coca-Cola and bringing back cocaine in its formula, I’ve started wondering. What is the actual original recipe for this worldwide famous soda?", "19", "Mai", "cocaineCola", "Anastasia Mihai", "unknown.jpeg", "19/05/2022/14");
         $thePandemic = new Article("The pandemic of being utterly miserable", "Sadness. Emptiness. The unbearable depressive mood that consumes us on our worst days. The out-of-the-blue rock bottom, our lowest.", "16", "Ian", "thePandemic", "Mihai Anastasia", "anastasiaMihai.jpeg", "11/07/2022/11");
         $whatDoYouDo = new Article("What do you want to do when you are older?", "As we grow up, this lingering question seems to roll off our parents’ tongues even more often. From the earliest ages, authoritative figures bombard us with all sorts of questions about our future, but this one seems to be the most haunting of them all.", "28", "Jan", "whatDoYouDo", "Anastasia Mihai", "anastasiaMihai.jpeg", "11/07/2022/11");
+        $clintEastwood = new Article("How Clint Eastwood directs masterpieces", "", "18", "Ian", "clintEastwood", "Ilona Dragomir", "unknown.jpeg", "18/01/2023/11");
         $theBattle = new Article("The battle I lost with myself", "", "11", "Feb", "theBattle", "Dinu Alexandra", "unknown.jpeg", "11/12/2022/11");
 
 
         $articles = array(
             $theBattle,
+            $clintEastwood,
             $whatDoYouDo,
             $thePandemic,
             $cocaineCola,
