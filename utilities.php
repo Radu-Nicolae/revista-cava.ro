@@ -128,7 +128,7 @@ class Article
         $whatDoYouDo = new Article("What do you want to do when you are older?", "As we grow up, this lingering question seems to roll off our parents’ tongues even more often. From the earliest ages, authoritative figures bombard us with all sorts of questions about our future, but this one seems to be the most haunting of them all.", "28", "Jan", "whatDoYouDo", "Anastasia Mihai", "anastasiaMihai.jpeg", "11/07/2022/11");
         $semnaturiDinStrada = new Article("Semnături din strada Popa Soare", "", "8", "Feb", "semnaturiDinStrada", "Maitreyi Kumar", "unknown.jpeg", "11/07/2022/11");
         $theBattle = new Article("The battle I lost with myself", "", "11", "Feb", "theBattle", "Dinu Alexandra", "unknown.jpeg", "11/12/2022/11");
-        $bodyPopping = new Article("Bodypopping", "", "15", "Feb", "theBattle", "Călin Mihai Tănase", "unknown.jpg", "11/12/2022/11");
+        $bodyPopping = new Article("Bodypopping", "", "15", "Feb", "bodyPopping", "Călin Mihai Tănase", "unknown.jpeg", "11/12/2022/11");
 
 
 
@@ -307,8 +307,7 @@ class Article
         $gearSolve = new Article("Primetime pentru „GearSolve”", "", "24", "Dec", "gearSolve", "Călin Tănase Mihai", "călinmihaiTănase.jpeg", "24/12/2022/14");
         $clintEastwood = new Article("How Clint Eastwood directs masterpieces", "", "18", "Ian", "clintEastwood", "Ilona Dragomir", "unknown.jpeg", "18/01/2023/11");
         $semnaturiDinStrada = new Article("Semnături din strada Popa Soare", "", "8", "Feb", "semnaturiDinStrada", "Maitreyi Kumar", "unknown.jpeg", "11/07/2022/11");
-        $bodyPopping = new Article("Bodypopping", "", "15", "Feb", "theBattle", "Călin Mihai Tănase", "unknown.jpg", "11/12/2022/11");
-
+        $bodyPopping = new Article("Bodypopping", "", "15", "Feb", "bodyPopping", "Călin Mihai Tănase", "unknown.jpeg", "11/12/2022/11");
 
         $articles = array(
             $bodyPopping,
@@ -418,7 +417,7 @@ class Article
         $primavara = new Article("Primăvara: nostalgie sau renaștere?", "Imaginați-vă o inimă. O inimă rănită, pansată cu trandafiri. Trandafirii au țepi care adâncesc rănile din centrul trupului, dar și petale, care le ocrotesc. Cum poate ceva atât de delicat și de frumos să cauzeze atâtea răni și suferință ? Cum poate ceva ce te-a rănit să te și vindece ?", "31", "Mai", "primavara", "Ana Negoiță", "unknown.jpeg", "31/05/2022/17");
         $trecereaInAdolescenta = new Article("Trecere în adolescență", "", "22", "Nov", "trecereaInAdolescenta", "Ioana Busuioc", "ioanaBusuioc.jpeg", "22/11/2022/14");
         $gearSolve = new Article("Primetime pentru „GearSolve”", "", "24", "Dec", "gearSolve", "Călin Tănase Mihai", "călinmihaiTănase.jpeg", "24/12/2022/14");
-        $bodyPopping = new Article("Bodypopping", "", "15", "Feb", "theBattle", "Călin Mihai Tănase", "unknown.jpg", "11/12/2022/11");
+        $bodyPopping = new Article("Bodypopping", "", "15", "Feb", "bodyPopping", "Călin Mihai Tănase", "unknown.jpeg", "11/12/2022/11");
 
         $articles = array(
             $bodyPopping,
