@@ -129,6 +129,7 @@ class Article
         $semnaturiDinStrada = new Article("Semnături din strada Popa Soare", "", "8", "Feb", "semnaturiDinStrada", "Maitreyi Kumar", "unknown.jpeg", "11/07/2022/11");
         $theBattle = new Article("The battle I lost with myself", "", "11", "Feb", "theBattle", "Dinu Alexandra", "unknown.jpeg", "11/12/2022/11");
         $bodyPopping = new Article("Bodypopping", "", "15", "Feb", "bodyPopping", "Călin Mihai Tănase", "unknown.jpeg", "11/12/2022/11");
+        $polaroidShots = new Article("Polaroid shots", "", "20", "Feb", "polaroidShots", "Mihaela Filipescu", "unknown.jpeg", "20/02/2022/11");
 
 
 
@@ -136,6 +137,7 @@ class Article
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $polaroidShots,
             $bodyPopping,
             $theBattle,
             $semnaturiDinStrada,
@@ -242,9 +244,11 @@ class Article
         $whatDoYouDo = new Article("What do you want to do when you are older?", "As we grow up, this lingering question seems to roll off our parents’ tongues even more often. From the earliest ages, authoritative figures bombard us with all sorts of questions about our future, but this one seems to be the most haunting of them all.", "28", "Jan", "whatDoYouDo", "Anastasia Mihai", "anastasiaMihai.jpeg", "11/07/2022/11");
         $clintEastwood = new Article("How Clint Eastwood directs masterpieces", "", "18", "Ian", "clintEastwood", "Ilona Dragomir", "unknown.jpeg", "18/01/2023/11");
         $theBattle = new Article("The battle I lost with myself", "", "11", "Feb", "theBattle", "Dinu Alexandra", "unknown.jpeg", "11/12/2022/11");
+        $polaroidShots = new Article("Polaroid shots", "", "20", "Feb", "polaroidShots", "Mihaela Filipescu", "unknown.jpeg", "20/02/2022/11");
 
 
         $articles = array(
+            $polaroidShots,
             $theBattle,
             $clintEastwood,
             $whatDoYouDo,
@@ -502,9 +506,11 @@ class Article
         $whatDoYouDo = new Article("What do you want to do when you are older?", "As we grow up, this lingering question seems to roll off our parents’ tongues even more often. From the earliest ages, authoritative figures bombard us with all sorts of questions about our future, but this one seems to be the most haunting of them all.", "28", "Jan", "whatDoYouDo", "Anastasia Mihai", "anastasiaMihai.jpeg", "11/07/2022/11");
         $clintEastwood = new Article("How Clint Eastwood directs masterpieces", "", "18", "Ian", "clintEastwood", "Ilona Dragomir", "unknown.jpeg", "18/01/2023/11");
         $theBattle = new Article("The battle I lost with myself", "", "11", "Feb", "theBattle", "Dinu Alexandra", "unknown.jpeg", "11/12/2022/11");
+        $polaroidShots = new Article("Polaroid shots", "", "20", "Feb", "polaroidShots", "Mihaela Filipescu", "unknown.jpeg", "20/02/2022/11");
 
 
         $articles = array(
+            $polaroidShots,
             $theBattle,
             $clintEastwood,
             $whatDoYouDo,
@@ -728,15 +734,6 @@ class Article
         for ($i = 0; $i < $noOfArticlesFromHomePage; $i++) {
             $article = $articles[$i];
             $fullDate = $article->getDay() . ' ' . $article->getMonth();
-
-//            var $title;
-//            var $description;
-//            var $day;
-//            var $month;
-//            var $url;
-//            var $authorName;
-//            var $authorUrl;
-//            || (strtotime($article->getProgrammedDate()) == date("d/m/Y") && ((int)date("H") >= 12)))
 
             date_default_timezone_set("Europe/Bucharest");
 
