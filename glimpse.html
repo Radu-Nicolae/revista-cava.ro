@@ -136,20 +136,16 @@
                                                                 <a href="literature.php" class="hvr">Literature</a>
                                                             </li>
                                                             <li>
-                                                                <a href="selfdevelopment.html" class="hvr">Self
-                                                                    Development</a>
+                                                                <a href="selfdevelopment.html" class="hvr">Self Development</a>
                                                             </li>
                                                             <li>
-                                                                <a href="socialissues.html" class="hvr">Social
-                                                                    Issues</a>
+                                                                <a href="socialissues.html" class="hvr">Social Issues</a>
                                                             </li>
                                                             <li>
-                                                                <a href="miscellaneous.html"
-                                                                   class="hvr">Miscellaneous</a>
+                                                                <a href="miscellaneous.html" class="hvr">Miscellaneous</a>
                                                             </li>
                                                             <li>
-                                                                <a href="cinematography.html"
-                                                                   class="hvr">Cinematography</a>
+                                                                <a href="cinematography.html" class="hvr">Cinematography</a>
                                                             </li>
                                                             <li>
                                                                 <a href="fashion.php" class="hvr">Fashion</a>
@@ -188,6 +184,7 @@
                                             </li>
                                         </ul>
                                     </li>
+                                    <li><a href="arta.html" class="hvr">Arta</a></li>
                                     <li><a href="contact.html" class="hvr">Contact</a></li>
                                 </ul>
                             </nav>
