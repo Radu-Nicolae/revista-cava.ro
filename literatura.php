@@ -526,8 +526,7 @@
                     </p>
                     <br>
                     <p class="copy_right text-center">
-                        Mentainance by <a href="https://radu-nicolae.com" target="_blank" class="developer-name-link">Radu
-                        Nicolae</a>
+                        Mentainance by <a href="https://radu-nicolae.com" target="_blank" class="developer-name-link">Radu Nicolae</a> and Victor Saveli
                     </p>
                     <p class="copy_right text-center">
                         Website <a href="https://topthewhole.com/" style="color: #596672;">mainly</a> developed by <a
@@ -1029,8 +1028,7 @@
                     </p>
                     <br>
                     <p class="copy_right text-center">
-                        Mentainance by <a href="https://radu-nicolae.com" target="_blank" class="developer-name-link">Radu
-                        Nicolae</a>
+                        Mentainance by <a href="https://radu-nicolae.com" target="_blank" class="developer-name-link">Radu Nicolae</a> and Victor Saveli
                     </p>
                     <p class="copy_right text-center">
                         Website <a href="https://topthewhole.com/" style="color: #596672;">mainly</a> developed by <a
