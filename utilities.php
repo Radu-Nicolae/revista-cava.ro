@@ -138,7 +138,7 @@ class Article
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
-            $realVsUman
+            $realVsUman,
             $polaroidShots,
             $bodyPopping,
             $theBattle,
