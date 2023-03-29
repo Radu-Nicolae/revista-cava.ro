@@ -130,6 +130,7 @@ class Article
         $theBattle = new Article("The battle I lost with myself", "", "11", "Feb", "theBattle", "Dinu Alexandra", "unknown.jpeg", "11/12/2022/11");
         $bodyPopping = new Article("Bodypopping", "", "15", "Feb", "bodyPopping", "Călin Mihai Tănase", "unknown.jpeg", "11/12/2022/11");
         $polaroidShots = new Article("Polaroid shots", "", "20", "Feb", "polaroidShots", "Mihaela Filipescu", "unknown.jpeg", "20/02/2022/11");
+        $realVsUman = new Article("Real vs. uman: razboi sau alianta?", "", "29", "Mar", "realVsUman", "Chiriac Emma", "unknown.jpeg", "29/03/2023/11");
 
 
 
@@ -137,6 +138,7 @@ class Article
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $realVsUman
             $polaroidShots,
             $bodyPopping,
             $theBattle,
@@ -312,8 +314,10 @@ class Article
         $clintEastwood = new Article("How Clint Eastwood directs masterpieces", "", "18", "Ian", "clintEastwood", "Ilona Dragomir", "unknown.jpeg", "18/01/2023/11");
         $semnaturiDinStrada = new Article("Semnături din strada Popa Soare", "", "8", "Feb", "semnaturiDinStrada", "Maitreyi Kumar", "unknown.jpeg", "11/07/2022/11");
         $bodyPopping = new Article("Bodypopping", "", "15", "Feb", "bodyPopping", "Călin Mihai Tănase", "unknown.jpeg", "11/12/2022/11");
+        $realVsUman = new Article("Real vs. uman: razboi sau alianta?", "", "29", "Mar", "realVsUman", "Chiriac Emma", "unknown.jpeg", "29/03/2023/11");
 
         $articles = array(
+            $realVsUman,
             $bodyPopping,
             $semnaturiDinStrada,
             $clintEastwood,
@@ -422,8 +426,10 @@ class Article
         $trecereaInAdolescenta = new Article("Trecere în adolescență", "", "22", "Nov", "trecereaInAdolescenta", "Ioana Busuioc", "ioanaBusuioc.jpeg", "22/11/2022/14");
         $gearSolve = new Article("Primetime pentru „GearSolve”", "", "24", "Dec", "gearSolve", "Călin Tănase Mihai", "călinmihaiTănase.jpeg", "24/12/2022/14");
         $bodyPopping = new Article("Bodypopping", "", "15", "Feb", "bodyPopping", "Călin Mihai Tănase", "unknown.jpeg", "11/12/2022/11");
+        $realVsUman = new Article("Real vs. uman: razboi sau alianta?", "", "29", "Mar", "realVsUman", "Chiriac Emma", "unknown.jpeg", "29/03/2023/11");
 
         $articles = array(
+            $realVsUman,
             $bodyPopping,
             $gearSolve,
             $trecereaInAdolescenta,
