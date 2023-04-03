@@ -131,6 +131,8 @@ class Article
         $bodyPopping = new Article("Bodypopping", "", "15", "Feb", "bodyPopping", "Călin Mihai Tănase", "unknown.jpeg", "11/12/2022/11");
         $polaroidShots = new Article("Polaroid shots", "", "20", "Feb", "polaroidShots", "Mihaela Filipescu", "unknown.jpeg", "20/02/2022/11");
         $realVsUman = new Article("Real vs. uman: razboi sau alianta?", "", "29", "Mar", "realVsUman", "Chiriac Emma", "unknown.jpeg", "29/03/2023/11");
+        $jocPueril = new Article("Joc Pueril", "", "3", "Apr", "jocPueril", "Antonia Munteanu", "unknown.jpeg", "29/03/2023/11");
+
 
 
 
@@ -138,6 +140,7 @@ class Article
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $jocPueril,
             $realVsUman,
             $polaroidShots,
             $bodyPopping,
@@ -382,9 +385,11 @@ class Article
         $maiStii = new Article("Mai știi?", "", "11", "Dec", "maiStii", "Filipescu Mihaela", "unknown.jpeg", "11/12/2022/14");
         $faraUmbrela = new Article("fără umbrela neagră", "", "17", "Dec", "faraUmbrela", "Hagiu Anastasia", "anastasiahagiu.jpg", "11/12/2022/14");
         $semnaturiDinStrada = new Article("Semnături din strada Popa Soare", "", "8", "Feb", "semnaturiDinStrada", "Maitreyi Kumar", "unknown.jpeg", "11/07/2022/11");
+        $jocPueril = new Article("Joc Pueril", "", "3", "Apr", "jocPueril", "Antonia Munteanu", "unknown.jpeg", "29/03/2023/11");
 
 
         $articles = array(
+            $jocPueril,
             $semnaturiDinStrada,
             $faraUmbrela,
             $maiStii,
