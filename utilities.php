@@ -71,7 +71,7 @@ class Article
         $povesteDeCraciun = new Article("O poveste de Crăciun", "	Era o zi superbă de iarnă, iar Niclaus schia fericit pe pârtia muntelui din apropierea casei în care locuia. Fulgii îi împărtășeau voioșia, dansând neosteniți în jurul lui. Nici vântul nu se lăsa mai prejos, șuierând melodios printre ramurile pline de zăpadă ale copacilor, de-a lungul pârtiei, răscolind zăpada, norii și parcă împingându-l de la spate pe schior … tot înainte, tot înainte … ", "22", "Dec", "povesteDeCraciun", "Ioana Busuioc", "unknown.jpeg", "12/02/2022/18");
         $choseHim = new Article("I'm sorry I chose him", "", "22", "Dec", "choseHim", "Nereia Crisan", "nereiacrisan.jpeg", "12/02/2022/18");
         $eticaBrazilor = new Article("Etica brazilor de Crăciun", "E mai bine să cumperi brad real sau artificial? <br> Sărbătorile de iarnă au revenit și în mijlocul petrecerilor, cadourilor și decorațiunilor e bradul, simbolul speranței și al nemuririi. Indiferent ce fel de brad ai, te-ai întrebat probabil la un moment dat: care e varianta mai bună pentru mine și pentru mediu – un brad natural sau unul de plastic?", "26", "Dec", "eticaBrazilor", "Parascheva Toboșaru", "unknown.jpeg", "12/02/2022/18");
-        $whenIGrowUp = new Article("When I Grow Up- A Story About Beds", "It got really cold after 3 am in his room. Regardless of the heating system - for which his parents paid a great deal of money, regardless of the blue and white blanket he found hidden in a stocking 2 years before. It always gets cold after 3. That's about the time when you start noticing things.", "28", "Dec", "whenIGrowUp", "Clara Pistol", "unknown.jpeg", "12/02/2022/18");
+        $whenIGrowUp = new Article("When I Grow Up- A Story About Beds", "It got really cold after 3 am in his room. Regardless of the heating system - for which his parents paid a great deal of money, regardless of the blue and white blanket he found hidden in a stocking 2 years before. It always gets cold after 3. That's about the time when you start noticing things.-", "28", "Dec", "whenIGrowUp", "Clara Pistol", "unknown.jpeg", "12/02/2022/18");
         $boobcInPandemie = new Article("Boboc în pandemie", "Știți povestea aceea când un angajat scoate din priză serverul ca să-și încarce telefonul și toată activitatea firmei se oprește și nimeni nu înțelege ce se întâmplă? Exact asta am trăit cu toții, numai că ,,ceva” a scos din priză... LUMEA. Ne uitam speriați și confuzi unii la alții.", "30", "Dec", "bobocInPandemie", "Diana Burja", "unknown.jpeg", "12/02/2022/18");
         $artPerformance = new Article("Art performance: Marina Abramović", "Marina Abramović is a Serbian conceptual and performance artist, as well as a writer and filmmaker. She is rightfully considered a founder of what we know today as “art performance” having a life-long dedicated career and spreading her work and passion worldwide.", "07", "Ian", "artPerformance", "Taisia Plesi", "taisiaplesi.jpeg", "12/02/2022/18");
         $gandireaCritica = new Article("Gândirea critică din școlile din România", "România se clasează pe locul 125 din 141 de state la capitolul ,,predarea gândirii critice” în Raportul Competitivității Globale 2019 făcut de Forumul Economic Mondial.", "10", "Ian", "gandireaCritica", "Diana Georgescu", "unknown.jpeg", "12/02/2022/18");
@@ -132,7 +132,7 @@ class Article
         $polaroidShots = new Article("Polaroid shots", "", "20", "Feb", "polaroidShots", "Mihaela Filipescu", "unknown.jpeg", "20/02/2022/11");
         $realVsUman = new Article("Real vs. uman: razboi sau alianta?", "", "29", "Mar", "realVsUman", "Chiriac Emma", "unknown.jpeg", "29/03/2023/11");
         $jocPueril = new Article("Joc Pueril", "", "3", "Apr", "jocPueril", "Antonia Munteanu", "unknown.jpeg", "29/03/2023/11");
-
+        $aVisa = new Article("A visa, a fi, a trăi", "", "5", "Apr", "aVisa", "Ruxandra Iacobescu", "unknown.jpeg", "5/04/2023/11");
 
 
 
@@ -140,6 +140,7 @@ class Article
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $aVisa,
             $jocPueril,
             $realVsUman,
             $polaroidShots,
@@ -318,8 +319,11 @@ class Article
         $semnaturiDinStrada = new Article("Semnături din strada Popa Soare", "", "8", "Feb", "semnaturiDinStrada", "Maitreyi Kumar", "unknown.jpeg", "11/07/2022/11");
         $bodyPopping = new Article("Bodypopping", "", "15", "Feb", "bodyPopping", "Călin Mihai Tănase", "unknown.jpeg", "11/12/2022/11");
         $realVsUman = new Article("Real vs. uman: razboi sau alianta?", "", "29", "Mar", "realVsUman", "Chiriac Emma", "unknown.jpeg", "29/03/2023/11");
+        $aVisa = new Article("A visa, a fi, a trăi", "", "5", "Apr", "aVisa", "Ruxandra Iacobescu", "unknown.jpeg", "5/04/2023/11");
+
 
         $articles = array(
+            $aVisa,
             $realVsUman,
             $bodyPopping,
             $semnaturiDinStrada,
@@ -386,9 +390,12 @@ class Article
         $faraUmbrela = new Article("fără umbrela neagră", "", "17", "Dec", "faraUmbrela", "Hagiu Anastasia", "anastasiahagiu.jpg", "11/12/2022/14");
         $semnaturiDinStrada = new Article("Semnături din strada Popa Soare", "", "8", "Feb", "semnaturiDinStrada", "Maitreyi Kumar", "unknown.jpeg", "11/07/2022/11");
         $jocPueril = new Article("Joc Pueril", "", "3", "Apr", "jocPueril", "Antonia Munteanu", "unknown.jpeg", "29/03/2023/11");
+        $aVisa = new Article("A visa, a fi, a trăi", "", "5", "Apr", "aVisa", "Ruxandra Iacobescu", "unknown.jpeg", "5/04/2023/11");
+
 
 
         $articles = array(
+            $aVisa,
             $jocPueril,
             $semnaturiDinStrada,
             $faraUmbrela,
