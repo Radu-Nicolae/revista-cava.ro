@@ -134,6 +134,7 @@ class Article
         $jocPueril = new Article("Joc Pueril", "", "3", "Apr", "jocPueril", "Antonia Munteanu", "unknown.jpeg", "29/03/2023/11");
         $aVisa = new Article("A visa, a fi, a trăi", "", "5", "Apr", "aVisa", "Ruxandra Iacobescu", "unknown.jpeg", "5/04/2023/11");
         $incotroMaIndrept = new Article("Încotro mă îndrept", "", "9", "Apr", "incotroMaIndrept", "Diana Georgescu", "dianaGeorgescu.jpeg", "5/04/2023/11");
+        $loculNostru = new Article("locul nostru nu e pe planeta asta", "", "15", "Apr", "loculNostru", "Mihaela Filipescu", "unknown.jpeg", "15/04/2023/11");
 
 
 
@@ -141,6 +142,7 @@ class Article
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $loculNostru,
             $incotroMaIndrept,
             $aVisa,
             $jocPueril,
@@ -323,9 +325,10 @@ class Article
         $realVsUman = new Article("Real vs. uman: razboi sau alianta?", "", "29", "Mar", "realVsUman", "Chiriac Emma", "unknown.jpeg", "29/03/2023/11");
         $aVisa = new Article("A visa, a fi, a trăi", "", "5", "Apr", "aVisa", "Ruxandra Iacobescu", "unknown.jpeg", "5/04/2023/11");
         $incotroMaIndrept = new Article("Încotro mă îndrept", "", "9", "Apr", "incotroMaIndrept", "Diana Georgescu", "dianaGeorgescu.jpeg", "5/04/2023/11");
-
+        $loculNostru = new Article("locul nostru nu e pe planeta asta", "", "15", "Apr", "loculNostru", "Mihaela Filipescu", "unknown.jpeg", "15/04/2023/11");
 
         $articles = array(
+            $loculNostru,
             $incotroMaIndrept,
             $aVisa,
             $realVsUman,
@@ -396,10 +399,11 @@ class Article
         $jocPueril = new Article("Joc Pueril", "", "3", "Apr", "jocPueril", "Antonia Munteanu", "unknown.jpeg", "29/03/2023/11");
         $aVisa = new Article("A visa, a fi, a trăi", "", "5", "Apr", "aVisa", "Ruxandra Iacobescu", "unknown.jpeg", "5/04/2023/11");
         $incotroMaIndrept = new Article("Încotro mă îndrept", "", "9", "Apr", "incotroMaIndrept", "Diana Georgescu", "dianaGeorgescu.jpeg", "5/04/2023/11");
-
+        $loculNostru = new Article("locul nostru nu e pe planeta asta", "", "15", "Apr", "loculNostru", "Mihaela Filipescu", "unknown.jpeg", "15/04/2023/11");
 
 
         $articles = array(
+            $loculNostru,
             $incotroMaIndrept,
             $aVisa,
             $jocPueril,
