@@ -135,13 +135,14 @@ class Article
         $aVisa = new Article("A visa, a fi, a trăi", "", "5", "Apr", "aVisa", "Ruxandra Iacobescu", "unknown.jpeg", "5/04/2023/11");
         $incotroMaIndrept = new Article("Încotro mă îndrept", "", "9", "Apr", "incotroMaIndrept", "Diana Georgescu", "dianaGeorgescu.jpeg", "5/04/2023/11");
         $loculNostru = new Article("locul nostru nu e pe planeta asta", "", "15", "Apr", "loculNostru", "Mihaela Filipescu", "unknown.jpeg", "15/04/2023/11");
-
+        $pourLes = new Article("POUR LES PLUS BEAUX YEUX NOIRS ", "Tu me manques tellement et je me couche en pensant à toi et je me réveille avec ton sourire en tête.", "19", "Apr", "pourLes", "Munteanu Antonia", "unknown.jpeg", "20/02/2022/14");
 
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $pourLes,
             $loculNostru,
             $incotroMaIndrept,
             $aVisa,
@@ -285,9 +286,11 @@ class Article
     public function getDatabaseBlogFr()
     {
         $saintValentin = new Article("Saint Valentin- nouvelle allégorie du capitalisme?", "Bonjour à tous les internautes! Me voilà de nouveau devant l’écran de mon ordinateur, à rédiger un nouveau thème de débat: la Saint Valentin. Ouais, vous avez bien entendu, alors, tenez bon!", "16", "Feb", "saintValentin", "Diana Ionescu", "dianaionescu.jpeg", "16/02/2022/18");
+        $pourLes = new Article("POUR LES PLUS BEAUX YEUX NOIRS ", "Tu me manques tellement et je me couche en pensant à toi et je me réveille avec ton sourire en tête.", "19", "Apr", "pourLes", "Munteanu Antonia", "unknown.jpeg", "20/02/2022/14");
 
 
         $articles = array(
+            $pourLes,
             $saintValentin
         );
 
@@ -535,9 +538,11 @@ class Article
         $clintEastwood = new Article("How Clint Eastwood directs masterpieces", "", "18", "Ian", "clintEastwood", "Ilona Dragomir", "unknown.jpeg", "18/01/2023/11");
         $theBattle = new Article("The battle I lost with myself", "", "11", "Feb", "theBattle", "Dinu Alexandra", "unknown.jpeg", "11/12/2022/11");
         $polaroidShots = new Article("Polaroid shots", "", "20", "Feb", "polaroidShots", "Mihaela Filipescu", "unknown.jpeg", "20/02/2022/11");
+        $pourLes = new Article("POUR LES PLUS BEAUX YEUX NOIRS ", "Tu me manques tellement et je me couche en pensant à toi et je me réveille avec ton sourire en tête.", "19", "Apr", "pourLes", "Munteanu Antonia", "unknown.jpeg", "20/02/2022/14");
 
 
         $articles = array(
+            $pourLes,
             $polaroidShots,
             $theBattle,
             $clintEastwood,
