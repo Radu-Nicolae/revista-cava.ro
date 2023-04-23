@@ -136,12 +136,14 @@ class Article
         $incotroMaIndrept = new Article("Încotro mă îndrept", "", "9", "Apr", "incotroMaIndrept", "Diana Georgescu", "dianaGeorgescu.jpeg", "5/04/2023/11");
         $loculNostru = new Article("locul nostru nu e pe planeta asta", "", "15", "Apr", "loculNostru", "Mihaela Filipescu", "unknown.jpeg", "15/04/2023/11");
         $pourLes = new Article("POUR LES PLUS BEAUX YEUX NOIRS ", "Tu me manques tellement et je me couche en pensant à toi et je me réveille avec ton sourire en tête.", "19", "Apr", "pourLes", "Munteanu Antonia", "unknown.jpeg", "20/02/2022/14");
+        $thoughtsOfId = new Article("Thoughts on identity", "", "23", "Apr", "thoughtsOfId", "Stoicănescu Marie Claire", "unknown.jpeg", "20/02/2022/14");
 
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $thoughtsOfId,
             $pourLes,
             $loculNostru,
             $incotroMaIndrept,
@@ -539,9 +541,10 @@ class Article
         $theBattle = new Article("The battle I lost with myself", "", "11", "Feb", "theBattle", "Dinu Alexandra", "unknown.jpeg", "11/12/2022/11");
         $polaroidShots = new Article("Polaroid shots", "", "20", "Feb", "polaroidShots", "Mihaela Filipescu", "unknown.jpeg", "20/02/2022/11");
         $pourLes = new Article("POUR LES PLUS BEAUX YEUX NOIRS ", "Tu me manques tellement et je me couche en pensant à toi et je me réveille avec ton sourire en tête.", "19", "Apr", "pourLes", "Munteanu Antonia", "unknown.jpeg", "20/02/2022/14");
-
+        $thoughtsOfId = new Article("Thoughts on identity", "", "23", "Apr", "thoughtsOfId", "Stoicănescu Marie Claire", "unknown.jpeg", "20/02/2022/14");
 
         $articles = array(
+            $thoughtsOfId,
             $pourLes,
             $polaroidShots,
             $theBattle,
@@ -614,9 +617,10 @@ class Article
         $sentimente = new Article("Sentimente", "	Oh! Să fii adolescent înseamnă să treci prin atâtea schimbări și emoții, încât, în majoritatea timpului, te simți chiar și tu confuz și pierdut.", "15", "Nov", "sentimente2", "Alexandra Vladu", "alexandravladu.jpg", "12/02/2022/18");
         $whatDoYouDo = new Article("What do you want to do when you are older?", "As we grow up, this lingering question seems to roll off our parents’ tongues even more often. From the earliest ages, authoritative figures bombard us with all sorts of questions about our future, but this one seems to be the most haunting of them all.", "28", "Jan", "whatDoYouDo", "Anastasia Mihai", "anastasiaMihai.jpeg", "11/07/2022/11");
         $theBattle = new Article("The battle I lost with myself", "", "11", "Feb", "theBattle", "Dinu Alexandra", "unknown.jpeg", "11/12/2022/11");
-
+        $thoughtsOfId = new Article("Thoughts on identity", "", "23", "Apr", "thoughtsOfId", "Stoicănescu Marie Claire", "unknown.jpeg", "20/02/2022/14");
 
         $articles = array(
+            $thoughtsOfId,
             $theBattle,
             $whatDoYouDo,
             $sentimente
@@ -629,7 +633,7 @@ class Article
     {
         $spirituality = new Article("spirituality 101", "Spiritualitatea e un concept atât de simplu, dar în același timp atât de greu de înțeles pentru cineva care nu vrea să dea timp procesului.", "07", "Feb", "spirituality", "Alexandra Vladu", "alexandravladu.jpg", "12/02/2022/18");
         $festivalulDeTeatru = new Article("Festivalul de teatru francofon de la Sorrento", "Festivalul de teatru francofon de la Sorrento înseamnă mai mult decât teatru în franceză și un ansamblu de peisaje frumoase de pe coasta Italiei.", "25", "Feb", "festivalulDeTeatru", "Ana Negoiță", "unknown.jpeg", "25/02/2022/18");
-
+        
 
         $articles = array(
             $festivalulDeTeatru,
