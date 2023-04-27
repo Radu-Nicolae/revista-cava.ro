@@ -137,12 +137,13 @@ class Article
         $loculNostru = new Article("locul nostru nu e pe planeta asta", "", "15", "Apr", "loculNostru", "Mihaela Filipescu", "unknown.jpeg", "15/04/2023/11");
         $pourLes = new Article("POUR LES PLUS BEAUX YEUX NOIRS ", "Tu me manques tellement et je me couche en pensant à toi et je me réveille avec ton sourire en tête.", "19", "Apr", "pourLes", "Munteanu Antonia", "unknown.jpeg", "20/02/2022/14");
         $thoughtsOfId = new Article("Thoughts on identity", "", "23", "Apr", "thoughtsOfId", "Stoicănescu Marie Claire", "unknown.jpeg", "20/02/2022/14");
-
+        $silence = new Article("Silence of angels", "", "27", "Apr", "silence", "Alexandra Dinu", "unknown.jpeg", "27/04/2022/14");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $silence,
             $thoughtsOfId,
             $pourLes,
             $loculNostru,
@@ -372,9 +373,10 @@ class Article
     {
         $anarchy = new Article("anarchy", "", "17", "Nov", "anarchy", "Nereia Crișan", "nereiacrisan.jpeg", "12/02/2022/18");
         $whenIGrowUp = new Article("When I Grow Up- A Story About Beds", "It got really cold after 3 am in his room. Regardless of the heating system - for which his parents paid a great deal of money, regardless of the blue and white blanket he found hidden in a stocking 2 years before. It always gets cold after 3. That's about the time when you start noticing things.", "28", "Dec", "whenIGrowUp", "Clara Pistol", "unknwon.jpeg", "12/02/2022/18");
-
+        $silence = new Article("Silence of angels", "", "27", "Apr", "silence", "Alexandra Dinu", "unknown.jpeg", "27/04/2022/14");
 
         $articles = array(
+            $silence,
             $whenIGrowUp,
             $anarchy
         );
@@ -542,8 +544,10 @@ class Article
         $polaroidShots = new Article("Polaroid shots", "", "20", "Feb", "polaroidShots", "Mihaela Filipescu", "unknown.jpeg", "20/02/2022/11");
         $pourLes = new Article("POUR LES PLUS BEAUX YEUX NOIRS ", "Tu me manques tellement et je me couche en pensant à toi et je me réveille avec ton sourire en tête.", "19", "Apr", "pourLes", "Munteanu Antonia", "unknown.jpeg", "20/02/2022/14");
         $thoughtsOfId = new Article("Thoughts on identity", "", "23", "Apr", "thoughtsOfId", "Stoicănescu Marie Claire", "unknown.jpeg", "20/02/2022/14");
+        $silence = new Article("Silence of angels", "", "27", "Apr", "silence", "Alexandra Dinu", "unknown.jpeg", "27/04/2022/14");
 
         $articles = array(
+            $silence,
             $thoughtsOfId,
             $pourLes,
             $polaroidShots,
