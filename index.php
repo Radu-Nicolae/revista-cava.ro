@@ -540,6 +540,30 @@
                     </div>
 
                     <div class="single_carousel">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6">
+                                    <div class="single_testmonial text-center">
+                                        <div class="thumb">
+                                            <img
+                                                    class="roundimg"
+                                                    style="border-radius: 50%;"
+                                                    src="catalinaGocan.jpeg"
+                                                    alt=""
+                                                    width="100%"
+                                                    height="100%"
+                                            />
+                                        </div>
+
+                                        <div class="testmonial_author">
+                                            <h3>Catalina Gocan</h3>
+                                            <span>Fotograf</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    <div class="single_carousel">
                         <div class="row justify-content-center">
                             <div class="col-lg-6">
                                 <div class="single_testmonial text-center">
