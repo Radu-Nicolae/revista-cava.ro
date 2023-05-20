@@ -138,11 +138,13 @@ class Article
         $pourLes = new Article("POUR LES PLUS BEAUX YEUX NOIRS ", "Tu me manques tellement et je me couche en pensant à toi et je me réveille avec ton sourire en tête.", "19", "Apr", "pourLes", "Munteanu Antonia", "unknown.jpeg", "20/02/2022/14");
         $thoughtsOfId = new Article("Thoughts on identity", "", "23", "Apr", "thoughtsOfId", "Stoicănescu Marie Claire", "unknown.jpeg", "20/02/2022/14");
         $silence = new Article("Silence of angels", "", "27", "Apr", "silence", "Alexandra Dinu", "unknown.jpeg", "27/04/2022/14");
+        $ploaia = new Article("Ploaia", "", "20", "May", "ploaia", "Maitreyi Kumar", "unknown.jpeg", "20/05/2022/14");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $ploaia,
             $silence,
             $thoughtsOfId,
             $pourLes,
@@ -332,8 +334,10 @@ class Article
         $aVisa = new Article("A visa, a fi, a trăi", "", "5", "Apr", "aVisa", "Ruxandra Iacobescu", "unknown.jpeg", "5/04/2023/11");
         $incotroMaIndrept = new Article("Încotro mă îndrept", "", "9", "Apr", "incotroMaIndrept", "Diana Georgescu", "dianaGeorgescu.jpeg", "5/04/2023/11");
         $loculNostru = new Article("locul nostru nu e pe planeta asta", "", "15", "Apr", "loculNostru", "Mihaela Filipescu", "unknown.jpeg", "15/04/2023/11");
+        $ploaia = new Article("Ploaia", "", "20", "May", "ploaia", "Maitreyi Kumar", "unknown.jpeg", "20/05/2022/14");
 
         $articles = array(
+            $ploaia,
             $loculNostru,
             $incotroMaIndrept,
             $aVisa,
@@ -407,9 +411,10 @@ class Article
         $aVisa = new Article("A visa, a fi, a trăi", "", "5", "Apr", "aVisa", "Ruxandra Iacobescu", "unknown.jpeg", "5/04/2023/11");
         $incotroMaIndrept = new Article("Încotro mă îndrept", "", "9", "Apr", "incotroMaIndrept", "Diana Georgescu", "dianaGeorgescu.jpeg", "5/04/2023/11");
         $loculNostru = new Article("locul nostru nu e pe planeta asta", "", "15", "Apr", "loculNostru", "Mihaela Filipescu", "unknown.jpeg", "15/04/2023/11");
-
+        $ploaia = new Article("Ploaia", "", "20", "May", "ploaia", "Maitreyi Kumar", "unknown.jpeg", "20/05/2022/14");
 
         $articles = array(
+            $ploaia,
             $loculNostru,
             $incotroMaIndrept,
             $aVisa,
