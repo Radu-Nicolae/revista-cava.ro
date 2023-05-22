@@ -139,11 +139,14 @@ class Article
         $thoughtsOfId = new Article("Thoughts on identity", "", "23", "Apr", "thoughtsOfId", "Stoicănescu Marie Claire", "unknown.jpeg", "20/02/2022/14");
         $silence = new Article("Silence of angels", "", "27", "Apr", "silence", "Alexandra Dinu", "unknown.jpeg", "27/04/2022/14");
         $ploaia = new Article("Ploaia", "", "20", "May", "ploaia", "Maitreyi Kumar", "unknown.jpeg", "20/05/2022/14");
+        $tristeti = new Article("Tristeți existențiale nedeslușite", "", "22", "May", "tristeti", "Munteanu Antonia", "unknown.jpeg", "20/05/2022/14");
+
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $tristeti,
             $ploaia,
             $silence,
             $thoughtsOfId,
@@ -335,8 +338,10 @@ class Article
         $incotroMaIndrept = new Article("Încotro mă îndrept", "", "9", "Apr", "incotroMaIndrept", "Diana Georgescu", "dianaGeorgescu.jpeg", "5/04/2023/11");
         $loculNostru = new Article("locul nostru nu e pe planeta asta", "", "15", "Apr", "loculNostru", "Mihaela Filipescu", "unknown.jpeg", "15/04/2023/11");
         $ploaia = new Article("Ploaia", "", "20", "May", "ploaia", "Maitreyi Kumar", "unknown.jpeg", "20/05/2022/14");
+        $tristeti = new Article("Tristeți existențiale nedeslușite", "", "22", "May", "tristeti", "Munteanu Antonia", "unknown.jpeg", "20/05/2022/14");
 
         $articles = array(
+            $tristeti,
             $ploaia,
             $loculNostru,
             $incotroMaIndrept,
@@ -412,8 +417,10 @@ class Article
         $incotroMaIndrept = new Article("Încotro mă îndrept", "", "9", "Apr", "incotroMaIndrept", "Diana Georgescu", "dianaGeorgescu.jpeg", "5/04/2023/11");
         $loculNostru = new Article("locul nostru nu e pe planeta asta", "", "15", "Apr", "loculNostru", "Mihaela Filipescu", "unknown.jpeg", "15/04/2023/11");
         $ploaia = new Article("Ploaia", "", "20", "May", "ploaia", "Maitreyi Kumar", "unknown.jpeg", "20/05/2022/14");
+        $tristeti = new Article("Tristeți existențiale nedeslușite", "", "22", "May", "tristeti", "Munteanu Antonia", "unknown.jpeg", "20/05/2022/14");
 
         $articles = array(
+            $tristeti,
             $ploaia,
             $loculNostru,
             $incotroMaIndrept,
