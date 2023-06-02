@@ -140,12 +140,13 @@ class Article
         $silence = new Article("Silence of angels", "", "27", "Apr", "silence", "Alexandra Dinu", "unknown.jpeg", "27/04/2022/14");
         $ploaia = new Article("Ploaia", "", "20", "May", "ploaia", "Maitreyi Kumar", "unknown.jpeg", "20/05/2022/14");
         $tristeti = new Article("Tristeți existențiale nedeslușite", "", "22", "May", "tristeti", "Munteanu Antonia", "unknown.jpeg", "20/05/2022/14");
-
+        $imbratisare = new Article("Tu vrei o îmbrățișare", "", "2", "June", "imbratisare", "Busuioc Ioana ", "unknown.jpeg", "20/05/2022/14");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $imbratisare,
             $tristeti,
             $ploaia,
             $silence,
@@ -339,8 +340,12 @@ class Article
         $loculNostru = new Article("locul nostru nu e pe planeta asta", "", "15", "Apr", "loculNostru", "Mihaela Filipescu", "unknown.jpeg", "15/04/2023/11");
         $ploaia = new Article("Ploaia", "", "20", "May", "ploaia", "Maitreyi Kumar", "unknown.jpeg", "20/05/2022/14");
         $tristeti = new Article("Tristeți existențiale nedeslușite", "", "22", "May", "tristeti", "Munteanu Antonia", "unknown.jpeg", "20/05/2022/14");
+        $imbratisare = new Article("Tu vrei o îmbrățișare", "", "2", "June", "imbratisare", "Busuioc Ioana ", "unknown.jpeg", "20/05/2022/14");
+
+
 
         $articles = array(
+            $imbratisare,
             $tristeti,
             $ploaia,
             $loculNostru,
@@ -420,6 +425,7 @@ class Article
         $tristeti = new Article("Tristeți existențiale nedeslușite", "", "22", "May", "tristeti", "Munteanu Antonia", "unknown.jpeg", "20/05/2022/14");
 
         $articles = array(
+
             $tristeti,
             $ploaia,
             $loculNostru,
@@ -468,8 +474,11 @@ class Article
         $gearSolve = new Article("Primetime pentru „GearSolve”", "", "24", "Dec", "gearSolve", "Călin Tănase Mihai", "călinmihaiTănase.jpeg", "24/12/2022/14");
         $bodyPopping = new Article("Bodypopping", "", "15", "Feb", "bodyPopping", "Călin Mihai Tănase", "unknown.jpeg", "11/12/2022/11");
         $realVsUman = new Article("Real vs. uman: razboi sau alianta?", "", "29", "Mar", "realVsUman", "Chiriac Emma", "unknown.jpeg", "29/03/2023/11");
+        $imbratisare = new Article("Tu vrei o îmbrățișare", "", "2", "June", "imbratisare", "Busuioc Ioana ", "unknown.jpeg", "20/05/2022/14");
+
 
         $articles = array(
+            $imbratisare,
             $realVsUman,
             $bodyPopping,
             $gearSolve,
