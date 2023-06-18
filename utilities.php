@@ -141,11 +141,13 @@ class Article
         $ploaia = new Article("Ploaia", "", "20", "May", "ploaia", "Maitreyi Kumar", "unknown.jpeg", "20/05/2022/14");
         $tristeti = new Article("Tristeți existențiale nedeslușite", "", "22", "May", "tristeti", "Munteanu Antonia", "unknown.jpeg", "20/05/2022/14");
         $imbratisare = new Article("Tu vrei o îmbrățișare", "", "2", "June", "imbratisare", "Busuioc Ioana ", "unknown.jpeg", "20/05/2022/14");
+        $infinit = new Article("Dacă nu voi atinge infinitul", "", "18", "June", "infinit", "", "unknown.jpeg", "18/06/2023/14");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $infinit,
             $imbratisare,
             $tristeti,
             $ploaia,
@@ -341,10 +343,12 @@ class Article
         $ploaia = new Article("Ploaia", "", "20", "May", "ploaia", "Maitreyi Kumar", "unknown.jpeg", "20/05/2022/14");
         $tristeti = new Article("Tristeți existențiale nedeslușite", "", "22", "May", "tristeti", "Munteanu Antonia", "unknown.jpeg", "20/05/2022/14");
         $imbratisare = new Article("Tu vrei o îmbrățișare", "", "2", "June", "imbratisare", "Busuioc Ioana ", "unknown.jpeg", "20/05/2022/14");
+        $infinit = new Article("Dacă nu voi atinge infinitul", "", "18", "June", "infinit", "", "unknown.jpeg", "18/06/2023/14");
 
 
 
         $articles = array(
+            $infinit,
             $imbratisare,
             $tristeti,
             $ploaia,
@@ -423,9 +427,10 @@ class Article
         $loculNostru = new Article("locul nostru nu e pe planeta asta", "", "15", "Apr", "loculNostru", "Mihaela Filipescu", "unknown.jpeg", "15/04/2023/11");
         $ploaia = new Article("Ploaia", "", "20", "May", "ploaia", "Maitreyi Kumar", "unknown.jpeg", "20/05/2022/14");
         $tristeti = new Article("Tristeți existențiale nedeslușite", "", "22", "May", "tristeti", "Munteanu Antonia", "unknown.jpeg", "20/05/2022/14");
+        $infinit = new Article("Dacă nu voi atinge infinitul", "", "18", "June", "infinit", "", "unknown.jpeg", "18/06/2023/14");
 
         $articles = array(
-
+            $infinit,
             $tristeti,
             $ploaia,
             $loculNostru,
