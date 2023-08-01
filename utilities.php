@@ -142,11 +142,14 @@ class Article
         $tristeti = new Article("Tristeți existențiale nedeslușite", "", "22", "May", "tristeti", "Munteanu Antonia", "unknown.jpeg", "20/05/2022/14");
         $imbratisare = new Article("Tu vrei o îmbrățișare", "", "2", "June", "imbratisare", "Busuioc Ioana ", "unknown.jpeg", "20/05/2022/14");
         $infinit = new Article("Dacă nu voi atinge infinitul", "", "18", "June", "infinit", "", "unknown.jpeg", "18/06/2023/14");
+        $book1984 = new Article("1984- o controversă-", "Ai 39 de ani. Ai un serviciu respectabil într-un minister, ai un acoperiș deasupra capului și ai toata viata înainte. Cu toate acestea viața îți este controlată și supravegheată de stat.", "1", "Aug", "book1984", "Ana Cupanache", "unknown.jpeg", "19/02/2022/14");
+
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+            $book1984,
             $infinit,
             $imbratisare,
             $tristeti,
@@ -514,8 +517,10 @@ class Article
         $cuadro = new Article("Trupa Cuadro și ,,Punk Rock''", "Pentru că redacția noastră s-a pus pe culturalizare, în weekendul 26-27 martie ne-am strâns să îi vedem pe prietenii noștri de la trupa de teatru Cuadro în piesa ,,Punk Rock” de Simon Stephens.", "05", "Apr", "cuadro", "Ilinca Sotirescu", "ilincasotirescu.jpeg", "05/04/2022/18");
         $orchestra = new Article("Trupa 4teen și ,,Orchestra Titanic''", "„Orchestra Titanic” este o piesă semnată de Hristo Boicev, jucată la Teatrul Național pentru prima dată în 2017 în regia lui Felix Alexa.", "11", "Apr", "orchestra", "Ioana Jeleboglu", "unknown.jpeg", "11/04/2022/18");
         $kingRichard = new Article("King Richard", "De la Gala Oscar încoace am observat că s-au scris multe despre reacția deplasată a lui Will Smith de la ceremonie, iar despre filmul care i-a oferit lui Smith rolul datorită căruia a câștigat Oscarul mult prea puțin, ceea ce m-a făcut îndeajuns de curioasă încât să-l văd.", "05", "Mai", "kingRichard", "Maria Cujbă", "unknown.jpeg", "04/05/2022/18");
+        $book1984 = new Article("1984- o controversă-", "Ai 39 de ani. Ai un serviciu respectabil într-un minister, ai un acoperiș deasupra capului și ai toata viata înainte. Cu toate acestea viața îți este controlată și supravegheată de stat.", "1", "Aug", "book1984", "Ana Cupanache", "unknown.jpeg", "19/02/2022/14");
 
         $articles = array(
+            $book1984,
             $kingRichard,
             $orchestra,
             $cuadro,
