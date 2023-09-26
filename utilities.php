@@ -143,7 +143,7 @@ class Article
         $imbratisare = new Article("Tu vrei o îmbrățișare", "", "2", "June", "imbratisare", "Busuioc Ioana ", "unknown.jpeg", "20/05/2022/14");
         $infinit = new Article("Dacă nu voi atinge infinitul", "", "18", "June", "infinit", "", "unknown.jpeg", "18/06/2023/14");
         $book1984 = new Article("1984- o controversă-", "Ai 39 de ani. Ai un serviciu respectabil într-un minister, ai un acoperiș deasupra capului și ai toata viata înainte. Cu toate acestea viața îți este controlată și supravegheată de stat.", "1", "Aug", "book1984", "Ana Cupanache", "unknown.jpeg", "19/02/2022/14");
-        $basme = new Article("basme (I)", "", "26", "Sep", "basme", "Clara Pistol", "unknown.jpeg", "26/09/2023/14")
+        $basme = new Article("basme (I)", "", "26", "Sep", "basme", "Clara Pistol", "unknown.jpeg", "26/09/2023/14");
 
 
         $articles = array(
@@ -349,7 +349,7 @@ class Article
         $tristeti = new Article("Tristeți existențiale nedeslușite", "", "22", "May", "tristeti", "Munteanu Antonia", "unknown.jpeg", "20/05/2022/14");
         $imbratisare = new Article("Tu vrei o îmbrățișare", "", "2", "June", "imbratisare", "Busuioc Ioana ", "unknown.jpeg", "20/05/2022/14");
         $infinit = new Article("Dacă nu voi atinge infinitul", "", "18", "June", "infinit", "", "unknown.jpeg", "18/06/2023/14");
-        $basme = new Article("basme (I)", "", "26", "Sep", "basme", "Clara Pistol", "unknown.jpeg", "26/09/2023/14")
+        $basme = new Article("basme (I)", "", "26", "Sep", "basme", "Clara Pistol", "unknown.jpeg", "26/09/2023/14");
 
 
 
@@ -436,7 +436,7 @@ class Article
         $ploaia = new Article("Ploaia", "", "20", "May", "ploaia", "Maitreyi Kumar", "unknown.jpeg", "20/05/2022/14");
         $tristeti = new Article("Tristeți existențiale nedeslușite", "", "22", "May", "tristeti", "Munteanu Antonia", "unknown.jpeg", "20/05/2022/14");
         $infinit = new Article("Dacă nu voi atinge infinitul", "", "18", "June", "infinit", "", "unknown.jpeg", "18/06/2023/14");
-        $basme = new Article("basme (I)", "", "26", "Sep", "basme", "Clara Pistol", "unknown.jpeg", "26/09/2023/14")
+        $basme = new Article("basme (I)", "", "26", "Sep", "basme", "Clara Pistol", "unknown.jpeg", "26/09/2023/14");
 
 
         $articles = array(
