@@ -144,12 +144,13 @@ class Article
         $infinit = new Article("Dacă nu voi atinge infinitul", "", "18", "June", "infinit", "", "unknown.jpeg", "18/06/2023/14");
         $book1984 = new Article("1984- o controversă-", "Ai 39 de ani. Ai un serviciu respectabil într-un minister, ai un acoperiș deasupra capului și ai toata viata înainte. Cu toate acestea viața îți este controlată și supravegheată de stat.", "1", "Aug", "book1984", "Ana Cupanache", "unknown.jpeg", "19/02/2022/14");
         $basme = new Article("basme (I)", "", "26", "Sep", "basme", "Clara Pistol", "unknown.jpeg", "26/09/2023/14");
-
+        $oceanul = new Article("AM CREZUT CĂ VĂD OCEANUL , DAR E DOAR UN ALT DEȘERT", "", "25", "Oct", "oceanul", "Munteanu Antonia", "unknown.jpeg", "24/08/2023/14");
 
         $articles = array(
 //            ADD HERE
 //            ADD HERE
 //            ADD HERE
+                          $oceanul,
                           $basme,
             $book1984,
             $infinit,
@@ -351,10 +352,11 @@ class Article
         $infinit = new Article("Dacă nu voi atinge infinitul", "", "18", "June", "infinit", "", "unknown.jpeg", "18/06/2023/14");
         $basme = new Article("basme (I)", "", "26", "Sep", "basme", "Clara Pistol", "unknown.jpeg", "26/09/2023/14");
 
-
+        $oceanul = new Article("AM CREZUT CĂ VĂD OCEANUL , DAR E DOAR UN ALT DEȘERT", "", "25", "Oct", "oceanul", "Munteanu Antonia", "unknown.jpeg", "24/08/2023/14");
 
 
         $articles = array(
+                          $oceanul,
                           $basme,
             $infinit,
             $imbratisare,
@@ -491,9 +493,11 @@ class Article
         $bodyPopping = new Article("Bodypopping", "", "15", "Feb", "bodyPopping", "Călin Mihai Tănase", "unknown.jpeg", "11/12/2022/11");
         $realVsUman = new Article("Real vs. uman: razboi sau alianta?", "", "29", "Mar", "realVsUman", "Chiriac Emma", "unknown.jpeg", "29/03/2023/11");
         $imbratisare = new Article("Tu vrei o îmbrățișare", "", "2", "June", "imbratisare", "Busuioc Ioana ", "unknown.jpeg", "20/05/2022/14");
+        $oceanul = new Article("AM CREZUT CĂ VĂD OCEANUL , DAR E DOAR UN ALT DEȘERT", "", "25", "Oct", "oceanul", "Munteanu Antonia", "unknown.jpeg", "24/08/2023/14");
 
 
         $articles = array(
+                          $oceanul,
             $imbratisare,
             $realVsUman,
             $bodyPopping,
