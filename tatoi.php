@@ -248,64 +248,153 @@
 
                     <article class="blog_item">
                         <div class="blog_item_img">
-                            <a href="spectro.html"> <img class="card-img rounded-0" src="spectro.jpeg" alt=""></a>
-                            <div href="spectro.html" class="blog_item_date">
-                                <h3>20</h3>
-                                <p>Nov</p>
+                            <a href="1tot.html"> <img class="card-img rounded-0" src="floarerosie.jpeg" alt=""></a>
+                            <div href="1tot.html" class="blog_item_date">
+                                <h3>26</h3>
+                                <p>Mar</p>
                             </div>
                         </div>
 
                         <div class="blog_details">
-                            <a class="d-inline-block" href="spectro.html">
-                                <h2>spectrofobie nocturnă — frica de oglinzi</h2>
+                            <a class="d-inline-block" href="1tot.html">
+                                <h2>Apropiindu-mă</h2>
                             </a>
-                            <p>
-                                este târziu. ești învăluit de o senzație de claustrofobie mistică. dar oare ce metaforă
-                                incongruentă a sinelui se va așterne asupra ta azi?
-                            </p>
 
                     </article>
-
                     <article class="blog_item">
                         <div class="blog_item_img">
-                            <a href="unmomentderespiro.html"><img class="card-img rounded-0"
-                                                                  src="unmomentderespiro.jpeg" alt=""/></a>
-                            <a href="unmomentderespiro.html" class="blog_item_date">
-                                <h3>30</h3>
-                                <p>Oct</p>
-                            </a>
-                        </div>
-
-                        <div class="blog_details">
-                            <a class="d-inline-block" href="unmomentderespiro.html">
-                                <h2>Un moment de respiro</h2>
-                            </a>
-                        </div>
-                    </article>
-
-                    <article class="blog_item">
-                        <div class="blog_item_img">
-                            <a href="indemn.html"><img class="card-img rounded-0" src="indemn.jpeg" alt=""></a>
-                            <a href="indemn.html" class="blog_item_date">
-                                <h3>28</h3>
+                            <a href="2tot.html"> <img class="card-img rounded-0" src="floarerosie.jpeg" alt=""></a>
+                            <div href="2tot.html" class="blog_item_date">
+                                <h3>26</h3>
                                 <p>Mar</p>
-                            </a>
+                            </div>
                         </div>
 
                         <div class="blog_details">
-                            <a class="d-inline-block" href="indemn.html">
-                                <h2>
-                                    Îndemn
-                                </h2>
+                            <a class="d-inline-block" href="2tot.html">
+                                <h2>Legenda lunii și a mării</h2>
                             </a>
-                            <p>
-                                Să iubești ceea ce faci... <br> Probabil unul dintre primele lucruri pe care le am
-                                învățat fiind elevă la „Sf. Sava”. Orice ai face, fă din suflet, fă din inimă și vei
-                                vedea rezultatele .
-                            </p>
-                        </div>
-                    </article>
 
+                    </article>
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <a href="3tot.html"> <img class="card-img rounded-0" src="floarerosie.jpeg" alt=""></a>
+                            <div href="3tot.html" class="blog_item_date">
+                                <h3>26</h3>
+                                <p>Mar</p>
+                            </div>
+                        </div>
+
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="3tot.html">
+                                <h2>Cât e ceasul?</h2>
+                            </a>
+
+                    </article>
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <a href="4tot.html"> <img class="card-img rounded-0" src="floarerosie.jpeg" alt=""></a>
+                            <div href="4tot.html" class="blog_item_date">
+                                <h3>26</h3>
+                                <p>Mar</p>
+                            </div>
+                        </div>
+
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="4tot.html">
+                                <h2>aștept și timpul trece</h2>
+                            </a>
+
+                    </article>
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <a href="5tot.html"> <img class="card-img rounded-0" src="floarerosie.jpeg" alt=""></a>
+                            <div href="5tot.html" class="blog_item_date">
+                                <h3>26</h3>
+                                <p>Mar</p>
+                            </div>
+                        </div>
+
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="5tot.html">
+                                <h2>Coffee tastes good again</h2>
+                            </a>
+
+                    </article><article class="blog_item">
+                        <div class="blog_item_img">
+                            <a href="6tot.html"> <img class="card-img rounded-0" src="floarerosie.jpeg" alt=""></a>
+                            <div href="6tot.html" class="blog_item_date">
+                                <h3>26</h3>
+                                <p>Mar</p>
+                            </div>
+                        </div>
+
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="6tot.html">
+                                <h2>sobbing and pizza and feeling alone</h2>
+                            </a>
+
+                    </article>
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <a href="7tot.html"> <img class="card-img rounded-0" src="floarerosie.jpeg" alt=""></a>
+                            <div href="7tot.html" class="blog_item_date">
+                                <h3>26</h3>
+                                <p>Mar</p>
+                            </div>
+                        </div>
+
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="7tot.html">
+                                <h2>De ce?</h2>
+                            </a>
+
+                    </article>
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <a href="7tot.html"> <img class="card-img rounded-0" src="floarerosie.jpeg" alt=""></a>
+                            <div href="7tot.html" class="blog_item_date">
+                                <h3>26</h3>
+                                <p>Mar</p>
+                            </div>
+                        </div>
+
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="7tot.html">
+                                <h2>Didn't, don't, won't</h2>
+                            </a>
+
+                    </article>
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <a href="8tot.html"> <img class="card-img rounded-0" src="floarerosie.jpeg" alt=""></a>
+                            <div href="8tot.html" class="blog_item_date">
+                                <h3>26</h3>
+                                <p>Mar</p>
+                            </div>
+                        </div>
+
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="8tot.html">
+                                <h2>To the other half/ The romantic in me</h2>
+                            </a>
+
+                    </article>
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            <a href="9tot.html"> <img class="card-img rounded-0" src="floarerosie.jpeg" alt=""></a>
+                            <div href="9tot.html" class="blog_item_date">
+                                <h3>26</h3>
+                                <p>Mar</p>
+                            </div>
+                        </div>
+
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="9tot.html">
+                                <h2>Despre mituri și religie</h2>
+                            </a>
+
+                    </article>
 
                 </div>
             </div>
