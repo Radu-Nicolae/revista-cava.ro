@@ -157,6 +157,15 @@
                                                     </li>
                                                 </ul>
                                             </li>
+                                            <li>
+                                                <a class="hvr">Editii Speciale</a>
+                                                <ul class="submenu navParentItem">
+                                                    <li>
+                                                        <a href="tatoi.php" class="hvr">To all the ones I've loved before I</a>
+                                                        <a href="tatoii.php" class="hvr">To all the ones I've loved before II</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li><a href="about.html" class="hvr">Despre noi</a></li>
@@ -232,7 +241,7 @@
     <div class="join-us-container" style="margin-bottom: 0px">
         <p class="text-join-us text-download-pdf">Descarcă Primul Număr al Revistei ÇaVa în format PDF!</p>
         <br>
-        <a href="CAVA .pdf" target="_blank" download>
+        <a href="CAVA2.pdf" target="_blank" download>
             <button type="button" class="btn btn-primary btn-lg join-us-button download-pdf-button">Click aici</button>
         </a>
     </div>
